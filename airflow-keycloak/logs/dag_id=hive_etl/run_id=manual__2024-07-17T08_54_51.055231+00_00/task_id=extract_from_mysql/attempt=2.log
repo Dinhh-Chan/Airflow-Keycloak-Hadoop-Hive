@@ -1,0 +1,50 @@
+[2024-07-17T14:31:44.038+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-17T14:31:44.067+0000] {__init__.py:54} DEBUG - Loading core task runner: StandardTaskRunner
+[2024-07-17T14:31:44.092+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-17T14:31:44.099+0000] {base_task_runner.py:72} DEBUG - Planning to run as the  user
+[2024-07-17T14:31:44.152+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.extract_from_mysql manual__2024-07-17T08:54:51.055231+00:00 [queued]> dependency 'Task Instance Not Running' PASSED: True, Task is not in running state.
+[2024-07-17T14:31:44.153+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.extract_from_mysql manual__2024-07-17T08:54:51.055231+00:00 [queued]> dependency 'Previous Dagrun State' PASSED: True, The task did not have depends_on_past set.
+[2024-07-17T14:31:44.169+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.extract_from_mysql manual__2024-07-17T08:54:51.055231+00:00 [queued]> dependency 'Not In Retry Period' PASSED: True, The task instance was not marked for retrying.
+[2024-07-17T14:31:44.170+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.extract_from_mysql manual__2024-07-17T08:54:51.055231+00:00 [queued]> dependency 'Task Instance State' PASSED: True, Task state queued was valid.
+[2024-07-17T14:31:44.171+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hive_etl.extract_from_mysql manual__2024-07-17T08:54:51.055231+00:00 [queued]>
+[2024-07-17T14:31:44.171+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.extract_from_mysql manual__2024-07-17T08:54:51.055231+00:00 [queued]> dependency 'Previous Dagrun State' PASSED: True, The task did not have depends_on_past set.
+[2024-07-17T14:31:44.176+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.extract_from_mysql manual__2024-07-17T08:54:51.055231+00:00 [queued]> dependency 'Not In Retry Period' PASSED: True, The task instance was not marked for retrying.
+[2024-07-17T14:31:44.194+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.extract_from_mysql manual__2024-07-17T08:54:51.055231+00:00 [queued]> dependency 'Pool Slots Available' PASSED: True, There are enough open slots in default_pool to execute the task
+[2024-07-17T14:31:44.195+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.extract_from_mysql manual__2024-07-17T08:54:51.055231+00:00 [queued]> dependency 'Task Concurrency' PASSED: True, Task concurrency is not set.
+[2024-07-17T14:31:44.195+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hive_etl.extract_from_mysql manual__2024-07-17T08:54:51.055231+00:00 [queued]>
+[2024-07-17T14:31:44.196+0000] {taskinstance.py:2193} INFO - Starting attempt 2 of 3
+[2024-07-17T14:31:44.225+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): extract_from_mysql> on 2024-07-17 08:54:51.055231+00:00
+[2024-07-17T14:31:44.240+0000] {standard_task_runner.py:60} INFO - Started process 468 to run task
+[2024-07-17T14:31:44.245+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'hive_etl', 'extract_from_mysql', 'manual__2024-07-17T08:54:51.055231+00:00', '--job-id', '2168', '--raw', '--subdir', 'DAGS_FOLDER/new.py', '--cfg-path', '/tmp/tmpefbxr7qk']
+[2024-07-17T14:31:44.248+0000] {standard_task_runner.py:88} INFO - Job 2168: Subtask extract_from_mysql
+[2024-07-17T14:31:44.250+0000] {cli_action_loggers.py:67} DEBUG - Calling callbacks: [<function default_action_log at 0x763f8104af80>]
+[2024-07-17T14:31:44.336+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-17T14:31:44.344+0000] {task_command.py:423} INFO - Running <TaskInstance: hive_etl.extract_from_mysql manual__2024-07-17T08:54:51.055231+00:00 [running]> on host 8c50a8ad787d
+[2024-07-17T14:31:44.344+0000] {settings.py:386} DEBUG - Disposing DB connection pool (PID 468)
+[2024-07-17T14:31:44.345+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 468)
+[2024-07-17T14:31:44.346+0000] {settings.py:318} DEBUG - settings.prepare_engine_args(): Using NullPool
+[2024-07-17T14:31:44.417+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-17T14:31:44.423+0000] {taskinstance.py:1769} DEBUG - Clearing XCom data
+[2024-07-17T14:31:44.435+0000] {retries.py:93} DEBUG - Running RenderedTaskInstanceFields.write with retries. Try 1 of 3
+[2024-07-17T14:31:44.485+0000] {retries.py:93} DEBUG - Running RenderedTaskInstanceFields._do_delete_old_records with retries. Try 1 of 3
+[2024-07-17T14:31:44.506+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='hive_etl' AIRFLOW_CTX_TASK_ID='extract_from_mysql' AIRFLOW_CTX_EXECUTION_DATE='2024-07-17T08:54:51.055231+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-17T08:54:51.055231+00:00'
+[2024-07-17T14:31:44.507+0000] {__init__.py:115} DEBUG - Preparing lineage inlets and outlets
+[2024-07-17T14:31:44.510+0000] {__init__.py:154} DEBUG - inlets: [], outlets: []
+[2024-07-17T14:31:44.532+0000] {base.py:83} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-17T14:31:49.338+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-17T14:31:54.407+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-17T14:31:59.448+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-17T14:32:04.493+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-17T14:32:09.541+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-17T14:32:14.591+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-17T14:32:19.644+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-17T14:32:24.687+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-17T14:32:29.729+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-17T14:32:34.813+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-17T14:32:39.868+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-17T14:32:44.937+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-17T14:32:50.714+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-17T14:32:55.879+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-17T14:33:01.766+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-17T14:33:15.764+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-17T14:33:22.518+0000] {job.py:209} DEBUG - [heartbeat]

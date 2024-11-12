@@ -1,0 +1,227 @@
+[2024-07-11T08:37:00.287+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.286+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 78)
+[2024-07-11T08:37:00.288+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.287+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=78
+[2024-07-11T08:37:00.291+0000] {processor.py:161} INFO - Started process (PID=78) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:37:00.292+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-07-11T08:37:00.292+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.292+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:37:00.293+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.293+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:37:00.300+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.299+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_dag>
+[2024-07-11T08:37:00.300+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:37:00.301+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.301+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:37:00.301+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.301+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:37:00.313+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.312+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:37:00.327+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.327+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-07-11T08:37:00.347+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.060 seconds
+[2024-07-11T08:37:31.197+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.197+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 134)
+[2024-07-11T08:37:31.198+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.198+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=134
+[2024-07-11T08:37:31.200+0000] {processor.py:161} INFO - Started process (PID=134) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:37:31.200+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-07-11T08:37:31.200+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.200+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:37:31.201+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.201+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:37:31.205+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.205+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_dag>
+[2024-07-11T08:37:31.205+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:37:31.206+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.206+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:37:31.207+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.206+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:37:31.214+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.213+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_dag) changed
+[2024-07-11T08:37:31.219+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.219+0000] {serialized_dag.py:179} DEBUG - Writing Serialized DAG: tutorial_dag to the DB
+[2024-07-11T08:37:31.222+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.221+0000] {serialized_dag.py:181} DEBUG - DAG: tutorial_dag written to the DB
+[2024-07-11T08:37:31.222+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.222+0000] {dagbag.py:696} DEBUG - Syncing DAG permissions: tutorial_dag to the DB
+[2024-07-11T08:37:31.282+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.282+0000] {override.py:1034} DEBUG - Not syncing DAG-level permissions for DAG 'DAG:tutorial_dag' as access control is unset.
+[2024-07-11T08:37:31.282+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.282+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:37:31.290+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.290+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-07-11T08:37:31.303+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.106 seconds
+[2024-07-11T08:38:01.921+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.920+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 196)
+[2024-07-11T08:38:01.921+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.921+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=196
+[2024-07-11T08:38:01.923+0000] {processor.py:161} INFO - Started process (PID=196) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:38:01.924+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-07-11T08:38:01.924+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.924+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:38:01.925+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.925+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:38:01.928+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.927+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_dag>
+[2024-07-11T08:38:01.928+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:38:01.929+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.929+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:38:01.929+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.929+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:38:01.937+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.937+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_dag) changed
+[2024-07-11T08:38:01.943+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.942+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (tutorial_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:38:01.943+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.943+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:38:01.951+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.951+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-07-11T08:38:01.963+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.043 seconds
+[2024-07-11T08:38:32.132+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.132+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 252)
+[2024-07-11T08:38:32.133+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.133+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=252
+[2024-07-11T08:38:32.135+0000] {processor.py:161} INFO - Started process (PID=252) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:38:32.135+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-07-11T08:38:32.136+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.135+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:38:32.137+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.136+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:38:32.141+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.140+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_dag>
+[2024-07-11T08:38:32.141+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:38:32.142+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.141+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:38:32.142+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.142+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:38:32.149+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.149+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_dag) changed
+[2024-07-11T08:38:32.155+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.155+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (tutorial_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:38:32.156+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.155+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:38:32.164+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.164+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-07-11T08:38:32.177+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.046 seconds
+[2024-07-11T08:39:02.476+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.476+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 308)
+[2024-07-11T08:39:02.477+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.477+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=308
+[2024-07-11T08:39:02.479+0000] {processor.py:161} INFO - Started process (PID=308) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:39:02.479+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-07-11T08:39:02.479+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.479+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:39:02.480+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.480+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:39:02.484+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.483+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_dag>
+[2024-07-11T08:39:02.484+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:39:02.485+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.485+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:39:02.485+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.485+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:39:02.495+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.495+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_dag) changed
+[2024-07-11T08:39:02.501+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.501+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (tutorial_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:39:02.502+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.502+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:39:02.511+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.511+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-07-11T08:39:02.525+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.049 seconds
+[2024-07-11T08:39:32.742+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.742+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 364)
+[2024-07-11T08:39:32.743+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.743+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=364
+[2024-07-11T08:39:32.745+0000] {processor.py:161} INFO - Started process (PID=364) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:39:32.745+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-07-11T08:39:32.746+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.746+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:39:32.747+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.746+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:39:32.750+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.749+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_dag>
+[2024-07-11T08:39:32.751+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:39:32.751+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.751+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:39:32.751+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.751+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:39:32.759+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.759+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_dag) changed
+[2024-07-11T08:39:32.765+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.765+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (tutorial_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:39:32.765+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.765+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:39:32.774+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.773+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-07-11T08:39:32.787+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.045 seconds
+[2024-07-11T08:40:02.990+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.990+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 420)
+[2024-07-11T08:40:02.991+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.991+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=420
+[2024-07-11T08:40:02.992+0000] {processor.py:161} INFO - Started process (PID=420) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:40:02.993+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-07-11T08:40:02.993+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.993+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:40:02.994+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.994+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:40:02.997+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.997+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_dag>
+[2024-07-11T08:40:02.998+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:40:02.998+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.998+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:40:02.998+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.998+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:40:03.006+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:03.006+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_dag) changed
+[2024-07-11T08:40:03.011+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:03.011+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (tutorial_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:40:03.011+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:03.011+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:40:03.018+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:03.018+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-07-11T08:40:03.043+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.053 seconds
+[2024-07-11T08:41:14.160+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.159+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 78)
+[2024-07-11T08:41:14.160+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.160+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=78
+[2024-07-11T08:41:14.163+0000] {processor.py:161} INFO - Started process (PID=78) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:41:14.163+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-07-11T08:41:14.163+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.163+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:41:14.164+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.164+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:41:14.169+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.168+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_dag>
+[2024-07-11T08:41:14.170+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:41:14.170+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.170+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:41:14.171+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.170+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:41:14.180+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.179+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:41:14.195+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.195+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-07-11T08:41:14.214+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.054 seconds
+[2024-07-11T08:41:45.879+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.878+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 134)
+[2024-07-11T08:41:45.879+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.879+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=134
+[2024-07-11T08:41:45.881+0000] {processor.py:161} INFO - Started process (PID=134) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:41:45.882+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-07-11T08:41:45.882+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.882+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:41:45.883+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.883+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:41:45.887+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.886+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_dag>
+[2024-07-11T08:41:45.887+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:41:45.888+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.887+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:41:45.888+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.888+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:41:45.896+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.896+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_dag) changed
+[2024-07-11T08:41:45.902+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.902+0000] {serialized_dag.py:179} DEBUG - Writing Serialized DAG: tutorial_dag to the DB
+[2024-07-11T08:41:45.905+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.905+0000] {serialized_dag.py:181} DEBUG - DAG: tutorial_dag written to the DB
+[2024-07-11T08:41:45.905+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.905+0000] {dagbag.py:696} DEBUG - Syncing DAG permissions: tutorial_dag to the DB
+[2024-07-11T08:41:45.965+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.965+0000] {override.py:1034} DEBUG - Not syncing DAG-level permissions for DAG 'DAG:tutorial_dag' as access control is unset.
+[2024-07-11T08:41:45.965+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.965+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:41:45.973+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.972+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-07-11T08:41:45.986+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.108 seconds
+[2024-07-11T08:42:16.718+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.718+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 190)
+[2024-07-11T08:42:16.719+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.719+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=190
+[2024-07-11T08:42:16.721+0000] {processor.py:161} INFO - Started process (PID=190) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:42:16.721+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-07-11T08:42:16.722+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.722+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:42:16.723+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.723+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:42:16.727+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.726+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_dag>
+[2024-07-11T08:42:16.727+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:42:16.727+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.727+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:42:16.728+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.728+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:42:16.736+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.736+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_dag) changed
+[2024-07-11T08:42:16.742+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.742+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (tutorial_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:42:16.742+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.742+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:42:16.751+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.751+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-07-11T08:42:16.764+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.046 seconds
+[2024-07-11T08:42:46.961+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.960+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 252)
+[2024-07-11T08:42:46.961+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.961+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=252
+[2024-07-11T08:42:46.963+0000] {processor.py:161} INFO - Started process (PID=252) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:42:46.963+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-07-11T08:42:46.964+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.964+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:42:46.965+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.964+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:42:46.968+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.967+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_dag>
+[2024-07-11T08:42:46.968+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:42:46.969+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.969+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:42:46.969+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.969+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:42:46.976+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.976+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_dag) changed
+[2024-07-11T08:42:46.982+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.982+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (tutorial_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:42:46.982+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.982+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:42:46.991+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.991+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-07-11T08:42:47.003+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.043 seconds
+[2024-07-11T08:43:17.177+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.177+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 308)
+[2024-07-11T08:43:17.178+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.178+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=308
+[2024-07-11T08:43:17.180+0000] {processor.py:161} INFO - Started process (PID=308) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:43:17.180+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-07-11T08:43:17.181+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.180+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:43:17.181+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.181+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:43:17.185+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.184+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_dag>
+[2024-07-11T08:43:17.185+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:43:17.186+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.186+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:43:17.186+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.186+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:43:17.194+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.193+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_dag) changed
+[2024-07-11T08:43:17.199+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.199+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (tutorial_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:43:17.200+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.200+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:43:17.209+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.209+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-07-11T08:43:17.225+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.048 seconds
+[2024-07-11T08:43:47.465+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.464+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 364)
+[2024-07-11T08:43:47.466+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.466+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=364
+[2024-07-11T08:43:47.468+0000] {processor.py:161} INFO - Started process (PID=364) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:43:47.468+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-07-11T08:43:47.469+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.469+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:43:47.471+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.470+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:43:47.479+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.478+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_dag>
+[2024-07-11T08:43:47.480+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:43:47.481+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.481+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:43:47.481+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.481+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:43:47.492+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.492+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_dag) changed
+[2024-07-11T08:43:47.501+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.500+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (tutorial_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:43:47.501+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.501+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:43:47.517+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.516+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-07-11T08:43:47.535+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.071 seconds
+[2024-07-11T08:44:17.879+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.879+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 420)
+[2024-07-11T08:44:17.880+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.880+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=420
+[2024-07-11T08:44:17.882+0000] {processor.py:161} INFO - Started process (PID=420) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:44:17.882+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-07-11T08:44:17.883+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.882+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:44:17.883+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.883+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:44:17.887+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.886+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_dag>
+[2024-07-11T08:44:17.887+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:44:17.888+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.888+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:44:17.888+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.888+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:44:17.897+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.896+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_dag) changed
+[2024-07-11T08:44:17.903+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.902+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (tutorial_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:44:17.903+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.903+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:44:17.911+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.911+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-07-11T08:44:17.922+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.043 seconds
+[2024-07-11T08:44:48.196+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.195+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 476)
+[2024-07-11T08:44:48.196+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.196+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=476
+[2024-07-11T08:44:48.198+0000] {processor.py:161} INFO - Started process (PID=476) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:44:48.199+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-07-11T08:44:48.199+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.199+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:44:48.200+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.200+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:44:48.204+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.203+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_dag>
+[2024-07-11T08:44:48.204+0000] {processor.py:840} INFO - DAG(s) 'tutorial_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-07-11T08:44:48.205+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.205+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:44:48.205+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.205+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:44:48.214+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.213+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_dag) changed
+[2024-07-11T08:44:48.220+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.220+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (tutorial_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:44:48.221+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.221+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:44:48.230+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.230+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-07-11T08:44:48.244+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.049 seconds

@@ -1,0 +1,227 @@
+[2024-07-11T08:36:58.925+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.924+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 57)
+[2024-07-11T08:36:58.926+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.926+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=57
+[2024-07-11T08:36:58.928+0000] {processor.py:161} INFO - Started process (PID=57) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:36:58.929+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-07-11T08:36:58.929+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.929+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:36:58.930+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.930+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:36:58.938+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.938+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_short_circuit_decorator>
+[2024-07-11T08:36:58.939+0000] {processor.py:840} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:36:58.939+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.939+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:36:58.940+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.939+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:36:58.950+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.950+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:36:58.977+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.977+0000] {dag.py:3834} INFO - Setting next_dagrun for example_short_circuit_decorator to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:36:59.000+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.076 seconds
+[2024-07-11T08:37:29.505+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.504+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 113)
+[2024-07-11T08:37:29.505+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.505+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=113
+[2024-07-11T08:37:29.507+0000] {processor.py:161} INFO - Started process (PID=113) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:37:29.508+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-07-11T08:37:29.508+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.508+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:37:29.509+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.509+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:37:29.516+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.515+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_short_circuit_decorator>
+[2024-07-11T08:37:29.516+0000] {processor.py:840} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:37:29.517+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.517+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:37:29.517+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.517+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:37:29.525+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.525+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_short_circuit_decorator) changed
+[2024-07-11T08:37:29.533+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.533+0000] {serialized_dag.py:179} DEBUG - Writing Serialized DAG: example_short_circuit_decorator to the DB
+[2024-07-11T08:37:29.537+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.536+0000] {serialized_dag.py:181} DEBUG - DAG: example_short_circuit_decorator written to the DB
+[2024-07-11T08:37:29.537+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.537+0000] {dagbag.py:696} DEBUG - Syncing DAG permissions: example_short_circuit_decorator to the DB
+[2024-07-11T08:37:29.596+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.596+0000] {override.py:1034} DEBUG - Not syncing DAG-level permissions for DAG 'DAG:example_short_circuit_decorator' as access control is unset.
+[2024-07-11T08:37:29.596+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.596+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:37:29.613+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.612+0000] {dag.py:3834} INFO - Setting next_dagrun for example_short_circuit_decorator to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:37:29.638+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.134 seconds
+[2024-07-11T08:37:59.996+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:59.996+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 169)
+[2024-07-11T08:37:59.997+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:59.997+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=169
+[2024-07-11T08:37:59.999+0000] {processor.py:161} INFO - Started process (PID=169) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:37:59.999+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-07-11T08:38:00.000+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.000+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:38:00.001+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.000+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:38:00.007+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.007+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_short_circuit_decorator>
+[2024-07-11T08:38:00.007+0000] {processor.py:840} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:38:00.008+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.008+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:38:00.008+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.008+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:38:00.017+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.017+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_short_circuit_decorator) changed
+[2024-07-11T08:38:00.025+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.025+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_short_circuit_decorator) is unchanged. Skipping writing to DB
+[2024-07-11T08:38:00.026+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.026+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:38:00.042+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.042+0000] {dag.py:3834} INFO - Setting next_dagrun for example_short_circuit_decorator to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:38:00.057+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.061 seconds
+[2024-07-11T08:38:30.217+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.216+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 225)
+[2024-07-11T08:38:30.218+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.218+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=225
+[2024-07-11T08:38:30.220+0000] {processor.py:161} INFO - Started process (PID=225) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:38:30.221+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-07-11T08:38:30.221+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.221+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:38:30.222+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.222+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:38:30.230+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.229+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_short_circuit_decorator>
+[2024-07-11T08:38:30.230+0000] {processor.py:840} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:38:30.231+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.231+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:38:30.231+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.231+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:38:30.240+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.240+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_short_circuit_decorator) changed
+[2024-07-11T08:38:30.249+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.249+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_short_circuit_decorator) is unchanged. Skipping writing to DB
+[2024-07-11T08:38:30.249+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.249+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:38:30.265+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.265+0000] {dag.py:3834} INFO - Setting next_dagrun for example_short_circuit_decorator to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:38:30.280+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.063 seconds
+[2024-07-11T08:39:00.470+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.470+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 281)
+[2024-07-11T08:39:00.471+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.471+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=281
+[2024-07-11T08:39:00.473+0000] {processor.py:161} INFO - Started process (PID=281) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:39:00.474+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-07-11T08:39:00.474+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.474+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:39:00.475+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.475+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:39:00.482+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.482+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_short_circuit_decorator>
+[2024-07-11T08:39:00.482+0000] {processor.py:840} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:39:00.483+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.483+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:39:00.483+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.483+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:39:00.494+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.494+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_short_circuit_decorator) changed
+[2024-07-11T08:39:00.504+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.503+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_short_circuit_decorator) is unchanged. Skipping writing to DB
+[2024-07-11T08:39:00.504+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.504+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:39:00.522+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.522+0000] {dag.py:3834} INFO - Setting next_dagrun for example_short_circuit_decorator to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:39:00.539+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.069 seconds
+[2024-07-11T08:39:30.778+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.778+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 337)
+[2024-07-11T08:39:30.779+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.779+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=337
+[2024-07-11T08:39:30.781+0000] {processor.py:161} INFO - Started process (PID=337) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:39:30.781+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-07-11T08:39:30.782+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.781+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:39:30.782+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.782+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:39:30.790+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.789+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_short_circuit_decorator>
+[2024-07-11T08:39:30.790+0000] {processor.py:840} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:39:30.790+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.790+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:39:30.791+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.791+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:39:30.798+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.798+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_short_circuit_decorator) changed
+[2024-07-11T08:39:30.806+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.806+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_short_circuit_decorator) is unchanged. Skipping writing to DB
+[2024-07-11T08:39:30.806+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.806+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:39:30.823+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.823+0000] {dag.py:3834} INFO - Setting next_dagrun for example_short_circuit_decorator to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:39:30.836+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.058 seconds
+[2024-07-11T08:40:00.976+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:00.975+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 393)
+[2024-07-11T08:40:00.976+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:00.976+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=393
+[2024-07-11T08:40:00.978+0000] {processor.py:161} INFO - Started process (PID=393) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:40:00.979+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-07-11T08:40:00.979+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:00.979+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:40:00.980+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:00.980+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:40:00.986+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:00.986+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_short_circuit_decorator>
+[2024-07-11T08:40:00.987+0000] {processor.py:840} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:40:00.987+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:00.987+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:40:00.988+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:00.987+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:40:00.995+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:00.995+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_short_circuit_decorator) changed
+[2024-07-11T08:40:01.006+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.005+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_short_circuit_decorator) is unchanged. Skipping writing to DB
+[2024-07-11T08:40:01.006+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.006+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:40:01.023+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.023+0000] {dag.py:3834} INFO - Setting next_dagrun for example_short_circuit_decorator to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:40:01.036+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.060 seconds
+[2024-07-11T08:41:12.909+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.908+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 57)
+[2024-07-11T08:41:12.909+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.909+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=57
+[2024-07-11T08:41:12.911+0000] {processor.py:161} INFO - Started process (PID=57) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:41:12.912+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-07-11T08:41:12.912+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.912+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:41:12.913+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.913+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:41:12.921+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.921+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_short_circuit_decorator>
+[2024-07-11T08:41:12.921+0000] {processor.py:840} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:41:12.922+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.922+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:41:12.922+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.922+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:41:12.931+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.931+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:41:12.952+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.952+0000] {dag.py:3834} INFO - Setting next_dagrun for example_short_circuit_decorator to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:41:12.970+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.062 seconds
+[2024-07-11T08:41:44.127+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.127+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 113)
+[2024-07-11T08:41:44.128+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.128+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=113
+[2024-07-11T08:41:44.130+0000] {processor.py:161} INFO - Started process (PID=113) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:41:44.130+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-07-11T08:41:44.130+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.130+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:41:44.131+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.131+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:41:44.138+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.138+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_short_circuit_decorator>
+[2024-07-11T08:41:44.138+0000] {processor.py:840} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:41:44.139+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.139+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:41:44.139+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.139+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:41:44.147+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.147+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_short_circuit_decorator) changed
+[2024-07-11T08:41:44.156+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.156+0000] {serialized_dag.py:179} DEBUG - Writing Serialized DAG: example_short_circuit_decorator to the DB
+[2024-07-11T08:41:44.160+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.160+0000] {serialized_dag.py:181} DEBUG - DAG: example_short_circuit_decorator written to the DB
+[2024-07-11T08:41:44.160+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.160+0000] {dagbag.py:696} DEBUG - Syncing DAG permissions: example_short_circuit_decorator to the DB
+[2024-07-11T08:41:44.226+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.226+0000] {override.py:1034} DEBUG - Not syncing DAG-level permissions for DAG 'DAG:example_short_circuit_decorator' as access control is unset.
+[2024-07-11T08:41:44.226+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.226+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:41:44.245+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.245+0000] {dag.py:3834} INFO - Setting next_dagrun for example_short_circuit_decorator to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:41:44.262+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.135 seconds
+[2024-07-11T08:42:14.841+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.841+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 169)
+[2024-07-11T08:42:14.842+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.841+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=169
+[2024-07-11T08:42:14.843+0000] {processor.py:161} INFO - Started process (PID=169) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:42:14.844+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-07-11T08:42:14.844+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.844+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:42:14.845+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.845+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:42:14.851+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.851+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_short_circuit_decorator>
+[2024-07-11T08:42:14.851+0000] {processor.py:840} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:42:14.852+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.852+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:42:14.852+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.852+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:42:14.860+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.860+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_short_circuit_decorator) changed
+[2024-07-11T08:42:14.868+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.868+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_short_circuit_decorator) is unchanged. Skipping writing to DB
+[2024-07-11T08:42:14.868+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.868+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:42:14.884+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.884+0000] {dag.py:3834} INFO - Setting next_dagrun for example_short_circuit_decorator to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:42:14.897+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.056 seconds
+[2024-07-11T08:42:45.005+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.005+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 225)
+[2024-07-11T08:42:45.006+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.006+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=225
+[2024-07-11T08:42:45.008+0000] {processor.py:161} INFO - Started process (PID=225) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:42:45.008+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-07-11T08:42:45.008+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.008+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:42:45.009+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.009+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:42:45.015+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.014+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_short_circuit_decorator>
+[2024-07-11T08:42:45.015+0000] {processor.py:840} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:42:45.015+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.015+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:42:45.016+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.016+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:42:45.023+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.023+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_short_circuit_decorator) changed
+[2024-07-11T08:42:45.031+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.031+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_short_circuit_decorator) is unchanged. Skipping writing to DB
+[2024-07-11T08:42:45.031+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.031+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:42:45.046+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.046+0000] {dag.py:3834} INFO - Setting next_dagrun for example_short_circuit_decorator to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:42:45.058+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.053 seconds
+[2024-07-11T08:43:15.294+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.294+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 281)
+[2024-07-11T08:43:15.295+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.295+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=281
+[2024-07-11T08:43:15.296+0000] {processor.py:161} INFO - Started process (PID=281) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:43:15.297+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-07-11T08:43:15.297+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.297+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:43:15.298+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.298+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:43:15.305+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.305+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_short_circuit_decorator>
+[2024-07-11T08:43:15.305+0000] {processor.py:840} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:43:15.306+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.306+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:43:15.306+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.306+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:43:15.315+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.315+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_short_circuit_decorator) changed
+[2024-07-11T08:43:15.324+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.324+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_short_circuit_decorator) is unchanged. Skipping writing to DB
+[2024-07-11T08:43:15.324+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.324+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:43:15.344+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.344+0000] {dag.py:3834} INFO - Setting next_dagrun for example_short_circuit_decorator to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:43:15.359+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.066 seconds
+[2024-07-11T08:43:45.473+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.472+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 337)
+[2024-07-11T08:43:45.474+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.473+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=337
+[2024-07-11T08:43:45.475+0000] {processor.py:161} INFO - Started process (PID=337) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:43:45.475+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-07-11T08:43:45.476+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.476+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:43:45.477+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.477+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:43:45.483+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.483+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_short_circuit_decorator>
+[2024-07-11T08:43:45.483+0000] {processor.py:840} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:43:45.484+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.484+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:43:45.484+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.484+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:43:45.492+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.492+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_short_circuit_decorator) changed
+[2024-07-11T08:43:45.499+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.499+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_short_circuit_decorator) is unchanged. Skipping writing to DB
+[2024-07-11T08:43:45.500+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.499+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:43:45.514+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.514+0000] {dag.py:3834} INFO - Setting next_dagrun for example_short_circuit_decorator to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:43:45.527+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.055 seconds
+[2024-07-11T08:44:15.935+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.934+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 393)
+[2024-07-11T08:44:15.935+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.935+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=393
+[2024-07-11T08:44:15.937+0000] {processor.py:161} INFO - Started process (PID=393) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:44:15.937+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-07-11T08:44:15.938+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.938+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:44:15.939+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.939+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:44:15.945+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.944+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_short_circuit_decorator>
+[2024-07-11T08:44:15.945+0000] {processor.py:840} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:44:15.945+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.945+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:44:15.946+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.946+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:44:15.953+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.952+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_short_circuit_decorator) changed
+[2024-07-11T08:44:15.960+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.960+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_short_circuit_decorator) is unchanged. Skipping writing to DB
+[2024-07-11T08:44:15.960+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.960+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:44:15.976+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.975+0000] {dag.py:3834} INFO - Setting next_dagrun for example_short_circuit_decorator to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:44:15.989+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.055 seconds
+[2024-07-11T08:44:46.275+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.275+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 449)
+[2024-07-11T08:44:46.276+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.276+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=449
+[2024-07-11T08:44:46.279+0000] {processor.py:161} INFO - Started process (PID=449) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:44:46.279+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py for tasks to queue
+[2024-07-11T08:44:46.280+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.280+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:44:46.281+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.281+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:44:46.289+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.288+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_short_circuit_decorator>
+[2024-07-11T08:44:46.289+0000] {processor.py:840} INFO - DAG(s) 'example_short_circuit_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py
+[2024-07-11T08:44:46.290+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.290+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:44:46.290+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.290+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:44:46.298+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.298+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_short_circuit_decorator) changed
+[2024-07-11T08:44:46.306+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.306+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_short_circuit_decorator) is unchanged. Skipping writing to DB
+[2024-07-11T08:44:46.306+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.306+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:44:46.322+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.322+0000] {dag.py:3834} INFO - Setting next_dagrun for example_short_circuit_decorator to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:44:46.338+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_short_circuit_decorator.py took 0.063 seconds

@@ -1,0 +1,227 @@
+[2024-07-11T08:36:59.605+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.604+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 69)
+[2024-07-11T08:36:59.606+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.605+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=69
+[2024-07-11T08:36:59.608+0000] {processor.py:161} INFO - Started process (PID=69) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:36:59.609+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-07-11T08:36:59.610+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.609+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:36:59.611+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.611+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:36:59.619+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.619+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_dynamic_task_mapping>
+[2024-07-11T08:36:59.619+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:36:59.620+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.620+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:36:59.621+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.620+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:36:59.630+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.630+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:36:59.650+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.649+0000] {dag.py:3834} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-07-11T08:36:59.665+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.061 seconds
+[2024-07-11T08:37:30.506+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.505+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 125)
+[2024-07-11T08:37:30.506+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.506+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=125
+[2024-07-11T08:37:30.508+0000] {processor.py:161} INFO - Started process (PID=125) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:37:30.508+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-07-11T08:37:30.509+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.509+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:37:30.510+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.509+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:37:30.514+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.514+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_dynamic_task_mapping>
+[2024-07-11T08:37:30.514+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:37:30.515+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.515+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:37:30.515+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.515+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:37:30.522+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.522+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_dynamic_task_mapping) changed
+[2024-07-11T08:37:30.528+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.528+0000] {serialized_dag.py:179} DEBUG - Writing Serialized DAG: example_dynamic_task_mapping to the DB
+[2024-07-11T08:37:30.531+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.530+0000] {serialized_dag.py:181} DEBUG - DAG: example_dynamic_task_mapping written to the DB
+[2024-07-11T08:37:30.531+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.531+0000] {dagbag.py:696} DEBUG - Syncing DAG permissions: example_dynamic_task_mapping to the DB
+[2024-07-11T08:37:30.589+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.589+0000] {override.py:1034} DEBUG - Not syncing DAG-level permissions for DAG 'DAG:example_dynamic_task_mapping' as access control is unset.
+[2024-07-11T08:37:30.589+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.589+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:37:30.603+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.603+0000] {dag.py:3834} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-07-11T08:37:30.615+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.110 seconds
+[2024-07-11T08:38:01.559+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.557+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 187)
+[2024-07-11T08:38:01.571+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.571+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=187
+[2024-07-11T08:38:01.575+0000] {processor.py:161} INFO - Started process (PID=187) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:38:01.576+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-07-11T08:38:01.577+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.577+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:38:01.579+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.579+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:38:01.586+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.586+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_dynamic_task_mapping>
+[2024-07-11T08:38:01.586+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:38:01.588+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.587+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:38:01.588+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.588+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:38:01.596+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.596+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_dynamic_task_mapping) changed
+[2024-07-11T08:38:01.602+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.601+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_dynamic_task_mapping) is unchanged. Skipping writing to DB
+[2024-07-11T08:38:01.602+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.602+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:38:01.618+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.618+0000] {dag.py:3834} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-07-11T08:38:01.631+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.074 seconds
+[2024-07-11T08:38:31.750+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:31.748+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 243)
+[2024-07-11T08:38:31.753+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:31.752+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=243
+[2024-07-11T08:38:31.759+0000] {processor.py:161} INFO - Started process (PID=243) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:38:31.760+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-07-11T08:38:31.761+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:31.760+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:38:31.762+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:31.762+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:38:31.770+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:31.770+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_dynamic_task_mapping>
+[2024-07-11T08:38:31.770+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:38:31.772+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:31.771+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:38:31.772+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:31.772+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:38:31.782+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:31.782+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_dynamic_task_mapping) changed
+[2024-07-11T08:38:31.789+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:31.789+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_dynamic_task_mapping) is unchanged. Skipping writing to DB
+[2024-07-11T08:38:31.789+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:31.789+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:38:31.808+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:31.808+0000] {dag.py:3834} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-07-11T08:38:31.820+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.072 seconds
+[2024-07-11T08:39:02.115+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.114+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 299)
+[2024-07-11T08:39:02.127+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.127+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=299
+[2024-07-11T08:39:02.130+0000] {processor.py:161} INFO - Started process (PID=299) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:39:02.130+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-07-11T08:39:02.131+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.131+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:39:02.132+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.132+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:39:02.139+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.138+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_dynamic_task_mapping>
+[2024-07-11T08:39:02.139+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:39:02.141+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.140+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:39:02.141+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.141+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:39:02.151+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.151+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_dynamic_task_mapping) changed
+[2024-07-11T08:39:02.158+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.158+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_dynamic_task_mapping) is unchanged. Skipping writing to DB
+[2024-07-11T08:39:02.158+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.158+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:39:02.174+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.174+0000] {dag.py:3834} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-07-11T08:39:02.187+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.073 seconds
+[2024-07-11T08:39:32.389+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.388+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 355)
+[2024-07-11T08:39:32.401+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.401+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=355
+[2024-07-11T08:39:32.405+0000] {processor.py:161} INFO - Started process (PID=355) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:39:32.405+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-07-11T08:39:32.406+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.406+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:39:32.407+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.407+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:39:32.413+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.412+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_dynamic_task_mapping>
+[2024-07-11T08:39:32.413+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:39:32.414+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.414+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:39:32.414+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.414+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:39:32.423+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.423+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_dynamic_task_mapping) changed
+[2024-07-11T08:39:32.428+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.428+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_dynamic_task_mapping) is unchanged. Skipping writing to DB
+[2024-07-11T08:39:32.428+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.428+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:39:32.445+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.445+0000] {dag.py:3834} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-07-11T08:39:32.461+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.074 seconds
+[2024-07-11T08:40:02.546+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.544+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 411)
+[2024-07-11T08:40:02.548+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.548+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=411
+[2024-07-11T08:40:02.556+0000] {processor.py:161} INFO - Started process (PID=411) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:40:02.557+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-07-11T08:40:02.559+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.558+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:40:02.562+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.562+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:40:02.573+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.573+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_dynamic_task_mapping>
+[2024-07-11T08:40:02.573+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:40:02.575+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.575+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:40:02.575+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.575+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:40:02.587+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.587+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_dynamic_task_mapping) changed
+[2024-07-11T08:40:02.595+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.594+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_dynamic_task_mapping) is unchanged. Skipping writing to DB
+[2024-07-11T08:40:02.595+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.595+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:40:02.611+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.611+0000] {dag.py:3834} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-07-11T08:40:02.622+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.079 seconds
+[2024-07-11T08:41:13.509+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.508+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 69)
+[2024-07-11T08:41:13.510+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.509+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=69
+[2024-07-11T08:41:13.512+0000] {processor.py:161} INFO - Started process (PID=69) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:41:13.513+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-07-11T08:41:13.513+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.513+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:41:13.514+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.514+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:41:13.521+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.520+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_dynamic_task_mapping>
+[2024-07-11T08:41:13.521+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:41:13.522+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.522+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:41:13.522+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.522+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:41:13.532+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.532+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:41:13.563+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.562+0000] {dag.py:3834} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-07-11T08:41:13.582+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.074 seconds
+[2024-07-11T08:41:45.297+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.296+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 125)
+[2024-07-11T08:41:45.297+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.297+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=125
+[2024-07-11T08:41:45.299+0000] {processor.py:161} INFO - Started process (PID=125) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:41:45.299+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-07-11T08:41:45.300+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.300+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:41:45.301+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.300+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:41:45.305+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.305+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_dynamic_task_mapping>
+[2024-07-11T08:41:45.305+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:41:45.306+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.306+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:41:45.306+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.306+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:41:45.314+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.314+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_dynamic_task_mapping) changed
+[2024-07-11T08:41:45.320+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.319+0000] {serialized_dag.py:179} DEBUG - Writing Serialized DAG: example_dynamic_task_mapping to the DB
+[2024-07-11T08:41:45.323+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.322+0000] {serialized_dag.py:181} DEBUG - DAG: example_dynamic_task_mapping written to the DB
+[2024-07-11T08:41:45.323+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.323+0000] {dagbag.py:696} DEBUG - Syncing DAG permissions: example_dynamic_task_mapping to the DB
+[2024-07-11T08:41:45.387+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.387+0000] {override.py:1034} DEBUG - Not syncing DAG-level permissions for DAG 'DAG:example_dynamic_task_mapping' as access control is unset.
+[2024-07-11T08:41:45.387+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.387+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:41:45.402+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.402+0000] {dag.py:3834} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-07-11T08:41:45.415+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.119 seconds
+[2024-07-11T08:42:16.322+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.322+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 181)
+[2024-07-11T08:42:16.333+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.333+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=181
+[2024-07-11T08:42:16.335+0000] {processor.py:161} INFO - Started process (PID=181) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:42:16.335+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-07-11T08:42:16.335+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.335+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:42:16.336+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.336+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:42:16.340+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.340+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_dynamic_task_mapping>
+[2024-07-11T08:42:16.340+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:42:16.341+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.341+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:42:16.341+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.341+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:42:16.348+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.348+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_dynamic_task_mapping) changed
+[2024-07-11T08:42:16.353+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.353+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_dynamic_task_mapping) is unchanged. Skipping writing to DB
+[2024-07-11T08:42:16.354+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.353+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:42:16.367+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.367+0000] {dag.py:3834} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-07-11T08:42:16.378+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.056 seconds
+[2024-07-11T08:42:46.535+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.534+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 237)
+[2024-07-11T08:42:46.547+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.547+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=237
+[2024-07-11T08:42:46.554+0000] {processor.py:161} INFO - Started process (PID=237) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:42:46.556+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-07-11T08:42:46.558+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.557+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:42:46.561+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.560+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:42:46.578+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.577+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_dynamic_task_mapping>
+[2024-07-11T08:42:46.578+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:42:46.581+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.580+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:42:46.581+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.581+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:42:46.596+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.596+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_dynamic_task_mapping) changed
+[2024-07-11T08:42:46.605+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.604+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_dynamic_task_mapping) is unchanged. Skipping writing to DB
+[2024-07-11T08:42:46.605+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.605+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:42:46.625+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.625+0000] {dag.py:3834} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-07-11T08:42:46.637+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.103 seconds
+[2024-07-11T08:43:16.841+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:16.840+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 293)
+[2024-07-11T08:43:16.852+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:16.852+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=293
+[2024-07-11T08:43:16.854+0000] {processor.py:161} INFO - Started process (PID=293) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:43:16.854+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-07-11T08:43:16.854+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:16.854+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:43:16.855+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:16.855+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:43:16.860+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:16.859+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_dynamic_task_mapping>
+[2024-07-11T08:43:16.860+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:43:16.861+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:16.861+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:43:16.861+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:16.861+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:43:16.870+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:16.869+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_dynamic_task_mapping) changed
+[2024-07-11T08:43:16.876+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:16.876+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_dynamic_task_mapping) is unchanged. Skipping writing to DB
+[2024-07-11T08:43:16.876+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:16.876+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:43:16.892+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:16.892+0000] {dag.py:3834} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-07-11T08:43:16.904+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.064 seconds
+[2024-07-11T08:43:46.980+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:46.980+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 349)
+[2024-07-11T08:43:46.991+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:46.991+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=349
+[2024-07-11T08:43:46.993+0000] {processor.py:161} INFO - Started process (PID=349) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:43:46.993+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-07-11T08:43:46.994+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:46.994+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:43:46.995+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:46.994+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:43:46.999+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:46.999+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_dynamic_task_mapping>
+[2024-07-11T08:43:46.999+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:43:47.000+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.000+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:43:47.000+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.000+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:43:47.008+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.008+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_dynamic_task_mapping) changed
+[2024-07-11T08:43:47.015+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.015+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_dynamic_task_mapping) is unchanged. Skipping writing to DB
+[2024-07-11T08:43:47.016+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.016+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:43:47.033+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.033+0000] {dag.py:3834} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-07-11T08:43:47.047+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.067 seconds
+[2024-07-11T08:44:17.514+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.514+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 411)
+[2024-07-11T08:44:17.515+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.515+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=411
+[2024-07-11T08:44:17.516+0000] {processor.py:161} INFO - Started process (PID=411) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:44:17.517+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-07-11T08:44:17.517+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.517+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:44:17.518+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.518+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:44:17.527+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.526+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_dynamic_task_mapping>
+[2024-07-11T08:44:17.527+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:44:17.527+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.527+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:44:17.528+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.527+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:44:17.535+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.534+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_dynamic_task_mapping) changed
+[2024-07-11T08:44:17.542+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.542+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_dynamic_task_mapping) is unchanged. Skipping writing to DB
+[2024-07-11T08:44:17.542+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.542+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:44:17.557+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.557+0000] {dag.py:3834} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-07-11T08:44:17.573+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.059 seconds
+[2024-07-11T08:44:47.795+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:47.794+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 467)
+[2024-07-11T08:44:47.806+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:47.806+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=467
+[2024-07-11T08:44:47.808+0000] {processor.py:161} INFO - Started process (PID=467) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:44:47.808+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-07-11T08:44:47.808+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:47.808+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:44:47.809+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:47.809+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:44:47.814+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:47.813+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_dynamic_task_mapping>
+[2024-07-11T08:44:47.814+0000] {processor.py:840} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-07-11T08:44:47.815+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:47.815+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:44:47.815+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:47.815+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:44:47.825+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:47.825+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_dynamic_task_mapping) changed
+[2024-07-11T08:44:47.831+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:47.831+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_dynamic_task_mapping) is unchanged. Skipping writing to DB
+[2024-07-11T08:44:47.831+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:47.831+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:44:47.854+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:47.854+0000] {dag.py:3834} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04 00:00:00+00:00, run_after=2022-03-05 00:00:00+00:00
+[2024-07-11T08:44:47.877+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.083 seconds

@@ -1,0 +1,1 @@
+[2024-07-17T10:14:41.138+0000] {scheduler_job_runner.py:781} ERROR - Executor reports task instance <TaskInstance: hive_etl.load_data_into_hive scheduled__2023-05-21T00:00:00+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

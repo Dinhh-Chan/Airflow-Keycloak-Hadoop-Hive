@@ -1,0 +1,44 @@
+[2024-07-10T04:05:19.663+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-10T04:05:19.683+0000] {__init__.py:54} DEBUG - Loading core task runner: StandardTaskRunner
+[2024-07-10T04:05:19.693+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-10T04:05:19.697+0000] {base_task_runner.py:72} DEBUG - Planning to run as the  user
+[2024-07-10T04:05:19.714+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hello_world_dag.print_hello scheduled__2023-03-09T00:00:00+00:00 [queued]> dependency 'Task Instance State' PASSED: True, Task state queued was valid.
+[2024-07-10T04:05:19.719+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hello_world_dag.print_hello scheduled__2023-03-09T00:00:00+00:00 [queued]> dependency 'Previous Dagrun State' PASSED: True, The task did not have depends_on_past set.
+[2024-07-10T04:05:19.720+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hello_world_dag.print_hello scheduled__2023-03-09T00:00:00+00:00 [queued]> dependency 'Not In Retry Period' PASSED: True, The task instance was not marked for retrying.
+[2024-07-10T04:05:19.720+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hello_world_dag.print_hello scheduled__2023-03-09T00:00:00+00:00 [queued]> dependency 'Task Instance Not Running' PASSED: True, Task is not in running state.
+[2024-07-10T04:05:19.720+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hello_world_dag.print_hello scheduled__2023-03-09T00:00:00+00:00 [queued]> dependency 'Trigger Rule' PASSED: True, The task instance did not have any upstream tasks.
+[2024-07-10T04:05:19.720+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hello_world_dag.print_hello scheduled__2023-03-09T00:00:00+00:00 [queued]>
+[2024-07-10T04:05:19.725+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hello_world_dag.print_hello scheduled__2023-03-09T00:00:00+00:00 [queued]> dependency 'Pool Slots Available' PASSED: True, There are enough open slots in default_pool to execute the task
+[2024-07-10T04:05:19.725+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hello_world_dag.print_hello scheduled__2023-03-09T00:00:00+00:00 [queued]> dependency 'Previous Dagrun State' PASSED: True, The task did not have depends_on_past set.
+[2024-07-10T04:05:19.726+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hello_world_dag.print_hello scheduled__2023-03-09T00:00:00+00:00 [queued]> dependency 'Task Concurrency' PASSED: True, Task concurrency is not set.
+[2024-07-10T04:05:19.726+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hello_world_dag.print_hello scheduled__2023-03-09T00:00:00+00:00 [queued]> dependency 'Not In Retry Period' PASSED: True, The task instance was not marked for retrying.
+[2024-07-10T04:05:19.726+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hello_world_dag.print_hello scheduled__2023-03-09T00:00:00+00:00 [queued]> dependency 'Trigger Rule' PASSED: True, The task instance did not have any upstream tasks.
+[2024-07-10T04:05:19.726+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hello_world_dag.print_hello scheduled__2023-03-09T00:00:00+00:00 [queued]>
+[2024-07-10T04:05:19.726+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-07-10T04:05:19.737+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): print_hello> on 2023-03-09 00:00:00+00:00
+[2024-07-10T04:05:19.742+0000] {standard_task_runner.py:60} INFO - Started process 279 to run task
+[2024-07-10T04:05:19.744+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'hello_world_dag', 'print_hello', 'scheduled__2023-03-09T00:00:00+00:00', '--job-id', '86', '--raw', '--subdir', 'DAGS_FOLDER/ex.py', '--cfg-path', '/tmp/tmp42h0snw7']
+[2024-07-10T04:05:19.746+0000] {standard_task_runner.py:88} INFO - Job 86: Subtask print_hello
+[2024-07-10T04:05:19.746+0000] {cli_action_loggers.py:67} DEBUG - Calling callbacks: [<function default_action_log at 0x71a377f20ca0>]
+[2024-07-10T04:05:19.780+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-10T04:05:19.786+0000] {task_command.py:423} INFO - Running <TaskInstance: hello_world_dag.print_hello scheduled__2023-03-09T00:00:00+00:00 [running]> on host 1e6d8c5e82dd
+[2024-07-10T04:05:19.786+0000] {settings.py:386} DEBUG - Disposing DB connection pool (PID 279)
+[2024-07-10T04:05:19.787+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 279)
+[2024-07-10T04:05:19.787+0000] {settings.py:318} DEBUG - settings.prepare_engine_args(): Using NullPool
+[2024-07-10T04:05:19.820+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-10T04:05:19.828+0000] {taskinstance.py:1769} DEBUG - Clearing XCom data
+[2024-07-10T04:05:19.833+0000] {retries.py:93} DEBUG - Running RenderedTaskInstanceFields.write with retries. Try 1 of 3
+[2024-07-10T04:05:19.861+0000] {retries.py:93} DEBUG - Running RenderedTaskInstanceFields._do_delete_old_records with retries. Try 1 of 3
+[2024-07-10T04:05:19.876+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='hello_world_dag' AIRFLOW_CTX_TASK_ID='print_hello' AIRFLOW_CTX_EXECUTION_DATE='2023-03-09T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-03-09T00:00:00+00:00'
+[2024-07-10T04:05:19.877+0000] {__init__.py:115} DEBUG - Preparing lineage inlets and outlets
+[2024-07-10T04:05:19.878+0000] {__init__.py:154} DEBUG - inlets: [], outlets: []
+[2024-07-10T04:05:19.879+0000] {logging_mixin.py:188} INFO - Hello World
+[2024-07-10T04:05:19.879+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-07-10T04:05:19.880+0000] {__init__.py:73} DEBUG - Lineage called with inlets: [], outlets: []
+[2024-07-10T04:05:19.891+0000] {taskinstance.py:549} DEBUG - Clearing next_method and next_kwargs.
+[2024-07-10T04:05:19.892+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=hello_world_dag, task_id=print_hello, execution_date=20230309T000000, start_date=20240710T040519, end_date=20240710T040519
+[2024-07-10T04:05:19.892+0000] {taskinstance.py:527} DEBUG - Task Duration set to 0.171351
+[2024-07-10T04:05:19.908+0000] {cli_action_loggers.py:85} DEBUG - Calling callbacks: []
+[2024-07-10T04:05:19.956+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-07-10T04:05:20.014+0000] {dagrun.py:876} DEBUG - number of tis tasks for <DagRun hello_world_dag @ 2023-03-09 00:00:00+00:00: scheduled__2023-03-09T00:00:00+00:00, state:success, queued_at: 2024-07-10 04:05:18.475978+00:00. externally triggered: False>: 0 task(s)
+[2024-07-10T04:05:20.014+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

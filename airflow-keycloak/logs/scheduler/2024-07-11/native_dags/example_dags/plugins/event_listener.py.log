@@ -1,0 +1,120 @@
+[2024-07-11T08:37:00.672+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.671+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 86)
+[2024-07-11T08:37:00.673+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.672+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=86
+[2024-07-11T08:37:00.676+0000] {processor.py:161} INFO - Started process (PID=86) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:37:00.676+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-07-11T08:37:00.677+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.677+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:37:00.678+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.678+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:37:00.679+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:37:00.694+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.023 seconds
+[2024-07-11T08:37:31.753+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.752+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 147)
+[2024-07-11T08:37:31.754+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.753+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=147
+[2024-07-11T08:37:31.756+0000] {processor.py:161} INFO - Started process (PID=147) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:37:31.756+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-07-11T08:37:31.757+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.756+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:37:31.757+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.757+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:37:31.758+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:37:31.769+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.017 seconds
+[2024-07-11T08:38:02.143+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:02.142+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 203)
+[2024-07-11T08:38:02.144+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:02.143+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=203
+[2024-07-11T08:38:02.145+0000] {processor.py:161} INFO - Started process (PID=203) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:38:02.146+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-07-11T08:38:02.146+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:02.146+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:38:02.147+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:02.147+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:38:02.148+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:38:02.157+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.014 seconds
+[2024-07-11T08:38:32.332+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.332+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 259)
+[2024-07-11T08:38:32.333+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.333+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=259
+[2024-07-11T08:38:32.335+0000] {processor.py:161} INFO - Started process (PID=259) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:38:32.335+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-07-11T08:38:32.336+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.336+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:38:32.337+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.336+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:38:32.338+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:38:32.348+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.017 seconds
+[2024-07-11T08:39:02.715+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.715+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 315)
+[2024-07-11T08:39:02.716+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.715+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=315
+[2024-07-11T08:39:02.717+0000] {processor.py:161} INFO - Started process (PID=315) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:39:02.718+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-07-11T08:39:02.718+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.718+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:39:02.719+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.719+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:39:02.720+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:39:02.728+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.014 seconds
+[2024-07-11T08:39:32.982+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.982+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 371)
+[2024-07-11T08:39:32.983+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.983+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=371
+[2024-07-11T08:39:32.984+0000] {processor.py:161} INFO - Started process (PID=371) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:39:32.985+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-07-11T08:39:32.985+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.985+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:39:32.986+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.986+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:39:32.987+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:39:32.996+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.015 seconds
+[2024-07-11T08:40:03.279+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:03.278+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 427)
+[2024-07-11T08:40:03.279+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:03.279+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=427
+[2024-07-11T08:40:03.281+0000] {processor.py:161} INFO - Started process (PID=427) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:40:03.281+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-07-11T08:40:03.282+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:03.282+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:40:03.283+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:03.283+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:40:03.284+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:40:03.293+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.015 seconds
+[2024-07-11T08:41:14.501+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.500+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 86)
+[2024-07-11T08:41:14.502+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.502+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=86
+[2024-07-11T08:41:14.504+0000] {processor.py:161} INFO - Started process (PID=86) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:41:14.505+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-07-11T08:41:14.505+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.505+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:41:14.506+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.506+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:41:14.508+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:41:14.521+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.021 seconds
+[2024-07-11T08:41:46.444+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:46.443+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 141)
+[2024-07-11T08:41:46.445+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:46.444+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=141
+[2024-07-11T08:41:46.447+0000] {processor.py:161} INFO - Started process (PID=141) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:41:46.447+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-07-11T08:41:46.448+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:46.448+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:41:46.449+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:46.449+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:41:46.451+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:41:46.464+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.021 seconds
+[2024-07-11T08:42:17.027+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:17.027+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 204)
+[2024-07-11T08:42:17.028+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:17.028+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=204
+[2024-07-11T08:42:17.030+0000] {processor.py:161} INFO - Started process (PID=204) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:42:17.030+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-07-11T08:42:17.031+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:17.030+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:42:17.031+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:17.031+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:42:17.032+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:42:17.042+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.015 seconds
+[2024-07-11T08:42:47.192+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:47.192+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 259)
+[2024-07-11T08:42:47.193+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:47.193+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=259
+[2024-07-11T08:42:47.195+0000] {processor.py:161} INFO - Started process (PID=259) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:42:47.195+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-07-11T08:42:47.195+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:47.195+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:42:47.196+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:47.196+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:42:47.197+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:42:47.206+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.014 seconds
+[2024-07-11T08:43:17.388+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.387+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 315)
+[2024-07-11T08:43:17.389+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.388+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=315
+[2024-07-11T08:43:17.390+0000] {processor.py:161} INFO - Started process (PID=315) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:43:17.391+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-07-11T08:43:17.391+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.391+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:43:17.392+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.392+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:43:17.393+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:43:17.402+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.014 seconds
+[2024-07-11T08:43:47.775+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.775+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 371)
+[2024-07-11T08:43:47.776+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.776+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=371
+[2024-07-11T08:43:47.778+0000] {processor.py:161} INFO - Started process (PID=371) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:43:47.778+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-07-11T08:43:47.779+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.778+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:43:47.779+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.779+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:43:47.780+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:43:47.789+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.014 seconds
+[2024-07-11T08:44:18.153+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:18.152+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 427)
+[2024-07-11T08:44:18.154+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:18.153+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=427
+[2024-07-11T08:44:18.156+0000] {processor.py:161} INFO - Started process (PID=427) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:44:18.156+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-07-11T08:44:18.157+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:18.157+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:44:18.158+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:18.158+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:44:18.159+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:44:18.169+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.017 seconds
+[2024-07-11T08:44:48.446+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.446+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 483)
+[2024-07-11T08:44:48.447+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.447+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=483
+[2024-07-11T08:44:48.449+0000] {processor.py:161} INFO - Started process (PID=483) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:44:48.449+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-07-11T08:44:48.449+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.449+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:44:48.451+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.450+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:44:48.452+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-07-11T08:44:48.461+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.015 seconds

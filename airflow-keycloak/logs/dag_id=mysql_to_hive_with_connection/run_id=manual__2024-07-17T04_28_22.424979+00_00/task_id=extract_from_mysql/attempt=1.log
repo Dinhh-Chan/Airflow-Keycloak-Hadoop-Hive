@@ -1,0 +1,51 @@
+[2024-07-17T04:28:24.610+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-17T04:28:24.620+0000] {__init__.py:54} DEBUG - Loading core task runner: StandardTaskRunner
+[2024-07-17T04:28:24.629+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-17T04:28:24.631+0000] {base_task_runner.py:72} DEBUG - Planning to run as the  user
+[2024-07-17T04:28:24.647+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: mysql_to_hive_with_connection.extract_from_mysql manual__2024-07-17T04:28:22.424979+00:00 [queued]> dependency 'Trigger Rule' PASSED: True, The task instance did not have any upstream tasks.
+[2024-07-17T04:28:24.652+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: mysql_to_hive_with_connection.extract_from_mysql manual__2024-07-17T04:28:22.424979+00:00 [queued]> dependency 'Task Instance State' PASSED: True, Task state queued was valid.
+[2024-07-17T04:28:24.652+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: mysql_to_hive_with_connection.extract_from_mysql manual__2024-07-17T04:28:22.424979+00:00 [queued]> dependency 'Not In Retry Period' PASSED: True, The task instance was not marked for retrying.
+[2024-07-17T04:28:24.652+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: mysql_to_hive_with_connection.extract_from_mysql manual__2024-07-17T04:28:22.424979+00:00 [queued]> dependency 'Previous Dagrun State' PASSED: True, The task did not have depends_on_past set.
+[2024-07-17T04:28:24.653+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: mysql_to_hive_with_connection.extract_from_mysql manual__2024-07-17T04:28:22.424979+00:00 [queued]> dependency 'Task Instance Not Running' PASSED: True, Task is not in running state.
+[2024-07-17T04:28:24.653+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: mysql_to_hive_with_connection.extract_from_mysql manual__2024-07-17T04:28:22.424979+00:00 [queued]>
+[2024-07-17T04:28:24.654+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: mysql_to_hive_with_connection.extract_from_mysql manual__2024-07-17T04:28:22.424979+00:00 [queued]> dependency 'Not In Retry Period' PASSED: True, The task instance was not marked for retrying.
+[2024-07-17T04:28:24.659+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: mysql_to_hive_with_connection.extract_from_mysql manual__2024-07-17T04:28:22.424979+00:00 [queued]> dependency 'Pool Slots Available' PASSED: True, There are enough open slots in default_pool to execute the task
+[2024-07-17T04:28:24.659+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: mysql_to_hive_with_connection.extract_from_mysql manual__2024-07-17T04:28:22.424979+00:00 [queued]> dependency 'Previous Dagrun State' PASSED: True, The task did not have depends_on_past set.
+[2024-07-17T04:28:24.659+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: mysql_to_hive_with_connection.extract_from_mysql manual__2024-07-17T04:28:22.424979+00:00 [queued]> dependency 'Task Concurrency' PASSED: True, Task concurrency is not set.
+[2024-07-17T04:28:24.660+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: mysql_to_hive_with_connection.extract_from_mysql manual__2024-07-17T04:28:22.424979+00:00 [queued]> dependency 'Trigger Rule' PASSED: True, The task instance did not have any upstream tasks.
+[2024-07-17T04:28:24.662+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: mysql_to_hive_with_connection.extract_from_mysql manual__2024-07-17T04:28:22.424979+00:00 [queued]>
+[2024-07-17T04:28:24.663+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-07-17T04:28:24.673+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): extract_from_mysql> on 2024-07-17 04:28:22.424979+00:00
+[2024-07-17T04:28:24.678+0000] {standard_task_runner.py:60} INFO - Started process 427 to run task
+[2024-07-17T04:28:24.680+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'mysql_to_hive_with_connection', 'extract_from_mysql', 'manual__2024-07-17T04:28:22.424979+00:00', '--job-id', '1401', '--raw', '--subdir', 'DAGS_FOLDER/new.py', '--cfg-path', '/tmp/tmpwtij5tg3']
+[2024-07-17T04:28:24.681+0000] {standard_task_runner.py:88} INFO - Job 1401: Subtask extract_from_mysql
+[2024-07-17T04:28:24.682+0000] {cli_action_loggers.py:67} DEBUG - Calling callbacks: [<function default_action_log at 0x70bb58c4af80>]
+[2024-07-17T04:28:24.714+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-17T04:28:24.717+0000] {task_command.py:423} INFO - Running <TaskInstance: mysql_to_hive_with_connection.extract_from_mysql manual__2024-07-17T04:28:22.424979+00:00 [running]> on host b2f9507f2158
+[2024-07-17T04:28:24.717+0000] {settings.py:386} DEBUG - Disposing DB connection pool (PID 427)
+[2024-07-17T04:28:24.717+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 427)
+[2024-07-17T04:28:24.718+0000] {settings.py:318} DEBUG - settings.prepare_engine_args(): Using NullPool
+[2024-07-17T04:28:24.744+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-17T04:28:24.746+0000] {taskinstance.py:1769} DEBUG - Clearing XCom data
+[2024-07-17T04:28:24.750+0000] {retries.py:93} DEBUG - Running RenderedTaskInstanceFields.write with retries. Try 1 of 3
+[2024-07-17T04:28:24.776+0000] {retries.py:93} DEBUG - Running RenderedTaskInstanceFields._do_delete_old_records with retries. Try 1 of 3
+[2024-07-17T04:28:24.791+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='mysql_to_hive_with_connection' AIRFLOW_CTX_TASK_ID='extract_from_mysql' AIRFLOW_CTX_EXECUTION_DATE='2024-07-17T04:28:22.424979+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-17T04:28:22.424979+00:00'
+[2024-07-17T04:28:24.792+0000] {__init__.py:115} DEBUG - Preparing lineage inlets and outlets
+[2024-07-17T04:28:24.793+0000] {__init__.py:154} DEBUG - inlets: [], outlets: []
+[2024-07-17T04:28:24.802+0000] {base.py:83} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-17T04:28:24.830+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.10/site-packages/***/providers/common/sql/hooks/sql.py:227: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+  return psql.read_sql(sql, con=conn, params=parameters, **kwargs)
+
+[2024-07-17T04:28:24.842+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-07-17T04:28:24.842+0000] {__init__.py:73} DEBUG - Lineage called with inlets: [], outlets: []
+[2024-07-17T04:28:24.850+0000] {taskinstance.py:549} DEBUG - Clearing next_method and next_kwargs.
+[2024-07-17T04:28:24.850+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=mysql_to_hive_with_connection, task_id=extract_from_mysql, execution_date=20240717T042822, start_date=20240717T042824, end_date=20240717T042824
+[2024-07-17T04:28:24.850+0000] {taskinstance.py:527} DEBUG - Task Duration set to 0.1971
+[2024-07-17T04:28:24.858+0000] {cli_action_loggers.py:85} DEBUG - Calling callbacks: []
+[2024-07-17T04:28:24.892+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-07-17T04:28:24.906+0000] {dagrun.py:876} DEBUG - number of tis tasks for <DagRun mysql_to_hive_with_connection @ 2024-07-17 04:28:22.424979+00:00: manual__2024-07-17T04:28:22.424979+00:00, state:running, queued_at: 2024-07-17 04:28:22.435131+00:00. externally triggered: True>: 2 task(s)
+[2024-07-17T04:28:24.907+0000] {dagrun.py:897} DEBUG - number of scheduleable tasks for <DagRun mysql_to_hive_with_connection @ 2024-07-17 04:28:22.424979+00:00: manual__2024-07-17T04:28:22.424979+00:00, state:running, queued_at: 2024-07-17 04:28:22.435131+00:00. externally triggered: True>: 1 task(s)
+[2024-07-17T04:28:24.907+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: mysql_to_hive_with_connection.load_into_hive manual__2024-07-17T04:28:22.424979+00:00 [None]> dependency 'Previous Dagrun State' PASSED: True, The task did not have depends_on_past set.
+[2024-07-17T04:28:24.907+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: mysql_to_hive_with_connection.load_into_hive manual__2024-07-17T04:28:22.424979+00:00 [None]> dependency 'Not In Retry Period' PASSED: True, The task instance was not marked for retrying.
+[2024-07-17T04:28:24.908+0000] {taskinstance.py:1979} DEBUG - Dependencies all met for dep_context=None ti=<TaskInstance: mysql_to_hive_with_connection.load_into_hive manual__2024-07-17T04:28:22.424979+00:00 [None]>
+[2024-07-17T04:28:24.910+0000] {taskinstance.py:3309} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,62 @@
+[2024-07-16T08:53:58.291+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-16T08:53:58.302+0000] {__init__.py:54} DEBUG - Loading core task runner: StandardTaskRunner
+[2024-07-16T08:53:58.316+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-16T08:53:58.319+0000] {base_task_runner.py:72} DEBUG - Planning to run as the  user
+[2024-07-16T08:53:58.341+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: sample_dag.read_from_mysql scheduled__2023-01-03T00:00:00+00:00 [queued]> dependency 'Previous Dagrun State' PASSED: True, The task did not have depends_on_past set.
+[2024-07-16T08:53:58.342+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: sample_dag.read_from_mysql scheduled__2023-01-03T00:00:00+00:00 [queued]> dependency 'Task Instance Not Running' PASSED: True, Task is not in running state.
+[2024-07-16T08:53:58.349+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: sample_dag.read_from_mysql scheduled__2023-01-03T00:00:00+00:00 [queued]> dependency 'Not In Retry Period' PASSED: True, The task instance was not marked for retrying.
+[2024-07-16T08:53:58.349+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: sample_dag.read_from_mysql scheduled__2023-01-03T00:00:00+00:00 [queued]> dependency 'Task Instance State' PASSED: True, Task state queued was valid.
+[2024-07-16T08:53:58.350+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: sample_dag.read_from_mysql scheduled__2023-01-03T00:00:00+00:00 [queued]> dependency 'Trigger Rule' PASSED: True, The task instance did not have any upstream tasks.
+[2024-07-16T08:53:58.350+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sample_dag.read_from_mysql scheduled__2023-01-03T00:00:00+00:00 [queued]>
+[2024-07-16T08:53:58.350+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: sample_dag.read_from_mysql scheduled__2023-01-03T00:00:00+00:00 [queued]> dependency 'Task Concurrency' PASSED: True, Task concurrency is not set.
+[2024-07-16T08:53:58.351+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: sample_dag.read_from_mysql scheduled__2023-01-03T00:00:00+00:00 [queued]> dependency 'Previous Dagrun State' PASSED: True, The task did not have depends_on_past set.
+[2024-07-16T08:53:58.356+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: sample_dag.read_from_mysql scheduled__2023-01-03T00:00:00+00:00 [queued]> dependency 'Not In Retry Period' PASSED: True, The task instance was not marked for retrying.
+[2024-07-16T08:53:58.356+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: sample_dag.read_from_mysql scheduled__2023-01-03T00:00:00+00:00 [queued]> dependency 'Trigger Rule' PASSED: True, The task instance did not have any upstream tasks.
+[2024-07-16T08:53:58.361+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: sample_dag.read_from_mysql scheduled__2023-01-03T00:00:00+00:00 [queued]> dependency 'Pool Slots Available' PASSED: True, There are enough open slots in default_pool to execute the task
+[2024-07-16T08:53:58.361+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sample_dag.read_from_mysql scheduled__2023-01-03T00:00:00+00:00 [queued]>
+[2024-07-16T08:53:58.362+0000] {taskinstance.py:2193} INFO - Starting attempt 2 of 2
+[2024-07-16T08:53:58.380+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): read_from_mysql> on 2023-01-03 00:00:00+00:00
+[2024-07-16T08:53:58.391+0000] {standard_task_runner.py:60} INFO - Started process 199 to run task
+[2024-07-16T08:53:58.395+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'sample_dag', 'read_from_mysql', 'scheduled__2023-01-03T00:00:00+00:00', '--job-id', '1265', '--raw', '--subdir', 'DAGS_FOLDER/new.py', '--cfg-path', '/tmp/tmpaow00umo']
+[2024-07-16T08:53:58.398+0000] {standard_task_runner.py:88} INFO - Job 1265: Subtask read_from_mysql
+[2024-07-16T08:53:58.399+0000] {cli_action_loggers.py:67} DEBUG - Calling callbacks: [<function default_action_log at 0x710a46078ca0>]
+[2024-07-16T08:53:58.452+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-16T08:53:58.456+0000] {task_command.py:423} INFO - Running <TaskInstance: sample_dag.read_from_mysql scheduled__2023-01-03T00:00:00+00:00 [running]> on host 6dec4fd91ad6
+[2024-07-16T08:53:58.456+0000] {settings.py:386} DEBUG - Disposing DB connection pool (PID 199)
+[2024-07-16T08:53:58.457+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 199)
+[2024-07-16T08:53:58.457+0000] {settings.py:318} DEBUG - settings.prepare_engine_args(): Using NullPool
+[2024-07-16T08:53:58.497+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-16T08:53:58.498+0000] {taskinstance.py:1769} DEBUG - Clearing XCom data
+[2024-07-16T08:53:58.502+0000] {retries.py:93} DEBUG - Running RenderedTaskInstanceFields.write with retries. Try 1 of 3
+[2024-07-16T08:53:58.527+0000] {retries.py:93} DEBUG - Running RenderedTaskInstanceFields._do_delete_old_records with retries. Try 1 of 3
+[2024-07-16T08:53:58.538+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='sample_dag' AIRFLOW_CTX_TASK_ID='read_from_mysql' AIRFLOW_CTX_EXECUTION_DATE='2023-01-03T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-01-03T00:00:00+00:00'
+[2024-07-16T08:53:58.539+0000] {__init__.py:115} DEBUG - Preparing lineage inlets and outlets
+[2024-07-16T08:53:58.539+0000] {__init__.py:154} DEBUG - inlets: [], outlets: []
+[2024-07-16T08:53:58.547+0000] {base.py:83} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-16T08:53:58.555+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/new.py", line 8, in read_from_mysql
+    connection = mysql_hook.get_conn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/mysql/hooks/mysql.py", line 195, in get_conn
+    return MySQLdb.connect(**conn_config)
+  File "/home/airflow/.local/lib/python3.10/site-packages/MySQLdb/__init__.py", line 121, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/MySQLdb/connections.py", line 195, in __init__
+    super().__init__(*args, **kwargs2)
+MySQLdb.OperationalError: (2002, "Can't connect to server on '127.0.1.1' (115)")
+[2024-07-16T08:53:58.563+0000] {taskinstance.py:527} DEBUG - Task Duration set to 0.212812
+[2024-07-16T08:53:58.564+0000] {taskinstance.py:549} DEBUG - Clearing next_method and next_kwargs.
+[2024-07-16T08:53:58.565+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=sample_dag, task_id=read_from_mysql, execution_date=20230103T000000, start_date=20240716T085358, end_date=20240716T085358
+[2024-07-16T08:53:58.577+0000] {cli_action_loggers.py:85} DEBUG - Calling callbacks: []
+[2024-07-16T08:53:58.577+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 1265 for task read_from_mysql ((2002, "Can't connect to server on '127.0.1.1' (115)"); 199)
+[2024-07-16T08:53:58.607+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-07-16T08:53:58.623+0000] {dagrun.py:876} DEBUG - number of tis tasks for <DagRun sample_dag @ 2023-01-03 00:00:00+00:00: scheduled__2023-01-03T00:00:00+00:00, state:running, queued_at: 2024-07-16 08:48:54.958604+00:00. externally triggered: False>: 0 task(s)
+[2024-07-16T08:53:58.623+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

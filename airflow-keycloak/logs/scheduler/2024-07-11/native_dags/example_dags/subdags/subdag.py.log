@@ -1,0 +1,120 @@
+[2024-07-11T08:37:00.714+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.714+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 88)
+[2024-07-11T08:37:00.715+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.715+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=88
+[2024-07-11T08:37:00.717+0000] {processor.py:161} INFO - Started process (PID=88) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:37:00.717+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-07-11T08:37:00.718+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.718+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:37:00.719+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.719+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:37:00.720+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:37:00.732+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2024-07-11T08:37:31.777+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.777+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 148)
+[2024-07-11T08:37:31.778+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.778+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=148
+[2024-07-11T08:37:31.780+0000] {processor.py:161} INFO - Started process (PID=148) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:37:31.780+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-07-11T08:37:31.780+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.780+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:37:31.781+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.781+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:37:31.782+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:37:31.792+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.015 seconds
+[2024-07-11T08:38:02.161+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:02.160+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 204)
+[2024-07-11T08:38:02.161+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:02.161+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=204
+[2024-07-11T08:38:02.164+0000] {processor.py:161} INFO - Started process (PID=204) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:38:02.164+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-07-11T08:38:02.165+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:02.165+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:38:02.166+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:02.166+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:38:02.167+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:38:02.177+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.017 seconds
+[2024-07-11T08:38:32.363+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.363+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 260)
+[2024-07-11T08:38:32.364+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.364+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=260
+[2024-07-11T08:38:32.366+0000] {processor.py:161} INFO - Started process (PID=260) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:38:32.366+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-07-11T08:38:32.366+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.366+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:38:32.367+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.367+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:38:32.368+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:38:32.378+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.015 seconds
+[2024-07-11T08:39:02.743+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.742+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 316)
+[2024-07-11T08:39:02.743+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.743+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=316
+[2024-07-11T08:39:02.745+0000] {processor.py:161} INFO - Started process (PID=316) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:39:02.745+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-07-11T08:39:02.746+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.745+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:39:02.746+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.746+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:39:02.747+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:39:02.756+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.014 seconds
+[2024-07-11T08:39:32.999+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.998+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 372)
+[2024-07-11T08:39:32.999+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.999+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=372
+[2024-07-11T08:39:33.001+0000] {processor.py:161} INFO - Started process (PID=372) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:39:33.002+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-07-11T08:39:33.002+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:33.002+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:39:33.003+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:33.003+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:39:33.004+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:39:33.012+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.013 seconds
+[2024-07-11T08:40:03.307+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:03.306+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 428)
+[2024-07-11T08:40:03.307+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:03.307+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=428
+[2024-07-11T08:40:03.309+0000] {processor.py:161} INFO - Started process (PID=428) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:40:03.309+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-07-11T08:40:03.310+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:03.309+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:40:03.310+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:03.310+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:40:03.311+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:40:03.319+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.013 seconds
+[2024-07-11T08:41:14.539+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.539+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 88)
+[2024-07-11T08:41:14.540+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.540+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=88
+[2024-07-11T08:41:14.542+0000] {processor.py:161} INFO - Started process (PID=88) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:41:14.543+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-07-11T08:41:14.543+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.543+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:41:14.544+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.544+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:41:14.545+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:41:14.559+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.020 seconds
+[2024-07-11T08:41:46.479+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:46.479+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 142)
+[2024-07-11T08:41:46.480+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:46.480+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=142
+[2024-07-11T08:41:46.483+0000] {processor.py:161} INFO - Started process (PID=142) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:41:46.483+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-07-11T08:41:46.484+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:46.484+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:41:46.485+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:46.485+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:41:46.487+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:41:46.500+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.021 seconds
+[2024-07-11T08:42:17.058+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:17.057+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 206)
+[2024-07-11T08:42:17.058+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:17.058+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=206
+[2024-07-11T08:42:17.060+0000] {processor.py:161} INFO - Started process (PID=206) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:42:17.061+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-07-11T08:42:17.061+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:17.061+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:42:17.062+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:17.062+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:42:17.063+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:42:17.073+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.016 seconds
+[2024-07-11T08:42:47.218+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:47.218+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 260)
+[2024-07-11T08:42:47.219+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:47.219+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=260
+[2024-07-11T08:42:47.221+0000] {processor.py:161} INFO - Started process (PID=260) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:42:47.221+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-07-11T08:42:47.222+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:47.221+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:42:47.222+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:47.222+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:42:47.223+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:42:47.234+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.016 seconds
+[2024-07-11T08:43:17.414+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.414+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 316)
+[2024-07-11T08:43:17.415+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.415+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=316
+[2024-07-11T08:43:17.416+0000] {processor.py:161} INFO - Started process (PID=316) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:43:17.417+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-07-11T08:43:17.417+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.417+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:43:17.418+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.418+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:43:17.418+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:43:17.427+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.013 seconds
+[2024-07-11T08:43:47.790+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.789+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 372)
+[2024-07-11T08:43:47.791+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.790+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=372
+[2024-07-11T08:43:47.792+0000] {processor.py:161} INFO - Started process (PID=372) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:43:47.792+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-07-11T08:43:47.793+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.793+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:43:47.794+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.794+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:43:47.794+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:43:47.803+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.014 seconds
+[2024-07-11T08:44:18.185+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:18.185+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 428)
+[2024-07-11T08:44:18.186+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:18.186+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=428
+[2024-07-11T08:44:18.188+0000] {processor.py:161} INFO - Started process (PID=428) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:44:18.188+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-07-11T08:44:18.189+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:18.189+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:44:18.190+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:18.190+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:44:18.191+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:44:18.201+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.016 seconds
+[2024-07-11T08:44:48.475+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.475+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 484)
+[2024-07-11T08:44:48.476+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.476+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=484
+[2024-07-11T08:44:48.478+0000] {processor.py:161} INFO - Started process (PID=484) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:44:48.478+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-07-11T08:44:48.479+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.478+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:44:48.480+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.480+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:44:48.482+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-07-11T08:44:48.490+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.016 seconds

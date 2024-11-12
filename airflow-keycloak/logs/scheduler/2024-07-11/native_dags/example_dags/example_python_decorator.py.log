@@ -1,0 +1,227 @@
+[2024-07-11T08:36:58.654+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.653+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 52)
+[2024-07-11T08:36:58.655+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.655+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=52
+[2024-07-11T08:36:58.657+0000] {processor.py:161} INFO - Started process (PID=52) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:36:58.657+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-07-11T08:36:58.658+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.658+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:36:58.659+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.659+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:36:58.670+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.669+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_python_decorator>
+[2024-07-11T08:36:58.670+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:36:58.671+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.671+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:36:58.671+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.671+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:36:58.680+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.680+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:36:58.691+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.691+0000] {dag.py:3834} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-07-11T08:36:58.712+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.058 seconds
+[2024-07-11T08:37:29.076+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.075+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 108)
+[2024-07-11T08:37:29.076+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.076+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=108
+[2024-07-11T08:37:29.078+0000] {processor.py:161} INFO - Started process (PID=108) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:37:29.079+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-07-11T08:37:29.079+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.079+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:37:29.080+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.080+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:37:29.089+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.089+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_python_decorator>
+[2024-07-11T08:37:29.090+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:37:29.090+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.090+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:37:29.091+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.091+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:37:29.098+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.098+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_python_decorator) changed
+[2024-07-11T08:37:29.106+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.106+0000] {serialized_dag.py:179} DEBUG - Writing Serialized DAG: example_python_decorator to the DB
+[2024-07-11T08:37:29.109+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.108+0000] {serialized_dag.py:181} DEBUG - DAG: example_python_decorator written to the DB
+[2024-07-11T08:37:29.109+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.109+0000] {dagbag.py:696} DEBUG - Syncing DAG permissions: example_python_decorator to the DB
+[2024-07-11T08:37:29.168+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.168+0000] {override.py:1034} DEBUG - Not syncing DAG-level permissions for DAG 'DAG:example_python_decorator' as access control is unset.
+[2024-07-11T08:37:29.168+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.168+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:37:29.176+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.176+0000] {dag.py:3834} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-07-11T08:37:29.194+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.119 seconds
+[2024-07-11T08:37:59.835+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:59.835+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 164)
+[2024-07-11T08:37:59.836+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:59.836+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=164
+[2024-07-11T08:37:59.838+0000] {processor.py:161} INFO - Started process (PID=164) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:37:59.838+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-07-11T08:37:59.838+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:59.838+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:37:59.839+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:59.839+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:37:59.848+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:59.847+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_python_decorator>
+[2024-07-11T08:37:59.848+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:37:59.849+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:59.849+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:37:59.849+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:59.849+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:37:59.857+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:59.856+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_python_decorator) changed
+[2024-07-11T08:37:59.864+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:59.864+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_python_decorator) is unchanged. Skipping writing to DB
+[2024-07-11T08:37:59.864+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:59.864+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:37:59.872+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:59.872+0000] {dag.py:3834} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-07-11T08:37:59.884+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.049 seconds
+[2024-07-11T08:38:30.011+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.010+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 220)
+[2024-07-11T08:38:30.012+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.012+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=220
+[2024-07-11T08:38:30.015+0000] {processor.py:161} INFO - Started process (PID=220) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:38:30.015+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-07-11T08:38:30.016+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.016+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:38:30.017+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.016+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:38:30.028+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.027+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_python_decorator>
+[2024-07-11T08:38:30.028+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:38:30.029+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.029+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:38:30.030+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.030+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:38:30.040+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.039+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_python_decorator) changed
+[2024-07-11T08:38:30.050+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.049+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_python_decorator) is unchanged. Skipping writing to DB
+[2024-07-11T08:38:30.050+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.050+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:38:30.061+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.061+0000] {dag.py:3834} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-07-11T08:38:30.082+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.072 seconds
+[2024-07-11T08:39:00.258+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.257+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 276)
+[2024-07-11T08:39:00.258+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.258+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=276
+[2024-07-11T08:39:00.261+0000] {processor.py:161} INFO - Started process (PID=276) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:39:00.262+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-07-11T08:39:00.263+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.262+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:39:00.264+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.264+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:39:00.281+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.280+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_python_decorator>
+[2024-07-11T08:39:00.281+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:39:00.282+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.282+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:39:00.282+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.282+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:39:00.294+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.294+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_python_decorator) changed
+[2024-07-11T08:39:00.304+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.303+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_python_decorator) is unchanged. Skipping writing to DB
+[2024-07-11T08:39:00.304+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.304+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:39:00.315+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.315+0000] {dag.py:3834} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-07-11T08:39:00.334+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.077 seconds
+[2024-07-11T08:39:30.522+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.522+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 332)
+[2024-07-11T08:39:30.523+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.523+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=332
+[2024-07-11T08:39:30.525+0000] {processor.py:161} INFO - Started process (PID=332) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:39:30.525+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-07-11T08:39:30.526+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.526+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:39:30.527+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.527+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:39:30.543+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.542+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_python_decorator>
+[2024-07-11T08:39:30.543+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:39:30.544+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.544+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:39:30.545+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.544+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:39:30.554+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.554+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_python_decorator) changed
+[2024-07-11T08:39:30.562+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.562+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_python_decorator) is unchanged. Skipping writing to DB
+[2024-07-11T08:39:30.563+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.563+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:39:30.572+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.572+0000] {dag.py:3834} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-07-11T08:39:30.587+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.066 seconds
+[2024-07-11T08:40:00.812+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:00.811+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 388)
+[2024-07-11T08:40:00.812+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:00.812+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=388
+[2024-07-11T08:40:00.814+0000] {processor.py:161} INFO - Started process (PID=388) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:40:00.814+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-07-11T08:40:00.815+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:00.815+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:40:00.815+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:00.815+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:40:00.824+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:00.824+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_python_decorator>
+[2024-07-11T08:40:00.824+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:40:00.825+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:00.825+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:40:00.825+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:00.825+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:40:00.833+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:00.833+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_python_decorator) changed
+[2024-07-11T08:40:00.840+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:00.839+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_python_decorator) is unchanged. Skipping writing to DB
+[2024-07-11T08:40:00.840+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:00.840+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:40:00.848+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:00.848+0000] {dag.py:3834} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-07-11T08:40:00.862+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.051 seconds
+[2024-07-11T08:41:12.709+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.709+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 52)
+[2024-07-11T08:41:12.710+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.710+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=52
+[2024-07-11T08:41:12.712+0000] {processor.py:161} INFO - Started process (PID=52) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:41:12.712+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-07-11T08:41:12.713+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.713+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:41:12.714+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.714+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:41:12.725+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.724+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_python_decorator>
+[2024-07-11T08:41:12.725+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:41:12.726+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.726+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:41:12.726+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.726+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:41:12.734+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.734+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:41:12.745+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.745+0000] {dag.py:3834} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-07-11T08:41:12.764+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.056 seconds
+[2024-07-11T08:41:43.760+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:43.759+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 108)
+[2024-07-11T08:41:43.760+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:43.760+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=108
+[2024-07-11T08:41:43.762+0000] {processor.py:161} INFO - Started process (PID=108) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:41:43.763+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-07-11T08:41:43.763+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:43.763+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:41:43.764+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:43.764+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:41:43.773+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:43.772+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_python_decorator>
+[2024-07-11T08:41:43.773+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:41:43.774+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:43.774+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:41:43.774+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:43.774+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:41:43.781+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:43.781+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_python_decorator) changed
+[2024-07-11T08:41:43.789+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:43.789+0000] {serialized_dag.py:179} DEBUG - Writing Serialized DAG: example_python_decorator to the DB
+[2024-07-11T08:41:43.792+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:43.792+0000] {serialized_dag.py:181} DEBUG - DAG: example_python_decorator written to the DB
+[2024-07-11T08:41:43.792+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:43.792+0000] {dagbag.py:696} DEBUG - Syncing DAG permissions: example_python_decorator to the DB
+[2024-07-11T08:41:43.851+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:43.851+0000] {override.py:1034} DEBUG - Not syncing DAG-level permissions for DAG 'DAG:example_python_decorator' as access control is unset.
+[2024-07-11T08:41:43.851+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:43.851+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:41:43.859+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:43.858+0000] {dag.py:3834} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-07-11T08:41:43.872+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.113 seconds
+[2024-07-11T08:42:14.674+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.673+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 164)
+[2024-07-11T08:42:14.675+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.675+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=164
+[2024-07-11T08:42:14.677+0000] {processor.py:161} INFO - Started process (PID=164) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:42:14.677+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-07-11T08:42:14.678+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.678+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:42:14.679+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.678+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:42:14.688+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.687+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_python_decorator>
+[2024-07-11T08:42:14.688+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:42:14.689+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.689+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:42:14.689+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.689+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:42:14.696+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.696+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_python_decorator) changed
+[2024-07-11T08:42:14.703+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.703+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_python_decorator) is unchanged. Skipping writing to DB
+[2024-07-11T08:42:14.703+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.703+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:42:14.711+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.711+0000] {dag.py:3834} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-07-11T08:42:14.724+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.051 seconds
+[2024-07-11T08:42:44.853+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:44.853+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 220)
+[2024-07-11T08:42:44.854+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:44.854+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=220
+[2024-07-11T08:42:44.856+0000] {processor.py:161} INFO - Started process (PID=220) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:42:44.856+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-07-11T08:42:44.857+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:44.857+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:42:44.858+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:44.857+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:42:44.866+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:44.866+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_python_decorator>
+[2024-07-11T08:42:44.867+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:42:44.867+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:44.867+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:42:44.867+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:44.867+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:42:44.875+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:44.874+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_python_decorator) changed
+[2024-07-11T08:42:44.882+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:44.882+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_python_decorator) is unchanged. Skipping writing to DB
+[2024-07-11T08:42:44.882+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:44.882+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:42:44.891+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:44.891+0000] {dag.py:3834} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-07-11T08:42:44.903+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.050 seconds
+[2024-07-11T08:43:15.097+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.096+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 276)
+[2024-07-11T08:43:15.098+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.098+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=276
+[2024-07-11T08:43:15.102+0000] {processor.py:161} INFO - Started process (PID=276) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:43:15.103+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-07-11T08:43:15.104+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.103+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:43:15.105+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.105+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:43:15.117+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.116+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_python_decorator>
+[2024-07-11T08:43:15.117+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:43:15.118+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.118+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:43:15.119+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.118+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:43:15.127+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.127+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_python_decorator) changed
+[2024-07-11T08:43:15.135+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.135+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_python_decorator) is unchanged. Skipping writing to DB
+[2024-07-11T08:43:15.136+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.136+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:43:15.147+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.146+0000] {dag.py:3834} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-07-11T08:43:15.166+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.070 seconds
+[2024-07-11T08:43:45.268+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.267+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 332)
+[2024-07-11T08:43:45.268+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.268+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=332
+[2024-07-11T08:43:45.270+0000] {processor.py:161} INFO - Started process (PID=332) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:43:45.271+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-07-11T08:43:45.271+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.271+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:43:45.272+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.272+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:43:45.284+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.283+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_python_decorator>
+[2024-07-11T08:43:45.284+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:43:45.285+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.284+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:43:45.285+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.285+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:43:45.292+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.292+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_python_decorator) changed
+[2024-07-11T08:43:45.299+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.299+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_python_decorator) is unchanged. Skipping writing to DB
+[2024-07-11T08:43:45.299+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.299+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:43:45.308+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.307+0000] {dag.py:3834} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-07-11T08:43:45.320+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.053 seconds
+[2024-07-11T08:44:15.705+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.705+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 388)
+[2024-07-11T08:44:15.706+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.706+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=388
+[2024-07-11T08:44:15.708+0000] {processor.py:161} INFO - Started process (PID=388) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:44:15.708+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-07-11T08:44:15.708+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.708+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:44:15.709+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.709+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:44:15.721+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.720+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_python_decorator>
+[2024-07-11T08:44:15.721+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:44:15.722+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.722+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:44:15.722+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.722+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:44:15.730+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.730+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_python_decorator) changed
+[2024-07-11T08:44:15.738+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.737+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_python_decorator) is unchanged. Skipping writing to DB
+[2024-07-11T08:44:15.738+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.738+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:44:15.748+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.748+0000] {dag.py:3834} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-07-11T08:44:15.762+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.057 seconds
+[2024-07-11T08:44:46.077+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.076+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 444)
+[2024-07-11T08:44:46.078+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.078+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=444
+[2024-07-11T08:44:46.080+0000] {processor.py:161} INFO - Started process (PID=444) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:44:46.080+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-07-11T08:44:46.081+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.080+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:44:46.082+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.081+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:44:46.102+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.100+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_python_decorator>
+[2024-07-11T08:44:46.102+0000] {processor.py:840} INFO - DAG(s) 'example_python_decorator' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-07-11T08:44:46.103+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.103+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:44:46.104+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.103+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:44:46.116+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.115+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_python_decorator) changed
+[2024-07-11T08:44:46.129+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.128+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_python_decorator) is unchanged. Skipping writing to DB
+[2024-07-11T08:44:46.130+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.129+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:44:46.143+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.143+0000] {dag.py:3834} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-07-11T08:44:46.157+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_python_decorator.py took 0.081 seconds

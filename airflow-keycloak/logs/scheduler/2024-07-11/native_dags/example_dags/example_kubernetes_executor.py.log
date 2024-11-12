@@ -1,0 +1,227 @@
+[2024-07-11T08:36:59.459+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.458+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 67)
+[2024-07-11T08:36:59.459+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.459+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=67
+[2024-07-11T08:36:59.462+0000] {processor.py:161} INFO - Started process (PID=67) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:36:59.462+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2024-07-11T08:36:59.462+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.462+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:36:59.463+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.463+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:36:59.476+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.476+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_kubernetes_executor>
+[2024-07-11T08:36:59.477+0000] {processor.py:840} INFO - DAG(s) 'example_kubernetes_executor' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:36:59.478+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.477+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:36:59.478+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.478+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:36:59.487+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.487+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:36:59.499+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.499+0000] {dag.py:3834} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
+[2024-07-11T08:36:59.517+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.059 seconds
+[2024-07-11T08:37:30.243+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.242+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 123)
+[2024-07-11T08:37:30.243+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.243+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=123
+[2024-07-11T08:37:30.245+0000] {processor.py:161} INFO - Started process (PID=123) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:37:30.245+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2024-07-11T08:37:30.246+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.246+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:37:30.247+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.247+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:37:30.256+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.256+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_kubernetes_executor>
+[2024-07-11T08:37:30.257+0000] {processor.py:840} INFO - DAG(s) 'example_kubernetes_executor' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:37:30.257+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.257+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:37:30.258+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.258+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:37:30.265+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.265+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_kubernetes_executor) changed
+[2024-07-11T08:37:30.289+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.288+0000] {serialized_dag.py:179} DEBUG - Writing Serialized DAG: example_kubernetes_executor to the DB
+[2024-07-11T08:37:30.291+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.291+0000] {serialized_dag.py:181} DEBUG - DAG: example_kubernetes_executor written to the DB
+[2024-07-11T08:37:30.291+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.291+0000] {dagbag.py:696} DEBUG - Syncing DAG permissions: example_kubernetes_executor to the DB
+[2024-07-11T08:37:30.348+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.348+0000] {override.py:1034} DEBUG - Not syncing DAG-level permissions for DAG 'DAG:example_kubernetes_executor' as access control is unset.
+[2024-07-11T08:37:30.349+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.348+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:37:30.356+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.356+0000] {dag.py:3834} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
+[2024-07-11T08:37:30.369+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.127 seconds
+[2024-07-11T08:38:00.437+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.436+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 179)
+[2024-07-11T08:38:00.438+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.438+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=179
+[2024-07-11T08:38:00.440+0000] {processor.py:161} INFO - Started process (PID=179) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:38:00.440+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2024-07-11T08:38:00.441+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.441+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:38:00.442+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.442+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:38:00.454+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.453+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_kubernetes_executor>
+[2024-07-11T08:38:00.454+0000] {processor.py:840} INFO - DAG(s) 'example_kubernetes_executor' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:38:00.455+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.455+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:38:00.455+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.455+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:38:00.464+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.463+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_kubernetes_executor) changed
+[2024-07-11T08:38:00.486+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.486+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_kubernetes_executor) is unchanged. Skipping writing to DB
+[2024-07-11T08:38:00.487+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.487+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:38:00.497+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.497+0000] {dag.py:3834} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
+[2024-07-11T08:38:00.513+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.077 seconds
+[2024-07-11T08:38:30.640+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.640+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 235)
+[2024-07-11T08:38:30.641+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.641+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=235
+[2024-07-11T08:38:30.643+0000] {processor.py:161} INFO - Started process (PID=235) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:38:30.643+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2024-07-11T08:38:30.644+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.644+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:38:30.645+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.645+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:38:30.656+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.655+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_kubernetes_executor>
+[2024-07-11T08:38:30.656+0000] {processor.py:840} INFO - DAG(s) 'example_kubernetes_executor' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:38:30.657+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.657+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:38:30.657+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.657+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:38:30.666+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.666+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_kubernetes_executor) changed
+[2024-07-11T08:38:30.686+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.686+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_kubernetes_executor) is unchanged. Skipping writing to DB
+[2024-07-11T08:38:30.686+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.686+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:38:30.697+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.697+0000] {dag.py:3834} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
+[2024-07-11T08:38:30.710+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.070 seconds
+[2024-07-11T08:39:00.993+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.992+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 291)
+[2024-07-11T08:39:00.993+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.993+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=291
+[2024-07-11T08:39:00.995+0000] {processor.py:161} INFO - Started process (PID=291) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:39:00.996+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2024-07-11T08:39:00.996+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.996+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:39:00.997+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.997+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:39:01.010+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:01.009+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_kubernetes_executor>
+[2024-07-11T08:39:01.010+0000] {processor.py:840} INFO - DAG(s) 'example_kubernetes_executor' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:39:01.012+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:01.011+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:39:01.012+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:01.012+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:39:01.023+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:01.022+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_kubernetes_executor) changed
+[2024-07-11T08:39:01.044+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:01.044+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_kubernetes_executor) is unchanged. Skipping writing to DB
+[2024-07-11T08:39:01.045+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:01.045+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:39:01.056+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:01.056+0000] {dag.py:3834} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
+[2024-07-11T08:39:01.073+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.081 seconds
+[2024-07-11T08:39:31.287+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:31.286+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 347)
+[2024-07-11T08:39:31.287+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:31.287+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=347
+[2024-07-11T08:39:31.289+0000] {processor.py:161} INFO - Started process (PID=347) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:39:31.289+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2024-07-11T08:39:31.290+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:31.290+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:39:31.290+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:31.290+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:39:31.300+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:31.299+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_kubernetes_executor>
+[2024-07-11T08:39:31.300+0000] {processor.py:840} INFO - DAG(s) 'example_kubernetes_executor' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:39:31.300+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:31.300+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:39:31.301+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:31.301+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:39:31.308+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:31.308+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_kubernetes_executor) changed
+[2024-07-11T08:39:31.325+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:31.325+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_kubernetes_executor) is unchanged. Skipping writing to DB
+[2024-07-11T08:39:31.325+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:31.325+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:39:31.333+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:31.333+0000] {dag.py:3834} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
+[2024-07-11T08:39:31.346+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.060 seconds
+[2024-07-11T08:40:01.504+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.504+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 403)
+[2024-07-11T08:40:01.505+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.505+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=403
+[2024-07-11T08:40:01.507+0000] {processor.py:161} INFO - Started process (PID=403) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:40:01.507+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2024-07-11T08:40:01.508+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.508+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:40:01.509+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.509+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:40:01.520+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.519+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_kubernetes_executor>
+[2024-07-11T08:40:01.520+0000] {processor.py:840} INFO - DAG(s) 'example_kubernetes_executor' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:40:01.521+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.521+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:40:01.521+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.521+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:40:01.529+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.529+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_kubernetes_executor) changed
+[2024-07-11T08:40:01.551+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.550+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_kubernetes_executor) is unchanged. Skipping writing to DB
+[2024-07-11T08:40:01.551+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.551+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:40:01.561+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.561+0000] {dag.py:3834} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
+[2024-07-11T08:40:01.578+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.074 seconds
+[2024-07-11T08:41:13.408+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.407+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 67)
+[2024-07-11T08:41:13.409+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.409+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=67
+[2024-07-11T08:41:13.411+0000] {processor.py:161} INFO - Started process (PID=67) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:41:13.411+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2024-07-11T08:41:13.412+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.411+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:41:13.413+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.412+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:41:13.426+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.425+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_kubernetes_executor>
+[2024-07-11T08:41:13.426+0000] {processor.py:840} INFO - DAG(s) 'example_kubernetes_executor' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:41:13.427+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.427+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:41:13.427+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.427+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:41:13.439+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.438+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:41:13.458+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.457+0000] {dag.py:3834} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
+[2024-07-11T08:41:13.485+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.078 seconds
+[2024-07-11T08:41:44.993+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.992+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 123)
+[2024-07-11T08:41:44.993+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.993+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=123
+[2024-07-11T08:41:44.995+0000] {processor.py:161} INFO - Started process (PID=123) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:41:44.996+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2024-07-11T08:41:44.996+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.996+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:41:44.997+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.997+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:41:45.008+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.007+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_kubernetes_executor>
+[2024-07-11T08:41:45.008+0000] {processor.py:840} INFO - DAG(s) 'example_kubernetes_executor' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:41:45.009+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.009+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:41:45.009+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.009+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:41:45.018+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.017+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_kubernetes_executor) changed
+[2024-07-11T08:41:45.042+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.042+0000] {serialized_dag.py:179} DEBUG - Writing Serialized DAG: example_kubernetes_executor to the DB
+[2024-07-11T08:41:45.046+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.046+0000] {serialized_dag.py:181} DEBUG - DAG: example_kubernetes_executor written to the DB
+[2024-07-11T08:41:45.046+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.046+0000] {dagbag.py:696} DEBUG - Syncing DAG permissions: example_kubernetes_executor to the DB
+[2024-07-11T08:41:45.125+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.125+0000] {override.py:1034} DEBUG - Not syncing DAG-level permissions for DAG 'DAG:example_kubernetes_executor' as access control is unset.
+[2024-07-11T08:41:45.125+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.125+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:41:45.134+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.133+0000] {dag.py:3834} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
+[2024-07-11T08:41:45.151+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.159 seconds
+[2024-07-11T08:42:15.220+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:15.220+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 179)
+[2024-07-11T08:42:15.221+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:15.221+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=179
+[2024-07-11T08:42:15.222+0000] {processor.py:161} INFO - Started process (PID=179) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:42:15.223+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2024-07-11T08:42:15.223+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:15.223+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:42:15.224+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:15.224+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:42:15.234+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:15.233+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_kubernetes_executor>
+[2024-07-11T08:42:15.234+0000] {processor.py:840} INFO - DAG(s) 'example_kubernetes_executor' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:42:15.235+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:15.235+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:42:15.235+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:15.235+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:42:15.243+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:15.243+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_kubernetes_executor) changed
+[2024-07-11T08:42:15.262+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:15.262+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_kubernetes_executor) is unchanged. Skipping writing to DB
+[2024-07-11T08:42:15.262+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:15.262+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:42:15.271+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:15.271+0000] {dag.py:3834} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
+[2024-07-11T08:42:15.283+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.063 seconds
+[2024-07-11T08:42:45.443+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.443+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 235)
+[2024-07-11T08:42:45.444+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.444+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=235
+[2024-07-11T08:42:45.446+0000] {processor.py:161} INFO - Started process (PID=235) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:42:45.446+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2024-07-11T08:42:45.446+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.446+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:42:45.447+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.447+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:42:45.457+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.456+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_kubernetes_executor>
+[2024-07-11T08:42:45.457+0000] {processor.py:840} INFO - DAG(s) 'example_kubernetes_executor' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:42:45.458+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.458+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:42:45.458+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.458+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:42:45.465+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.465+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_kubernetes_executor) changed
+[2024-07-11T08:42:45.486+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.485+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_kubernetes_executor) is unchanged. Skipping writing to DB
+[2024-07-11T08:42:45.486+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.486+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:42:45.495+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.495+0000] {dag.py:3834} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
+[2024-07-11T08:42:45.507+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.064 seconds
+[2024-07-11T08:43:15.729+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.728+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 291)
+[2024-07-11T08:43:15.729+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.729+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=291
+[2024-07-11T08:43:15.731+0000] {processor.py:161} INFO - Started process (PID=291) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:43:15.732+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2024-07-11T08:43:15.732+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.732+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:43:15.733+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.733+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:43:15.746+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.745+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_kubernetes_executor>
+[2024-07-11T08:43:15.746+0000] {processor.py:840} INFO - DAG(s) 'example_kubernetes_executor' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:43:15.747+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.747+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:43:15.747+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.747+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:43:15.756+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.756+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_kubernetes_executor) changed
+[2024-07-11T08:43:15.777+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.777+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_kubernetes_executor) is unchanged. Skipping writing to DB
+[2024-07-11T08:43:15.777+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.777+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:43:15.793+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.792+0000] {dag.py:3834} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
+[2024-07-11T08:43:15.817+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.089 seconds
+[2024-07-11T08:43:45.898+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.898+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 347)
+[2024-07-11T08:43:45.899+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.899+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=347
+[2024-07-11T08:43:45.901+0000] {processor.py:161} INFO - Started process (PID=347) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:43:45.901+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2024-07-11T08:43:45.902+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.901+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:43:45.902+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.902+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:43:45.912+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.911+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_kubernetes_executor>
+[2024-07-11T08:43:45.912+0000] {processor.py:840} INFO - DAG(s) 'example_kubernetes_executor' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:43:45.912+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.912+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:43:45.913+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.913+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:43:45.920+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.920+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_kubernetes_executor) changed
+[2024-07-11T08:43:45.939+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.938+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_kubernetes_executor) is unchanged. Skipping writing to DB
+[2024-07-11T08:43:45.939+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.939+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:43:45.948+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.947+0000] {dag.py:3834} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
+[2024-07-11T08:43:45.962+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.064 seconds
+[2024-07-11T08:44:16.437+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:16.436+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 403)
+[2024-07-11T08:44:16.437+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:16.437+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=403
+[2024-07-11T08:44:16.439+0000] {processor.py:161} INFO - Started process (PID=403) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:44:16.440+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2024-07-11T08:44:16.440+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:16.440+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:44:16.441+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:16.441+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:44:16.451+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:16.450+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_kubernetes_executor>
+[2024-07-11T08:44:16.451+0000] {processor.py:840} INFO - DAG(s) 'example_kubernetes_executor' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:44:16.452+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:16.452+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:44:16.452+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:16.452+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:44:16.459+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:16.459+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_kubernetes_executor) changed
+[2024-07-11T08:44:16.476+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:16.476+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_kubernetes_executor) is unchanged. Skipping writing to DB
+[2024-07-11T08:44:16.477+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:16.477+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:44:16.485+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:16.485+0000] {dag.py:3834} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
+[2024-07-11T08:44:16.498+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.062 seconds
+[2024-07-11T08:44:46.700+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.699+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 459)
+[2024-07-11T08:44:46.700+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.700+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=459
+[2024-07-11T08:44:46.703+0000] {processor.py:161} INFO - Started process (PID=459) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:44:46.703+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py for tasks to queue
+[2024-07-11T08:44:46.703+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.703+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:44:46.704+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.704+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:44:46.715+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.714+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_kubernetes_executor>
+[2024-07-11T08:44:46.715+0000] {processor.py:840} INFO - DAG(s) 'example_kubernetes_executor' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py
+[2024-07-11T08:44:46.716+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.716+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:44:46.716+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.716+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:44:46.725+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.725+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_kubernetes_executor) changed
+[2024-07-11T08:44:46.745+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.745+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_kubernetes_executor) is unchanged. Skipping writing to DB
+[2024-07-11T08:44:46.746+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.746+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:44:46.756+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.756+0000] {dag.py:3834} INFO - Setting next_dagrun for example_kubernetes_executor to None, run_after=None
+[2024-07-11T08:44:46.771+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_kubernetes_executor.py took 0.072 seconds

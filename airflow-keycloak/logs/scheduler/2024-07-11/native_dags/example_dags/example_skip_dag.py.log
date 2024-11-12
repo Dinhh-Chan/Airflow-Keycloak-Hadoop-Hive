@@ -1,0 +1,227 @@
+[2024-07-11T08:37:00.452+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.452+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 81)
+[2024-07-11T08:37:00.453+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.453+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=81
+[2024-07-11T08:37:00.456+0000] {processor.py:161} INFO - Started process (PID=81) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:37:00.456+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-07-11T08:37:00.458+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.458+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:37:00.459+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.459+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:37:00.467+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.467+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_skip_dag>
+[2024-07-11T08:37:00.467+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:37:00.468+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.468+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:37:00.468+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.468+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:37:00.479+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.478+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:37:00.505+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.505+0000] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:37:00.532+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.080 seconds
+[2024-07-11T08:37:31.442+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.441+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 143)
+[2024-07-11T08:37:31.442+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.442+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=143
+[2024-07-11T08:37:31.444+0000] {processor.py:161} INFO - Started process (PID=143) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:37:31.444+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-07-11T08:37:31.445+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.445+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:37:31.446+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.446+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:37:31.451+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.451+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_skip_dag>
+[2024-07-11T08:37:31.451+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:37:31.452+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.452+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:37:31.452+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.452+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:37:31.460+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.460+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_skip_dag) changed
+[2024-07-11T08:37:31.467+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.467+0000] {serialized_dag.py:179} DEBUG - Writing Serialized DAG: example_skip_dag to the DB
+[2024-07-11T08:37:31.470+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.470+0000] {serialized_dag.py:181} DEBUG - DAG: example_skip_dag written to the DB
+[2024-07-11T08:37:31.470+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.470+0000] {dagbag.py:696} DEBUG - Syncing DAG permissions: example_skip_dag to the DB
+[2024-07-11T08:37:31.535+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.534+0000] {override.py:1034} DEBUG - Not syncing DAG-level permissions for DAG 'DAG:example_skip_dag' as access control is unset.
+[2024-07-11T08:37:31.535+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.535+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:37:31.561+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.560+0000] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:37:31.589+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.148 seconds
+[2024-07-11T08:38:02.018+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:02.018+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 199)
+[2024-07-11T08:38:02.019+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:02.019+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=199
+[2024-07-11T08:38:02.021+0000] {processor.py:161} INFO - Started process (PID=199) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:38:02.021+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-07-11T08:38:02.022+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:02.021+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:38:02.022+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:02.022+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:38:02.027+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:02.026+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_skip_dag>
+[2024-07-11T08:38:02.027+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:38:02.027+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:02.027+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:38:02.028+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:02.028+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:38:02.035+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:02.035+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_skip_dag) changed
+[2024-07-11T08:38:02.042+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:02.042+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_skip_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:38:02.042+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:02.042+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:38:02.057+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:02.057+0000] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:38:02.070+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.052 seconds
+[2024-07-11T08:38:32.213+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.212+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 255)
+[2024-07-11T08:38:32.213+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.213+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=255
+[2024-07-11T08:38:32.215+0000] {processor.py:161} INFO - Started process (PID=255) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:38:32.215+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-07-11T08:38:32.216+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.216+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:38:32.217+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.217+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:38:32.221+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.221+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_skip_dag>
+[2024-07-11T08:38:32.221+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:38:32.222+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.222+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:38:32.222+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.222+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:38:32.230+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.230+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_skip_dag) changed
+[2024-07-11T08:38:32.237+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.237+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_skip_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:38:32.237+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.237+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:38:32.254+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.253+0000] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:38:32.266+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.054 seconds
+[2024-07-11T08:39:02.562+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.562+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 311)
+[2024-07-11T08:39:02.563+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.563+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=311
+[2024-07-11T08:39:02.565+0000] {processor.py:161} INFO - Started process (PID=311) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:39:02.565+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-07-11T08:39:02.566+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.566+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:39:02.567+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.566+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:39:02.572+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.571+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_skip_dag>
+[2024-07-11T08:39:02.572+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:39:02.573+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.572+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:39:02.573+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.573+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:39:02.582+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.581+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_skip_dag) changed
+[2024-07-11T08:39:02.589+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.589+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_skip_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:39:02.589+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.589+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:39:02.607+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.607+0000] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:39:02.621+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.059 seconds
+[2024-07-11T08:39:32.843+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.842+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 367)
+[2024-07-11T08:39:32.844+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.843+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=367
+[2024-07-11T08:39:32.845+0000] {processor.py:161} INFO - Started process (PID=367) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:39:32.846+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-07-11T08:39:32.846+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.846+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:39:32.847+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.847+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:39:32.851+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.851+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_skip_dag>
+[2024-07-11T08:39:32.852+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:39:32.852+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.852+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:39:32.852+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.852+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:39:32.860+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.860+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_skip_dag) changed
+[2024-07-11T08:39:32.867+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.867+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_skip_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:39:32.867+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.867+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:39:32.883+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.883+0000] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:39:32.899+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.056 seconds
+[2024-07-11T08:40:03.115+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:03.114+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 423)
+[2024-07-11T08:40:03.115+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:03.115+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=423
+[2024-07-11T08:40:03.117+0000] {processor.py:161} INFO - Started process (PID=423) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:40:03.117+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-07-11T08:40:03.118+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:03.118+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:40:03.119+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:03.119+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:40:03.123+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:03.123+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_skip_dag>
+[2024-07-11T08:40:03.123+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:40:03.124+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:03.124+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:40:03.124+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:03.124+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:40:03.132+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:03.131+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_skip_dag) changed
+[2024-07-11T08:40:03.139+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:03.138+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_skip_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:40:03.139+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:03.139+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:40:03.155+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:03.155+0000] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:40:03.168+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.053 seconds
+[2024-07-11T08:41:14.291+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.291+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 81)
+[2024-07-11T08:41:14.293+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.292+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=81
+[2024-07-11T08:41:14.295+0000] {processor.py:161} INFO - Started process (PID=81) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:41:14.295+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-07-11T08:41:14.296+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.295+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:41:14.296+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.296+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:41:14.303+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.302+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_skip_dag>
+[2024-07-11T08:41:14.303+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:41:14.304+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.303+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:41:14.304+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.304+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:41:14.312+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.312+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:41:14.332+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.332+0000] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:41:14.348+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.057 seconds
+[2024-07-11T08:41:46.083+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:46.083+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 137)
+[2024-07-11T08:41:46.084+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:46.084+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=137
+[2024-07-11T08:41:46.086+0000] {processor.py:161} INFO - Started process (PID=137) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:41:46.087+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-07-11T08:41:46.088+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:46.087+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:41:46.089+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:46.089+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:41:46.096+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:46.095+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_skip_dag>
+[2024-07-11T08:41:46.096+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:41:46.097+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:46.097+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:41:46.097+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:46.097+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:41:46.108+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:46.108+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_skip_dag) changed
+[2024-07-11T08:41:46.118+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:46.117+0000] {serialized_dag.py:179} DEBUG - Writing Serialized DAG: example_skip_dag to the DB
+[2024-07-11T08:41:46.121+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:46.121+0000] {serialized_dag.py:181} DEBUG - DAG: example_skip_dag written to the DB
+[2024-07-11T08:41:46.122+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:46.122+0000] {dagbag.py:696} DEBUG - Syncing DAG permissions: example_skip_dag to the DB
+[2024-07-11T08:41:46.205+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:46.205+0000] {override.py:1034} DEBUG - Not syncing DAG-level permissions for DAG 'DAG:example_skip_dag' as access control is unset.
+[2024-07-11T08:41:46.206+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:46.206+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:41:46.233+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:46.233+0000] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:41:46.252+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.169 seconds
+[2024-07-11T08:42:16.849+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.848+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 199)
+[2024-07-11T08:42:16.849+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.849+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=199
+[2024-07-11T08:42:16.852+0000] {processor.py:161} INFO - Started process (PID=199) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:42:16.852+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-07-11T08:42:16.852+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.852+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:42:16.853+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.853+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:42:16.858+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.858+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_skip_dag>
+[2024-07-11T08:42:16.858+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:42:16.859+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.859+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:42:16.859+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.859+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:42:16.868+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.868+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_skip_dag) changed
+[2024-07-11T08:42:16.880+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.879+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_skip_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:42:16.880+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.880+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:42:16.901+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.901+0000] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:42:16.914+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.066 seconds
+[2024-07-11T08:42:47.084+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:47.083+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 255)
+[2024-07-11T08:42:47.085+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:47.085+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=255
+[2024-07-11T08:42:47.087+0000] {processor.py:161} INFO - Started process (PID=255) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:42:47.087+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-07-11T08:42:47.087+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:47.087+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:42:47.088+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:47.088+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:42:47.092+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:47.092+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_skip_dag>
+[2024-07-11T08:42:47.093+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:42:47.093+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:47.093+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:42:47.093+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:47.093+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:42:47.101+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:47.100+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_skip_dag) changed
+[2024-07-11T08:42:47.108+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:47.108+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_skip_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:42:47.108+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:47.108+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:42:47.124+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:47.124+0000] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:42:47.137+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.053 seconds
+[2024-07-11T08:43:17.261+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.260+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 311)
+[2024-07-11T08:43:17.262+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.261+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=311
+[2024-07-11T08:43:17.263+0000] {processor.py:161} INFO - Started process (PID=311) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:43:17.264+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-07-11T08:43:17.264+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.264+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:43:17.265+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.265+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:43:17.269+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.269+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_skip_dag>
+[2024-07-11T08:43:17.270+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:43:17.270+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.270+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:43:17.271+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.270+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:43:17.278+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.278+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_skip_dag) changed
+[2024-07-11T08:43:17.285+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.285+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_skip_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:43:17.286+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.286+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:43:17.304+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.304+0000] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:43:17.317+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.057 seconds
+[2024-07-11T08:43:47.624+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.624+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 367)
+[2024-07-11T08:43:47.625+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.625+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=367
+[2024-07-11T08:43:47.627+0000] {processor.py:161} INFO - Started process (PID=367) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:43:47.627+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-07-11T08:43:47.627+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.627+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:43:47.628+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.628+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:43:47.633+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.632+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_skip_dag>
+[2024-07-11T08:43:47.633+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:43:47.634+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.634+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:43:47.634+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.634+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:43:47.643+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.643+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_skip_dag) changed
+[2024-07-11T08:43:47.650+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.650+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_skip_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:43:47.650+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.650+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:43:47.667+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.667+0000] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:43:47.682+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.058 seconds
+[2024-07-11T08:44:17.992+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.992+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 423)
+[2024-07-11T08:44:17.993+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.992+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=423
+[2024-07-11T08:44:17.994+0000] {processor.py:161} INFO - Started process (PID=423) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:44:17.995+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-07-11T08:44:17.995+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.995+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:44:17.996+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.996+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:44:18.000+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:18.000+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_skip_dag>
+[2024-07-11T08:44:18.000+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:44:18.001+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:18.001+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:44:18.001+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:18.001+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:44:18.008+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:18.008+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_skip_dag) changed
+[2024-07-11T08:44:18.014+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:18.014+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_skip_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:44:18.015+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:18.015+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:44:18.029+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:18.029+0000] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:44:18.040+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.049 seconds
+[2024-07-11T08:44:48.287+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.287+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 479)
+[2024-07-11T08:44:48.288+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.288+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=479
+[2024-07-11T08:44:48.290+0000] {processor.py:161} INFO - Started process (PID=479) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:44:48.290+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-07-11T08:44:48.290+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.290+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:44:48.291+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.291+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:44:48.297+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.296+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_skip_dag>
+[2024-07-11T08:44:48.297+0000] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-07-11T08:44:48.298+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.298+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:44:48.298+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.298+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:44:48.306+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.305+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_skip_dag) changed
+[2024-07-11T08:44:48.312+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.312+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_skip_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:44:48.313+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.313+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:44:48.331+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.331+0000] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:44:48.349+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.063 seconds

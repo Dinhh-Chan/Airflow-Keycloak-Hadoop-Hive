@@ -1,0 +1,191 @@
+[2024-07-17T14:45:47.469+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-17T14:45:47.478+0000] {__init__.py:54} DEBUG - Loading core task runner: StandardTaskRunner
+[2024-07-17T14:45:47.487+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-17T14:45:47.489+0000] {base_task_runner.py:72} DEBUG - Planning to run as the  user
+[2024-07-17T14:45:47.510+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.extract_from_mysql manual__2024-07-17T09:49:17.873510+00:00 [queued]> dependency 'Task Instance State' PASSED: True, Task state queued was valid.
+[2024-07-17T14:45:47.510+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.extract_from_mysql manual__2024-07-17T09:49:17.873510+00:00 [queued]> dependency 'Task Instance Not Running' PASSED: True, Task is not in running state.
+[2024-07-17T14:45:47.510+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.extract_from_mysql manual__2024-07-17T09:49:17.873510+00:00 [queued]> dependency 'Previous Dagrun State' PASSED: True, The task did not have depends_on_past set.
+[2024-07-17T14:45:47.511+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.extract_from_mysql manual__2024-07-17T09:49:17.873510+00:00 [queued]> dependency 'Not In Retry Period' PASSED: True, The task instance was not marked for retrying.
+[2024-07-17T14:45:47.511+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hive_etl.extract_from_mysql manual__2024-07-17T09:49:17.873510+00:00 [queued]>
+[2024-07-17T14:45:47.514+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.extract_from_mysql manual__2024-07-17T09:49:17.873510+00:00 [queued]> dependency 'Pool Slots Available' PASSED: True, There are enough open slots in default_pool to execute the task
+[2024-07-17T14:45:47.516+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.extract_from_mysql manual__2024-07-17T09:49:17.873510+00:00 [queued]> dependency 'Task Concurrency' PASSED: True, Task concurrency is not set.
+[2024-07-17T14:45:47.517+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.extract_from_mysql manual__2024-07-17T09:49:17.873510+00:00 [queued]> dependency 'Previous Dagrun State' PASSED: True, The task did not have depends_on_past set.
+[2024-07-17T14:45:47.517+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.extract_from_mysql manual__2024-07-17T09:49:17.873510+00:00 [queued]> dependency 'Not In Retry Period' PASSED: True, The task instance was not marked for retrying.
+[2024-07-17T14:45:47.517+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hive_etl.extract_from_mysql manual__2024-07-17T09:49:17.873510+00:00 [queued]>
+[2024-07-17T14:45:47.518+0000] {taskinstance.py:2193} INFO - Starting attempt 3 of 3
+[2024-07-17T14:45:47.527+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): extract_from_mysql> on 2024-07-17 09:49:17.873510+00:00
+[2024-07-17T14:45:47.532+0000] {standard_task_runner.py:60} INFO - Started process 251 to run task
+[2024-07-17T14:45:47.534+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'hive_etl', 'extract_from_mysql', 'manual__2024-07-17T09:49:17.873510+00:00', '--job-id', '2218', '--raw', '--subdir', 'DAGS_FOLDER/new.py', '--cfg-path', '/tmp/tmp4qg1nhjf']
+[2024-07-17T14:45:47.535+0000] {standard_task_runner.py:88} INFO - Job 2218: Subtask extract_from_mysql
+[2024-07-17T14:45:47.535+0000] {cli_action_loggers.py:67} DEBUG - Calling callbacks: [<function default_action_log at 0x78a73b356f80>]
+[2024-07-17T14:45:47.567+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-17T14:45:47.569+0000] {task_command.py:423} INFO - Running <TaskInstance: hive_etl.extract_from_mysql manual__2024-07-17T09:49:17.873510+00:00 [running]> on host 8c50a8ad787d
+[2024-07-17T14:45:47.569+0000] {settings.py:386} DEBUG - Disposing DB connection pool (PID 251)
+[2024-07-17T14:45:47.570+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 251)
+[2024-07-17T14:45:47.570+0000] {settings.py:318} DEBUG - settings.prepare_engine_args(): Using NullPool
+[2024-07-17T14:45:47.594+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-17T14:45:47.596+0000] {taskinstance.py:1769} DEBUG - Clearing XCom data
+[2024-07-17T14:45:47.599+0000] {retries.py:93} DEBUG - Running RenderedTaskInstanceFields.write with retries. Try 1 of 3
+[2024-07-17T14:45:47.617+0000] {retries.py:93} DEBUG - Running RenderedTaskInstanceFields._do_delete_old_records with retries. Try 1 of 3
+[2024-07-17T14:45:47.626+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='hive_etl' AIRFLOW_CTX_TASK_ID='extract_from_mysql' AIRFLOW_CTX_EXECUTION_DATE='2024-07-17T09:49:17.873510+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-17T09:49:17.873510+00:00'
+[2024-07-17T14:45:47.626+0000] {__init__.py:115} DEBUG - Preparing lineage inlets and outlets
+[2024-07-17T14:45:47.627+0000] {__init__.py:154} DEBUG - inlets: [], outlets: []
+[2024-07-17T14:45:47.634+0000] {base.py:83} INFO - Using connection ID 'mysql_default' for task execution.
+[2024-07-17T14:45:52.579+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-17T14:45:57.619+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-17T14:46:02.659+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-17T14:46:07.741+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-17T14:46:12.779+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-17T14:46:41.221+0000] {job.py:213} ERROR - Job heartbeat got an exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+    with util.safe_reraise():
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/jobs/job.py", line 187, in heartbeat
+    self._merge_from(Job._fetch_from_db(self, session))
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/api_internal/internal_api_call.py", line 114, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/jobs/job.py", line 308, in _fetch_from_db
+    session.merge(job)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 3056, in merge
+    return self._merge(
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 3136, in _merge
+    merged = self.get(
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2853, in get
+    return self._get_impl(
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2975, in _get_impl
+    return db_load_fn(
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/orm/loading.py", line 530, in load_on_pk_identity
+    session.execute(
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+    conn = self._connection_for_bind(bind)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+    return self._transaction._connection_for_bind(
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 750, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/future/engine.py", line 412, in connect
+    return super(Engine, self).connect()
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+    with util.safe_reraise():
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2024-07-17T14:47:20.000+0000] {job.py:221} ERROR - Job heartbeat failed with error. Scheduler is in unhealthy state
+[2024-07-17T14:47:25.103+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-17T14:47:30.202+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-17T14:47:55.761+0000] {job.py:221} ERROR - Job heartbeat failed with error. Scheduler is in unhealthy state
+[2024-07-17T14:48:01.909+0000] {taskinstance.py:2728} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/new.py", line 23, in extract_from_mysql
+    extracted_df = mysql_hook.get_pandas_df(sql)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 226, in get_pandas_df
+    with closing(self.get_conn()) as conn:
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/mysql/hooks/mysql.py", line 195, in get_conn
+    return MySQLdb.connect(**conn_config)
+  File "/home/airflow/.local/lib/python3.10/site-packages/MySQLdb/__init__.py", line 121, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/MySQLdb/connections.py", line 195, in __init__
+    super().__init__(*args, **kwargs2)
+MySQLdb.OperationalError: (2002, "Can't connect to server on '172.16.9.72' (115)")
+[2024-07-17T14:48:30.369+0000] {job.py:221} ERROR - Job heartbeat failed with error. Scheduler is in unhealthy state
+[2024-07-17T14:49:20.406+0000] {taskinstance.py:527} DEBUG - Task Duration set to 212.894813
+[2024-07-17T14:49:20.415+0000] {taskinstance.py:549} DEBUG - Clearing next_method and next_kwargs.
+[2024-07-17T14:49:20.415+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=hive_etl, task_id=extract_from_mysql, execution_date=20240717T094917, start_date=20240717T144547, end_date=20240717T144920
+[2024-07-17T14:49:20.495+0000] {cli_action_loggers.py:85} DEBUG - Calling callbacks: []
+[2024-07-17T14:49:20.496+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 2218 for task extract_from_mysql ((2002, "Can't connect to server on '172.16.9.72' (115)"); 251)
+[2024-07-17T14:49:20.530+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-07-17T14:49:20.610+0000] {dagrun.py:876} DEBUG - number of tis tasks for <DagRun hive_etl @ 2024-07-17 09:49:17.873510+00:00: manual__2024-07-17T09:49:17.873510+00:00, state:running, queued_at: 2024-07-17 14:29:27.150085+00:00. externally triggered: True>: 4 task(s)
+[2024-07-17T14:49:20.610+0000] {dagrun.py:897} DEBUG - number of scheduleable tasks for <DagRun hive_etl @ 2024-07-17 09:49:17.873510+00:00: manual__2024-07-17T09:49:17.873510+00:00, state:running, queued_at: 2024-07-17 14:29:27.150085+00:00. externally triggered: True>: 3 task(s)
+[2024-07-17T14:49:20.611+0000] {taskinstance.py:1800} DEBUG - Setting task state for <TaskInstance: hive_etl.create_hive_table manual__2024-07-17T09:49:17.873510+00:00 [None]> to upstream_failed
+[2024-07-17T14:49:20.612+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.create_hive_table manual__2024-07-17T09:49:17.873510+00:00 [upstream_failed]> dependency 'Trigger Rule' PASSED: False, Task's trigger rule 'all_success' requires all upstream tasks to have succeeded, but found 1 non-success(es). upstream_states=_UpstreamTIStates(success=0, skipped=0, failed=1, upstream_failed=0, removed=0, done=1, success_setup=0, skipped_setup=0), upstream_task_ids={'extract_from_mysql'}
+[2024-07-17T14:49:20.612+0000] {taskinstance.py:1969} DEBUG - Dependencies not met for <TaskInstance: hive_etl.create_hive_table manual__2024-07-17T09:49:17.873510+00:00 [upstream_failed]>, dependency 'Trigger Rule' FAILED: Task's trigger rule 'all_success' requires all upstream tasks to have succeeded, but found 1 non-success(es). upstream_states=_UpstreamTIStates(success=0, skipped=0, failed=1, upstream_failed=0, removed=0, done=1, success_setup=0, skipped_setup=0), upstream_task_ids={'extract_from_mysql'}
+[2024-07-17T14:49:20.613+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.create_hive_table manual__2024-07-17T09:49:17.873510+00:00 [upstream_failed]> dependency 'Previous Dagrun State' PASSED: True, The task did not have depends_on_past set.
+[2024-07-17T14:49:20.613+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.create_hive_table manual__2024-07-17T09:49:17.873510+00:00 [upstream_failed]> dependency 'Not In Retry Period' PASSED: True, The task instance was not marked for retrying.
+[2024-07-17T14:49:20.624+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.end manual__2024-07-17T09:49:17.873510+00:00 [None]> dependency 'Trigger Rule' PASSED: False, Task's trigger rule 'all_success' requires all upstream tasks to have succeeded, but found 1 non-success(es). upstream_states=_UpstreamTIStates(success=0, skipped=0, failed=0, upstream_failed=0, removed=0, done=0, success_setup=0, skipped_setup=0), upstream_task_ids={'load_data_into_hive'}
+[2024-07-17T14:49:20.624+0000] {taskinstance.py:1969} DEBUG - Dependencies not met for <TaskInstance: hive_etl.end manual__2024-07-17T09:49:17.873510+00:00 [None]>, dependency 'Trigger Rule' FAILED: Task's trigger rule 'all_success' requires all upstream tasks to have succeeded, but found 1 non-success(es). upstream_states=_UpstreamTIStates(success=0, skipped=0, failed=0, upstream_failed=0, removed=0, done=0, success_setup=0, skipped_setup=0), upstream_task_ids={'load_data_into_hive'}
+[2024-07-17T14:49:20.625+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.end manual__2024-07-17T09:49:17.873510+00:00 [None]> dependency 'Previous Dagrun State' PASSED: True, The task did not have depends_on_past set.
+[2024-07-17T14:49:20.625+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.end manual__2024-07-17T09:49:17.873510+00:00 [None]> dependency 'Not In Retry Period' PASSED: True, The task instance was not marked for retrying.
+[2024-07-17T14:49:20.629+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.load_data_into_hive manual__2024-07-17T09:49:17.873510+00:00 [None]> dependency 'Trigger Rule' PASSED: False, Task's trigger rule 'all_success' requires all upstream tasks to have succeeded, but found 1 non-success(es). upstream_states=_UpstreamTIStates(success=0, skipped=0, failed=0, upstream_failed=0, removed=0, done=0, success_setup=0, skipped_setup=0), upstream_task_ids={'create_hive_table'}
+[2024-07-17T14:49:20.630+0000] {taskinstance.py:1969} DEBUG - Dependencies not met for <TaskInstance: hive_etl.load_data_into_hive manual__2024-07-17T09:49:17.873510+00:00 [None]>, dependency 'Trigger Rule' FAILED: Task's trigger rule 'all_success' requires all upstream tasks to have succeeded, but found 1 non-success(es). upstream_states=_UpstreamTIStates(success=0, skipped=0, failed=0, upstream_failed=0, removed=0, done=0, success_setup=0, skipped_setup=0), upstream_task_ids={'create_hive_table'}
+[2024-07-17T14:49:20.630+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.load_data_into_hive manual__2024-07-17T09:49:17.873510+00:00 [None]> dependency 'Previous Dagrun State' PASSED: True, The task did not have depends_on_past set.
+[2024-07-17T14:49:20.631+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.load_data_into_hive manual__2024-07-17T09:49:17.873510+00:00 [None]> dependency 'Not In Retry Period' PASSED: True, The task instance was not marked for retrying.
+[2024-07-17T14:49:20.641+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

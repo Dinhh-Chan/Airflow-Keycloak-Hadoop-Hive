@@ -1,0 +1,253 @@
+[2024-07-11T08:37:00.195+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.194+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 77)
+[2024-07-11T08:37:00.196+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.195+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=77
+[2024-07-11T08:37:00.198+0000] {processor.py:161} INFO - Started process (PID=77) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:37:00.199+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-07-11T08:37:00.200+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.200+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:37:00.202+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.201+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:37:00.209+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.207+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_time_delta_sensor_async>
+[2024-07-11T08:37:00.209+0000] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:37:00.211+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.210+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:37:00.211+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.211+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:37:00.224+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.224+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:37:00.241+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.241+0000] {dag.py:3834} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-07-11T08:37:00.266+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.072 seconds
+[2024-07-11T08:37:31.071+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.071+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 133)
+[2024-07-11T08:37:31.072+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.072+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=133
+[2024-07-11T08:37:31.074+0000] {processor.py:161} INFO - Started process (PID=133) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:37:31.074+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-07-11T08:37:31.074+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.074+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:37:31.075+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.075+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:37:31.079+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.077+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_time_delta_sensor_async>
+[2024-07-11T08:37:31.079+0000] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:37:31.079+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.079+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:37:31.080+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.079+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:37:31.087+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.087+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_time_delta_sensor_async) changed
+[2024-07-11T08:37:31.089+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.089+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:37:31.089+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.089+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:37:31.093+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.093+0000] {serialized_dag.py:179} DEBUG - Writing Serialized DAG: example_time_delta_sensor_async to the DB
+[2024-07-11T08:37:31.096+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.096+0000] {serialized_dag.py:181} DEBUG - DAG: example_time_delta_sensor_async written to the DB
+[2024-07-11T08:37:31.096+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.096+0000] {dagbag.py:696} DEBUG - Syncing DAG permissions: example_time_delta_sensor_async to the DB
+[2024-07-11T08:37:31.162+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.161+0000] {override.py:1034} DEBUG - Not syncing DAG-level permissions for DAG 'DAG:example_time_delta_sensor_async' as access control is unset.
+[2024-07-11T08:37:31.162+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.162+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:37:31.170+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.170+0000] {dag.py:3834} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-07-11T08:37:31.184+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.113 seconds
+[2024-07-11T08:38:01.904+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.904+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 195)
+[2024-07-11T08:38:01.905+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.905+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=195
+[2024-07-11T08:38:01.907+0000] {processor.py:161} INFO - Started process (PID=195) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:38:01.907+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-07-11T08:38:01.908+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.907+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:38:01.908+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.908+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:38:01.911+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.911+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_time_delta_sensor_async>
+[2024-07-11T08:38:01.912+0000] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:38:01.912+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.912+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:38:01.913+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.913+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:38:01.919+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.919+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_time_delta_sensor_async) changed
+[2024-07-11T08:38:01.921+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.921+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:38:01.922+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.922+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:38:01.926+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.925+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_time_delta_sensor_async) is unchanged. Skipping writing to DB
+[2024-07-11T08:38:01.926+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.926+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:38:01.934+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.934+0000] {dag.py:3834} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-07-11T08:38:01.947+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.043 seconds
+[2024-07-11T08:38:32.089+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.088+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 251)
+[2024-07-11T08:38:32.089+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.089+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=251
+[2024-07-11T08:38:32.091+0000] {processor.py:161} INFO - Started process (PID=251) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:38:32.091+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-07-11T08:38:32.092+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.091+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:38:32.092+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.092+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:38:32.095+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.095+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_time_delta_sensor_async>
+[2024-07-11T08:38:32.095+0000] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:38:32.096+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.096+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:38:32.096+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.096+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:38:32.105+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.104+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_time_delta_sensor_async) changed
+[2024-07-11T08:38:32.107+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.107+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:38:32.107+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.107+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:38:32.112+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.112+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_time_delta_sensor_async) is unchanged. Skipping writing to DB
+[2024-07-11T08:38:32.112+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.112+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:38:32.122+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.122+0000] {dag.py:3834} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-07-11T08:38:32.135+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.047 seconds
+[2024-07-11T08:39:02.433+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.432+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 307)
+[2024-07-11T08:39:02.433+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.433+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=307
+[2024-07-11T08:39:02.435+0000] {processor.py:161} INFO - Started process (PID=307) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:39:02.436+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-07-11T08:39:02.436+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.436+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:39:02.437+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.437+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:39:02.440+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.439+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_time_delta_sensor_async>
+[2024-07-11T08:39:02.440+0000] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:39:02.441+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.441+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:39:02.441+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.441+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:39:02.449+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.449+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_time_delta_sensor_async) changed
+[2024-07-11T08:39:02.451+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.451+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:39:02.451+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.451+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:39:02.455+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.455+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_time_delta_sensor_async) is unchanged. Skipping writing to DB
+[2024-07-11T08:39:02.455+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.455+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:39:02.465+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.464+0000] {dag.py:3834} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-07-11T08:39:02.480+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.048 seconds
+[2024-07-11T08:39:32.727+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.727+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 363)
+[2024-07-11T08:39:32.728+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.728+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=363
+[2024-07-11T08:39:32.730+0000] {processor.py:161} INFO - Started process (PID=363) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:39:32.730+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-07-11T08:39:32.731+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.730+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:39:32.731+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.731+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:39:32.734+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.734+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_time_delta_sensor_async>
+[2024-07-11T08:39:32.734+0000] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:39:32.735+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.735+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:39:32.735+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.735+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:39:32.743+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.743+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_time_delta_sensor_async) changed
+[2024-07-11T08:39:32.745+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.745+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:39:32.745+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.745+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:39:32.749+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.749+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_time_delta_sensor_async) is unchanged. Skipping writing to DB
+[2024-07-11T08:39:32.750+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.750+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:39:32.758+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.758+0000] {dag.py:3834} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-07-11T08:39:32.771+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.044 seconds
+[2024-07-11T08:40:02.937+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.937+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 419)
+[2024-07-11T08:40:02.938+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.938+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=419
+[2024-07-11T08:40:02.940+0000] {processor.py:161} INFO - Started process (PID=419) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:40:02.940+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-07-11T08:40:02.940+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.940+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:40:02.941+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.941+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:40:02.944+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.944+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_time_delta_sensor_async>
+[2024-07-11T08:40:02.944+0000] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:40:02.945+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.945+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:40:02.946+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.945+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:40:02.953+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.953+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_time_delta_sensor_async) changed
+[2024-07-11T08:40:02.955+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.955+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:40:02.955+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.955+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:40:02.959+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.959+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_time_delta_sensor_async) is unchanged. Skipping writing to DB
+[2024-07-11T08:40:02.959+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.959+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:40:02.967+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.967+0000] {dag.py:3834} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-07-11T08:40:02.979+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.043 seconds
+[2024-07-11T08:41:14.154+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.153+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 77)
+[2024-07-11T08:41:14.155+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.154+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=77
+[2024-07-11T08:41:14.156+0000] {processor.py:161} INFO - Started process (PID=77) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:41:14.157+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-07-11T08:41:14.157+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.157+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:41:14.158+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.158+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:41:14.162+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.161+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_time_delta_sensor_async>
+[2024-07-11T08:41:14.162+0000] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:41:14.163+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.163+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:41:14.164+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.164+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:41:14.172+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.172+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:41:14.185+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.185+0000] {dag.py:3834} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-07-11T08:41:14.206+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.053 seconds
+[2024-07-11T08:41:45.824+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.824+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 133)
+[2024-07-11T08:41:45.825+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.825+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=133
+[2024-07-11T08:41:45.827+0000] {processor.py:161} INFO - Started process (PID=133) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:41:45.827+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-07-11T08:41:45.827+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.827+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:41:45.828+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.828+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:41:45.831+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.830+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_time_delta_sensor_async>
+[2024-07-11T08:41:45.831+0000] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:41:45.832+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.832+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:41:45.832+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.832+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:41:45.840+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.840+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_time_delta_sensor_async) changed
+[2024-07-11T08:41:45.842+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.842+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:41:45.842+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.842+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:41:45.846+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.846+0000] {serialized_dag.py:179} DEBUG - Writing Serialized DAG: example_time_delta_sensor_async to the DB
+[2024-07-11T08:41:45.849+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.849+0000] {serialized_dag.py:181} DEBUG - DAG: example_time_delta_sensor_async written to the DB
+[2024-07-11T08:41:45.849+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.849+0000] {dagbag.py:696} DEBUG - Syncing DAG permissions: example_time_delta_sensor_async to the DB
+[2024-07-11T08:41:45.909+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.909+0000] {override.py:1034} DEBUG - Not syncing DAG-level permissions for DAG 'DAG:example_time_delta_sensor_async' as access control is unset.
+[2024-07-11T08:41:45.909+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.909+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:41:45.917+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.917+0000] {dag.py:3834} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-07-11T08:41:45.931+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.107 seconds
+[2024-07-11T08:42:16.650+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.650+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 189)
+[2024-07-11T08:42:16.651+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.651+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=189
+[2024-07-11T08:42:16.652+0000] {processor.py:161} INFO - Started process (PID=189) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:42:16.653+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-07-11T08:42:16.653+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.653+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:42:16.654+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.654+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:42:16.657+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.656+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_time_delta_sensor_async>
+[2024-07-11T08:42:16.657+0000] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:42:16.658+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.658+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:42:16.658+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.658+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:42:16.665+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.665+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_time_delta_sensor_async) changed
+[2024-07-11T08:42:16.668+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.667+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:42:16.668+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.668+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:42:16.671+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.671+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_time_delta_sensor_async) is unchanged. Skipping writing to DB
+[2024-07-11T08:42:16.672+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.672+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:42:16.680+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.680+0000] {dag.py:3834} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-07-11T08:42:16.701+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.051 seconds
+[2024-07-11T08:42:46.907+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.906+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 251)
+[2024-07-11T08:42:46.908+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.908+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=251
+[2024-07-11T08:42:46.910+0000] {processor.py:161} INFO - Started process (PID=251) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:42:46.910+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-07-11T08:42:46.911+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.910+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:42:46.912+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.911+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:42:46.915+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.914+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_time_delta_sensor_async>
+[2024-07-11T08:42:46.915+0000] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:42:46.916+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.916+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:42:46.916+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.916+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:42:46.924+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.924+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_time_delta_sensor_async) changed
+[2024-07-11T08:42:46.927+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.926+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:42:46.927+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.927+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:42:46.931+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.931+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_time_delta_sensor_async) is unchanged. Skipping writing to DB
+[2024-07-11T08:42:46.931+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.931+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:42:46.941+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.940+0000] {dag.py:3834} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-07-11T08:42:46.952+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.046 seconds
+[2024-07-11T08:43:17.135+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.134+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 307)
+[2024-07-11T08:43:17.135+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.135+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=307
+[2024-07-11T08:43:17.137+0000] {processor.py:161} INFO - Started process (PID=307) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:43:17.137+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-07-11T08:43:17.138+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.138+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:43:17.138+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.138+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:43:17.141+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.141+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_time_delta_sensor_async>
+[2024-07-11T08:43:17.142+0000] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:43:17.142+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.142+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:43:17.143+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.143+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:43:17.150+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.150+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_time_delta_sensor_async) changed
+[2024-07-11T08:43:17.152+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.152+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:43:17.152+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.152+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:43:17.156+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.156+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_time_delta_sensor_async) is unchanged. Skipping writing to DB
+[2024-07-11T08:43:17.156+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.156+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:43:17.165+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.164+0000] {dag.py:3834} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-07-11T08:43:17.178+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.044 seconds
+[2024-07-11T08:43:47.400+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.399+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 363)
+[2024-07-11T08:43:47.401+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.400+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=363
+[2024-07-11T08:43:47.403+0000] {processor.py:161} INFO - Started process (PID=363) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:43:47.403+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-07-11T08:43:47.403+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.403+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:43:47.404+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.404+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:43:47.407+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.407+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_time_delta_sensor_async>
+[2024-07-11T08:43:47.407+0000] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:43:47.408+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.408+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:43:47.409+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.409+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:43:47.417+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.416+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_time_delta_sensor_async) changed
+[2024-07-11T08:43:47.419+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.419+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:43:47.419+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.419+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:43:47.424+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.424+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_time_delta_sensor_async) is unchanged. Skipping writing to DB
+[2024-07-11T08:43:47.424+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.424+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:43:47.433+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.433+0000] {dag.py:3834} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-07-11T08:43:47.448+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.048 seconds
+[2024-07-11T08:44:17.863+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.862+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 419)
+[2024-07-11T08:44:17.864+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.863+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=419
+[2024-07-11T08:44:17.865+0000] {processor.py:161} INFO - Started process (PID=419) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:44:17.866+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-07-11T08:44:17.866+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.866+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:44:17.867+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.867+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:44:17.870+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.869+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_time_delta_sensor_async>
+[2024-07-11T08:44:17.870+0000] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:44:17.871+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.871+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:44:17.871+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.871+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:44:17.879+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.879+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_time_delta_sensor_async) changed
+[2024-07-11T08:44:17.881+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.881+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:44:17.881+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.881+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:44:17.886+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.885+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_time_delta_sensor_async) is unchanged. Skipping writing to DB
+[2024-07-11T08:44:17.886+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.886+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:44:17.895+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.895+0000] {dag.py:3834} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-07-11T08:44:17.920+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.057 seconds
+[2024-07-11T08:44:48.154+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.153+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 475)
+[2024-07-11T08:44:48.155+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.155+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=475
+[2024-07-11T08:44:48.157+0000] {processor.py:161} INFO - Started process (PID=475) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:44:48.158+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-07-11T08:44:48.158+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.158+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:44:48.159+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.159+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:44:48.163+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.162+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_time_delta_sensor_async>
+[2024-07-11T08:44:48.163+0000] {processor.py:840} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-07-11T08:44:48.164+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.164+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:44:48.164+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.164+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:44:48.172+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.172+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_time_delta_sensor_async) changed
+[2024-07-11T08:44:48.175+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.175+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:44:48.175+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.175+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:44:48.179+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.179+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_time_delta_sensor_async) is unchanged. Skipping writing to DB
+[2024-07-11T08:44:48.180+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.180+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:44:48.191+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.191+0000] {dag.py:3834} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-07-11T08:44:48.205+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.052 seconds

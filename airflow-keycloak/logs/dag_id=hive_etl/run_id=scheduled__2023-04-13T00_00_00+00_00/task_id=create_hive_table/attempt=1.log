@@ -1,0 +1,64 @@
+[2024-07-17T09:44:22.282+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-17T09:44:22.312+0000] {__init__.py:54} DEBUG - Loading core task runner: StandardTaskRunner
+[2024-07-17T09:44:22.333+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-17T09:44:22.337+0000] {base_task_runner.py:72} DEBUG - Planning to run as the  user
+[2024-07-17T09:44:22.387+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.create_hive_table scheduled__2023-04-13T00:00:00+00:00 [queued]> dependency 'Task Instance State' PASSED: True, Task state queued was valid.
+[2024-07-17T09:44:22.397+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.create_hive_table scheduled__2023-04-13T00:00:00+00:00 [queued]> dependency 'Previous Dagrun State' PASSED: True, The task did not have depends_on_past set.
+[2024-07-17T09:44:22.404+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.create_hive_table scheduled__2023-04-13T00:00:00+00:00 [queued]> dependency 'Task Instance Not Running' PASSED: True, Task is not in running state.
+[2024-07-17T09:44:22.404+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.create_hive_table scheduled__2023-04-13T00:00:00+00:00 [queued]> dependency 'Not In Retry Period' PASSED: True, The task instance was not marked for retrying.
+[2024-07-17T09:44:22.405+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hive_etl.create_hive_table scheduled__2023-04-13T00:00:00+00:00 [queued]>
+[2024-07-17T09:44:22.431+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.create_hive_table scheduled__2023-04-13T00:00:00+00:00 [queued]> dependency 'Previous Dagrun State' PASSED: True, The task did not have depends_on_past set.
+[2024-07-17T09:44:22.450+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.create_hive_table scheduled__2023-04-13T00:00:00+00:00 [queued]> dependency 'Pool Slots Available' PASSED: True, There are enough open slots in default_pool to execute the task
+[2024-07-17T09:44:22.451+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.create_hive_table scheduled__2023-04-13T00:00:00+00:00 [queued]> dependency 'Task Concurrency' PASSED: True, Task concurrency is not set.
+[2024-07-17T09:44:22.451+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.create_hive_table scheduled__2023-04-13T00:00:00+00:00 [queued]> dependency 'Not In Retry Period' PASSED: True, The task instance was not marked for retrying.
+[2024-07-17T09:44:22.451+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hive_etl.create_hive_table scheduled__2023-04-13T00:00:00+00:00 [queued]>
+[2024-07-17T09:44:22.452+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 2
+[2024-07-17T09:44:22.478+0000] {taskinstance.py:2214} INFO - Executing <Task(PythonOperator): create_hive_table> on 2023-04-13 00:00:00+00:00
+[2024-07-17T09:44:22.500+0000] {standard_task_runner.py:60} INFO - Started process 159 to run task
+[2024-07-17T09:44:22.511+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'hive_etl', 'create_hive_table', 'scheduled__2023-04-13T00:00:00+00:00', '--job-id', '1843', '--raw', '--subdir', 'DAGS_FOLDER/new.py', '--cfg-path', '/tmp/tmp3vjtsxtv']
+[2024-07-17T09:44:22.514+0000] {standard_task_runner.py:88} INFO - Job 1843: Subtask create_hive_table
+[2024-07-17T09:44:22.515+0000] {cli_action_loggers.py:67} DEBUG - Calling callbacks: [<function default_action_log at 0x7a4457f56f80>]
+[2024-07-17T09:44:22.625+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-17T09:44:22.630+0000] {task_command.py:423} INFO - Running <TaskInstance: hive_etl.create_hive_table scheduled__2023-04-13T00:00:00+00:00 [running]> on host d0d849f06491
+[2024-07-17T09:44:22.631+0000] {settings.py:386} DEBUG - Disposing DB connection pool (PID 159)
+[2024-07-17T09:44:22.631+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 159)
+[2024-07-17T09:44:22.631+0000] {settings.py:318} DEBUG - settings.prepare_engine_args(): Using NullPool
+[2024-07-17T09:44:22.711+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-17T09:44:22.727+0000] {taskinstance.py:1769} DEBUG - Clearing XCom data
+[2024-07-17T09:44:22.746+0000] {retries.py:93} DEBUG - Running RenderedTaskInstanceFields.write with retries. Try 1 of 3
+[2024-07-17T09:44:22.833+0000] {retries.py:93} DEBUG - Running RenderedTaskInstanceFields._do_delete_old_records with retries. Try 1 of 3
+[2024-07-17T09:44:22.855+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='hive_etl' AIRFLOW_CTX_TASK_ID='create_hive_table' AIRFLOW_CTX_EXECUTION_DATE='2023-04-13T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-04-13T00:00:00+00:00'
+[2024-07-17T09:44:22.856+0000] {__init__.py:115} DEBUG - Preparing lineage inlets and outlets
+[2024-07-17T09:44:22.857+0000] {__init__.py:154} DEBUG - inlets: [], outlets: []
+[2024-07-17T09:44:23.515+0000] {hive.py:609} DEBUG - TOpenSessionResp(status=TStatus(statusCode=0, infoMessages=None, sqlState=None, errorCode=None, errorMessage=None), serverProtocolVersion=5, sessionHandle=TSessionHandle(sessionId=THandleIdentifier(guid=b'Tz\xc3\x99I\xd7C\x1a\xb3\xbf\xbb\xcf\xe6.\xbd>', secret=b's\x1ak\x05\xc2v@\xe7\x87\xbe\xc0H\xda\x9cRq')), configuration={'hive.server2.thrift.resultset.default.fetch.size': '1000'})
+[2024-07-17T09:44:23.515+0000] {hive.py:475} INFO - USE `default`
+[2024-07-17T09:44:23.516+0000] {hive.py:479} DEBUG - TExecuteStatementReq(sessionHandle=TSessionHandle(sessionId=THandleIdentifier(guid=b'Tz\xc3\x99I\xd7C\x1a\xb3\xbf\xbb\xcf\xe6.\xbd>', secret=b's\x1ak\x05\xc2v@\xe7\x87\xbe\xc0H\xda\x9cRq')), statement='USE `default`', confOverlay=None, runAsync=False, queryTimeout=0)
+[2024-07-17T09:44:24.790+0000] {hive.py:609} DEBUG - TExecuteStatementResp(status=TStatus(statusCode=0, infoMessages=None, sqlState=None, errorCode=None, errorMessage=None), operationHandle=TOperationHandle(operationId=THandleIdentifier(guid=b'\xaa3\xc2j\x96[K&\xb2\xa4|\x143\x84\xa2\x92', secret=b'k\xc7\xcb\x0ba\xbfM\x89\x81.\xf63\xe6\xd8\xa4\x82'), operationType=0, hasResultSet=False, modifiedRowCount=None))
+[2024-07-17T09:44:24.792+0000] {hive.py:609} DEBUG - TCloseOperationResp(status=TStatus(statusCode=0, infoMessages=None, sqlState=None, errorCode=None, errorMessage=None))
+[2024-07-17T09:44:24.792+0000] {hive.py:475} INFO - 
+    CREATE TABLE IF NOT EXISTS my_table (
+        id INT,
+        name STRING
+    )
+    ROW FORMAT DELIMITED
+    FIELDS TERMINATED BY ','
+    STORED AS TEXTFILE
+    
+[2024-07-17T09:44:24.793+0000] {hive.py:479} DEBUG - TExecuteStatementReq(sessionHandle=TSessionHandle(sessionId=THandleIdentifier(guid=b'Tz\xc3\x99I\xd7C\x1a\xb3\xbf\xbb\xcf\xe6.\xbd>', secret=b's\x1ak\x05\xc2v@\xe7\x87\xbe\xc0H\xda\x9cRq')), statement="\n    CREATE TABLE IF NOT EXISTS my_table (\n        id INT,\n        name STRING\n    )\n    ROW FORMAT DELIMITED\n    FIELDS TERMINATED BY ','\n    STORED AS TEXTFILE\n    ", confOverlay=None, runAsync=False, queryTimeout=0)
+[2024-07-17T09:44:27.548+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-17T09:44:28.123+0000] {hive.py:609} DEBUG - TExecuteStatementResp(status=TStatus(statusCode=0, infoMessages=None, sqlState=None, errorCode=None, errorMessage=None), operationHandle=TOperationHandle(operationId=THandleIdentifier(guid=b"\x8fQ\x86j\xef\x97Mp\xae'B~\x82\xf5f9", secret=b'\xa2u\x06CSXN\xd5\x8c\x87z]\x1ee}\x12'), operationType=0, hasResultSet=False, modifiedRowCount=None))
+[2024-07-17T09:44:28.140+0000] {hive.py:609} DEBUG - TCloseSessionResp(status=TStatus(statusCode=0, infoMessages=None, sqlState=None, errorCode=None, errorMessage=None))
+[2024-07-17T09:44:28.146+0000] {python.py:202} INFO - Done. Returned value was: None
+[2024-07-17T09:44:28.149+0000] {__init__.py:73} DEBUG - Lineage called with inlets: [], outlets: []
+[2024-07-17T09:44:28.200+0000] {taskinstance.py:549} DEBUG - Clearing next_method and next_kwargs.
+[2024-07-17T09:44:28.200+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=hive_etl, task_id=create_hive_table, execution_date=20230413T000000, start_date=20240717T094422, end_date=20240717T094428
+[2024-07-17T09:44:28.201+0000] {taskinstance.py:527} DEBUG - Task Duration set to 5.79544
+[2024-07-17T09:44:28.222+0000] {cli_action_loggers.py:85} DEBUG - Calling callbacks: []
+[2024-07-17T09:44:28.256+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-07-17T09:44:28.497+0000] {dagrun.py:876} DEBUG - number of tis tasks for <DagRun hive_etl @ 2023-04-13 00:00:00+00:00: scheduled__2023-04-13T00:00:00+00:00, state:running, queued_at: 2024-07-17 09:44:17.129148+00:00. externally triggered: False>: 3 task(s)
+[2024-07-17T09:44:28.498+0000] {dagrun.py:897} DEBUG - number of scheduleable tasks for <DagRun hive_etl @ 2023-04-13 00:00:00+00:00: scheduled__2023-04-13T00:00:00+00:00, state:running, queued_at: 2024-07-17 09:44:17.129148+00:00. externally triggered: False>: 1 task(s)
+[2024-07-17T09:44:28.501+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.end scheduled__2023-04-13T00:00:00+00:00 [None]> dependency 'Trigger Rule' PASSED: False, Task's trigger rule 'all_success' requires all upstream tasks to have succeeded, but found 1 non-success(es). upstream_states=_UpstreamTIStates(success=0, skipped=0, failed=0, upstream_failed=0, removed=0, done=0, success_setup=0, skipped_setup=0), upstream_task_ids={'load_data_into_hive'}
+[2024-07-17T09:44:28.501+0000] {taskinstance.py:1969} DEBUG - Dependencies not met for <TaskInstance: hive_etl.end scheduled__2023-04-13T00:00:00+00:00 [None]>, dependency 'Trigger Rule' FAILED: Task's trigger rule 'all_success' requires all upstream tasks to have succeeded, but found 1 non-success(es). upstream_states=_UpstreamTIStates(success=0, skipped=0, failed=0, upstream_failed=0, removed=0, done=0, success_setup=0, skipped_setup=0), upstream_task_ids={'load_data_into_hive'}
+[2024-07-17T09:44:28.502+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.end scheduled__2023-04-13T00:00:00+00:00 [None]> dependency 'Previous Dagrun State' PASSED: True, The task did not have depends_on_past set.
+[2024-07-17T09:44:28.503+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.end scheduled__2023-04-13T00:00:00+00:00 [None]> dependency 'Not In Retry Period' PASSED: True, The task instance was not marked for retrying.
+[2024-07-17T09:44:28.514+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,52 @@
+[2024-07-10T02:16:52.777+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-10T02:16:52.786+0000] {__init__.py:54} DEBUG - Loading core task runner: StandardTaskRunner
+[2024-07-10T02:16:52.795+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-10T02:16:52.796+0000] {base_task_runner.py:72} DEBUG - Planning to run as the  user
+[2024-07-10T02:16:52.808+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: dataset_consumes_1.consuming_1 manual__2024-07-10T02:16:49.797932+00:00 [queued]> dependency 'Task Instance Not Running' PASSED: True, Task is not in running state.
+[2024-07-10T02:16:52.808+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: dataset_consumes_1.consuming_1 manual__2024-07-10T02:16:49.797932+00:00 [queued]> dependency 'Previous Dagrun State' PASSED: True, The task did not have depends_on_past set.
+[2024-07-10T02:16:52.812+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: dataset_consumes_1.consuming_1 manual__2024-07-10T02:16:49.797932+00:00 [queued]> dependency 'Not In Retry Period' PASSED: True, The task instance was not marked for retrying.
+[2024-07-10T02:16:52.812+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: dataset_consumes_1.consuming_1 manual__2024-07-10T02:16:49.797932+00:00 [queued]> dependency 'Task Instance State' PASSED: True, Task state queued was valid.
+[2024-07-10T02:16:52.813+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: dataset_consumes_1.consuming_1 manual__2024-07-10T02:16:49.797932+00:00 [queued]> dependency 'Trigger Rule' PASSED: True, The task instance did not have any upstream tasks.
+[2024-07-10T02:16:52.813+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dataset_consumes_1.consuming_1 manual__2024-07-10T02:16:49.797932+00:00 [queued]>
+[2024-07-10T02:16:52.814+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: dataset_consumes_1.consuming_1 manual__2024-07-10T02:16:49.797932+00:00 [queued]> dependency 'Previous Dagrun State' PASSED: True, The task did not have depends_on_past set.
+[2024-07-10T02:16:52.818+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: dataset_consumes_1.consuming_1 manual__2024-07-10T02:16:49.797932+00:00 [queued]> dependency 'Pool Slots Available' PASSED: True, There are enough open slots in default_pool to execute the task
+[2024-07-10T02:16:52.818+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: dataset_consumes_1.consuming_1 manual__2024-07-10T02:16:49.797932+00:00 [queued]> dependency 'Not In Retry Period' PASSED: True, The task instance was not marked for retrying.
+[2024-07-10T02:16:52.818+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: dataset_consumes_1.consuming_1 manual__2024-07-10T02:16:49.797932+00:00 [queued]> dependency 'Task Concurrency' PASSED: True, Task concurrency is not set.
+[2024-07-10T02:16:52.818+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: dataset_consumes_1.consuming_1 manual__2024-07-10T02:16:49.797932+00:00 [queued]> dependency 'Trigger Rule' PASSED: True, The task instance did not have any upstream tasks.
+[2024-07-10T02:16:52.818+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dataset_consumes_1.consuming_1 manual__2024-07-10T02:16:49.797932+00:00 [queued]>
+[2024-07-10T02:16:52.819+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-07-10T02:16:52.828+0000] {taskinstance.py:2214} INFO - Executing <Task(BashOperator): consuming_1> on 2024-07-10 02:16:49.797932+00:00
+[2024-07-10T02:16:52.832+0000] {standard_task_runner.py:60} INFO - Started process 54 to run task
+[2024-07-10T02:16:52.834+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dataset_consumes_1', 'consuming_1', 'manual__2024-07-10T02:16:49.797932+00:00', '--job-id', '7', '--raw', '--subdir', '/home/***/.local/lib/python3.10/site-packages/***/example_dags/example_datasets.py', '--cfg-path', '/tmp/tmp1jc09t9g']
+[2024-07-10T02:16:52.836+0000] {standard_task_runner.py:88} INFO - Job 7: Subtask consuming_1
+[2024-07-10T02:16:52.836+0000] {cli_action_loggers.py:67} DEBUG - Calling callbacks: [<function default_action_log at 0x7537d9478ca0>]
+[2024-07-10T02:16:52.863+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-10T02:16:52.865+0000] {task_command.py:423} INFO - Running <TaskInstance: dataset_consumes_1.consuming_1 manual__2024-07-10T02:16:49.797932+00:00 [running]> on host 662e7d030aca
+[2024-07-10T02:16:52.865+0000] {settings.py:386} DEBUG - Disposing DB connection pool (PID 54)
+[2024-07-10T02:16:52.865+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 54)
+[2024-07-10T02:16:52.865+0000] {settings.py:318} DEBUG - settings.prepare_engine_args(): Using NullPool
+[2024-07-10T02:16:52.886+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-10T02:16:52.887+0000] {taskinstance.py:1769} DEBUG - Clearing XCom data
+[2024-07-10T02:16:52.891+0000] {retries.py:93} DEBUG - Running RenderedTaskInstanceFields.write with retries. Try 1 of 3
+[2024-07-10T02:16:52.904+0000] {retries.py:93} DEBUG - Running RenderedTaskInstanceFields._do_delete_old_records with retries. Try 1 of 3
+[2024-07-10T02:16:52.911+0000] {taskinstance.py:2510} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dataset_consumes_1' AIRFLOW_CTX_TASK_ID='consuming_1' AIRFLOW_CTX_EXECUTION_DATE='2024-07-10T02:16:49.797932+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-10T02:16:49.797932+00:00'
+[2024-07-10T02:16:52.911+0000] {__init__.py:115} DEBUG - Preparing lineage inlets and outlets
+[2024-07-10T02:16:52.912+0000] {__init__.py:154} DEBUG - inlets: [], outlets: [Dataset(uri='s3://consuming_1_task/dataset_other.txt', extra=None)]
+[2024-07-10T02:16:52.912+0000] {bash.py:188} DEBUG - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dataset_consumes_1' AIRFLOW_CTX_TASK_ID='consuming_1' AIRFLOW_CTX_EXECUTION_DATE='2024-07-10T02:16:49.797932+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-10T02:16:49.797932+00:00'
+[2024-07-10T02:16:52.912+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-07-10T02:16:52.913+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'sleep 5']
+[2024-07-10T02:16:52.922+0000] {subprocess.py:86} INFO - Output:
+[2024-07-10T02:16:57.926+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-07-10T02:16:57.939+0000] {job.py:209} DEBUG - [heartbeat]
+[2024-07-10T02:16:57.968+0000] {__init__.py:73} DEBUG - Lineage called with inlets: [], outlets: [Dataset(uri='s3://consuming_1_task/dataset_other.txt', extra=None)]
+[2024-07-10T02:16:57.970+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.10/site-packages/***/models/baseoperator.py:1469: RemovedInAirflow3Warning: Passing 'execution_date' to 'TaskInstance.xcom_push()' is deprecated.
+  context["ti"].xcom_push(key=key, value=value, execution_date=execution_date)
+
+[2024-07-10T02:16:57.992+0000] {taskinstance.py:549} DEBUG - Clearing next_method and next_kwargs.
+[2024-07-10T02:16:57.992+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=dataset_consumes_1, task_id=consuming_1, execution_date=20240710T021649, start_date=20240710T021652, end_date=20240710T021657
+[2024-07-10T02:16:57.993+0000] {taskinstance.py:527} DEBUG - Task Duration set to 5.179487
+[2024-07-10T02:16:57.999+0000] {taskinstance.py:2455} DEBUG - outlet obj Dataset(uri='s3://consuming_1_task/dataset_other.txt', extra=None)
+[2024-07-10T02:16:58.017+0000] {cli_action_loggers.py:85} DEBUG - Calling callbacks: []
+[2024-07-10T02:16:58.032+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-07-10T02:16:58.042+0000] {dagrun.py:876} DEBUG - number of tis tasks for <DagRun dataset_consumes_1 @ 2024-07-10 02:16:49.797932+00:00: manual__2024-07-10T02:16:49.797932+00:00, state:running, queued_at: 2024-07-10 02:16:49.824949+00:00. externally triggered: True>: 0 task(s)
+[2024-07-10T02:16:58.042+0000] {taskinstance.py:3309} INFO - 0 downstream tasks scheduled from follow-on schedule check

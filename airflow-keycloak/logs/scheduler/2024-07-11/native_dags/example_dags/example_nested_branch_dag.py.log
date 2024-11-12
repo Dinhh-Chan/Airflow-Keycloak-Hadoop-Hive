@@ -1,0 +1,257 @@
+[2024-07-11T08:36:59.756+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.756+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 72)
+[2024-07-11T08:36:59.757+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.757+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=72
+[2024-07-11T08:36:59.759+0000] {processor.py:161} INFO - Started process (PID=72) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:36:59.759+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-07-11T08:36:59.760+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.760+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:36:59.761+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.761+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:36:59.763+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.763+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:36:59.768+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.768+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:36:59.770+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.769+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_nested_branch_dag>
+[2024-07-11T08:36:59.770+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:36:59.771+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.771+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:36:59.771+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.771+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:36:59.781+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.781+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:36:59.806+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.806+0000] {dag.py:3834} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:36:59.825+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.069 seconds
+[2024-07-11T08:37:30.801+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.801+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 128)
+[2024-07-11T08:37:30.802+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.802+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=128
+[2024-07-11T08:37:30.804+0000] {processor.py:161} INFO - Started process (PID=128) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:37:30.804+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-07-11T08:37:30.804+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.804+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:37:30.805+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.805+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:37:30.807+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.807+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:37:30.811+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.811+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:37:30.812+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.812+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_nested_branch_dag>
+[2024-07-11T08:37:30.812+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:37:30.813+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.813+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:37:30.813+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.813+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:37:30.820+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.820+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_nested_branch_dag) changed
+[2024-07-11T08:37:30.827+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.827+0000] {serialized_dag.py:179} DEBUG - Writing Serialized DAG: example_nested_branch_dag to the DB
+[2024-07-11T08:37:30.830+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.830+0000] {serialized_dag.py:181} DEBUG - DAG: example_nested_branch_dag written to the DB
+[2024-07-11T08:37:30.830+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.830+0000] {dagbag.py:696} DEBUG - Syncing DAG permissions: example_nested_branch_dag to the DB
+[2024-07-11T08:37:30.886+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.886+0000] {override.py:1034} DEBUG - Not syncing DAG-level permissions for DAG 'DAG:example_nested_branch_dag' as access control is unset.
+[2024-07-11T08:37:30.886+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.886+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:37:30.901+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.901+0000] {dag.py:3834} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:37:30.914+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.113 seconds
+[2024-07-11T08:38:01.717+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.716+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 190)
+[2024-07-11T08:38:01.717+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.717+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=190
+[2024-07-11T08:38:01.719+0000] {processor.py:161} INFO - Started process (PID=190) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:38:01.719+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-07-11T08:38:01.720+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.720+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:38:01.721+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.720+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:38:01.722+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.722+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:38:01.727+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.727+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:38:01.728+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.727+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_nested_branch_dag>
+[2024-07-11T08:38:01.728+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:38:01.728+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.728+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:38:01.729+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.729+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:38:01.736+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.736+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_nested_branch_dag) changed
+[2024-07-11T08:38:01.743+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.743+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_nested_branch_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:38:01.743+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.743+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:38:01.766+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.766+0000] {dag.py:3834} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:38:01.782+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.066 seconds
+[2024-07-11T08:38:31.847+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:31.846+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 246)
+[2024-07-11T08:38:31.847+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:31.847+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=246
+[2024-07-11T08:38:31.849+0000] {processor.py:161} INFO - Started process (PID=246) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:38:31.850+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-07-11T08:38:31.850+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:31.850+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:38:31.851+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:31.851+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:38:31.853+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:31.853+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:38:31.858+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:31.858+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:38:31.859+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:31.858+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_nested_branch_dag>
+[2024-07-11T08:38:31.859+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:38:31.860+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:31.860+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:38:31.860+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:31.860+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:38:31.868+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:31.868+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_nested_branch_dag) changed
+[2024-07-11T08:38:31.876+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:31.875+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_nested_branch_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:38:31.876+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:31.876+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:38:31.894+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:31.893+0000] {dag.py:3834} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:38:31.907+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.061 seconds
+[2024-07-11T08:39:02.259+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.258+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 302)
+[2024-07-11T08:39:02.259+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.259+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=302
+[2024-07-11T08:39:02.261+0000] {processor.py:161} INFO - Started process (PID=302) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:39:02.261+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-07-11T08:39:02.262+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.262+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:39:02.263+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.263+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:39:02.265+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.265+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:39:02.270+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.270+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:39:02.272+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.271+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_nested_branch_dag>
+[2024-07-11T08:39:02.272+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:39:02.272+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.272+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:39:02.273+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.273+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:39:02.281+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.280+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_nested_branch_dag) changed
+[2024-07-11T08:39:02.288+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.288+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_nested_branch_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:39:02.288+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.288+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:39:02.308+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.307+0000] {dag.py:3834} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:39:02.321+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.063 seconds
+[2024-07-11T08:39:32.543+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.543+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 358)
+[2024-07-11T08:39:32.544+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.544+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=358
+[2024-07-11T08:39:32.546+0000] {processor.py:161} INFO - Started process (PID=358) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:39:32.546+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-07-11T08:39:32.547+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.547+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:39:32.547+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.547+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:39:32.549+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.549+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:39:32.554+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.554+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:39:32.555+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.554+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_nested_branch_dag>
+[2024-07-11T08:39:32.555+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:39:32.556+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.555+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:39:32.556+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.556+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:39:32.563+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.563+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_nested_branch_dag) changed
+[2024-07-11T08:39:32.570+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.570+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_nested_branch_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:39:32.570+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.570+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:39:32.586+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.586+0000] {dag.py:3834} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:39:32.599+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.056 seconds
+[2024-07-11T08:40:02.704+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.704+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 414)
+[2024-07-11T08:40:02.705+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.705+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=414
+[2024-07-11T08:40:02.707+0000] {processor.py:161} INFO - Started process (PID=414) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:40:02.707+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-07-11T08:40:02.707+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.707+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:40:02.708+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.708+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:40:02.710+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.710+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:40:02.714+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.714+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:40:02.715+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.715+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_nested_branch_dag>
+[2024-07-11T08:40:02.715+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:40:02.716+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.716+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:40:02.716+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.716+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:40:02.724+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.724+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_nested_branch_dag) changed
+[2024-07-11T08:40:02.731+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.731+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_nested_branch_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:40:02.731+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.731+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:40:02.748+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.747+0000] {dag.py:3834} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:40:02.761+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.057 seconds
+[2024-07-11T08:41:13.716+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.715+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 72)
+[2024-07-11T08:41:13.717+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.717+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=72
+[2024-07-11T08:41:13.720+0000] {processor.py:161} INFO - Started process (PID=72) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:41:13.721+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-07-11T08:41:13.722+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.721+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:41:13.723+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.723+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:41:13.727+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.727+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:41:13.734+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.734+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:41:13.736+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.735+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_nested_branch_dag>
+[2024-07-11T08:41:13.736+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:41:13.737+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.737+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:41:13.737+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.737+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:41:13.748+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.747+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:41:13.779+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.779+0000] {dag.py:3834} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:41:13.803+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.088 seconds
+[2024-07-11T08:41:45.494+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.493+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 128)
+[2024-07-11T08:41:45.494+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.494+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=128
+[2024-07-11T08:41:45.496+0000] {processor.py:161} INFO - Started process (PID=128) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:41:45.496+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-07-11T08:41:45.497+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.497+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:41:45.498+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.498+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:41:45.500+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.499+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:41:45.505+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.505+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:41:45.506+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.505+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_nested_branch_dag>
+[2024-07-11T08:41:45.506+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:41:45.507+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.507+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:41:45.507+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.507+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:41:45.515+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.515+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_nested_branch_dag) changed
+[2024-07-11T08:41:45.522+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.522+0000] {serialized_dag.py:179} DEBUG - Writing Serialized DAG: example_nested_branch_dag to the DB
+[2024-07-11T08:41:45.525+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.524+0000] {serialized_dag.py:181} DEBUG - DAG: example_nested_branch_dag written to the DB
+[2024-07-11T08:41:45.525+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.525+0000] {dagbag.py:696} DEBUG - Syncing DAG permissions: example_nested_branch_dag to the DB
+[2024-07-11T08:41:45.583+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.583+0000] {override.py:1034} DEBUG - Not syncing DAG-level permissions for DAG 'DAG:example_nested_branch_dag' as access control is unset.
+[2024-07-11T08:41:45.584+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.584+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:41:45.600+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.600+0000] {dag.py:3834} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:41:45.614+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.121 seconds
+[2024-07-11T08:42:16.459+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.458+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 184)
+[2024-07-11T08:42:16.459+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.459+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=184
+[2024-07-11T08:42:16.461+0000] {processor.py:161} INFO - Started process (PID=184) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:42:16.461+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-07-11T08:42:16.462+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.462+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:42:16.463+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.463+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:42:16.464+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.464+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:42:16.469+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.469+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:42:16.470+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.470+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_nested_branch_dag>
+[2024-07-11T08:42:16.471+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:42:16.471+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.471+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:42:16.471+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.471+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:42:16.478+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.478+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_nested_branch_dag) changed
+[2024-07-11T08:42:16.486+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.486+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_nested_branch_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:42:16.486+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.486+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:42:16.502+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.502+0000] {dag.py:3834} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:42:16.515+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.057 seconds
+[2024-07-11T08:42:46.714+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.713+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 240)
+[2024-07-11T08:42:46.714+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.714+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=240
+[2024-07-11T08:42:46.716+0000] {processor.py:161} INFO - Started process (PID=240) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:42:46.716+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-07-11T08:42:46.717+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.717+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:42:46.718+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.717+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:42:46.719+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.719+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:42:46.724+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.723+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:42:46.725+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.724+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_nested_branch_dag>
+[2024-07-11T08:42:46.725+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:42:46.725+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.725+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:42:46.726+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.726+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:42:46.733+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.733+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_nested_branch_dag) changed
+[2024-07-11T08:42:46.740+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.739+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_nested_branch_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:42:46.740+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.740+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:42:46.755+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.755+0000] {dag.py:3834} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:42:46.767+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.054 seconds
+[2024-07-11T08:43:16.979+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:16.978+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 302)
+[2024-07-11T08:43:16.980+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:16.980+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=302
+[2024-07-11T08:43:16.982+0000] {processor.py:161} INFO - Started process (PID=302) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:43:16.982+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-07-11T08:43:16.983+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:16.983+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:43:16.984+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:16.984+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:43:16.985+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:16.985+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:43:16.990+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:16.990+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:43:16.991+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:16.990+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_nested_branch_dag>
+[2024-07-11T08:43:16.991+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:43:16.992+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:16.992+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:43:16.992+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:16.992+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:43:17.000+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.000+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_nested_branch_dag) changed
+[2024-07-11T08:43:17.007+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.007+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_nested_branch_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:43:17.007+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.007+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:43:17.023+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.023+0000] {dag.py:3834} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:43:17.037+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.058 seconds
+[2024-07-11T08:43:47.140+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.140+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 358)
+[2024-07-11T08:43:47.141+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.141+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=358
+[2024-07-11T08:43:47.143+0000] {processor.py:161} INFO - Started process (PID=358) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:43:47.143+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-07-11T08:43:47.143+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.143+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:43:47.144+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.144+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:43:47.146+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.146+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:43:47.152+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.151+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:43:47.153+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.152+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_nested_branch_dag>
+[2024-07-11T08:43:47.153+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:43:47.154+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.154+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:43:47.154+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.154+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:43:47.164+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.164+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_nested_branch_dag) changed
+[2024-07-11T08:43:47.172+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.172+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_nested_branch_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:43:47.172+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.172+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:43:47.195+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.194+0000] {dag.py:3834} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:43:47.216+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.076 seconds
+[2024-07-11T08:44:17.671+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.671+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 414)
+[2024-07-11T08:44:17.672+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.672+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=414
+[2024-07-11T08:44:17.675+0000] {processor.py:161} INFO - Started process (PID=414) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:44:17.676+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-07-11T08:44:17.676+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.676+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:44:17.677+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.677+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:44:17.679+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.679+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:44:17.685+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.685+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:44:17.686+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.686+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_nested_branch_dag>
+[2024-07-11T08:44:17.687+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:44:17.687+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.687+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:44:17.688+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.687+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:44:17.695+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.695+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_nested_branch_dag) changed
+[2024-07-11T08:44:17.702+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.702+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_nested_branch_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:44:17.702+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.702+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:44:17.720+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.720+0000] {dag.py:3834} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:44:17.734+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.063 seconds
+[2024-07-11T08:44:47.962+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:47.961+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 470)
+[2024-07-11T08:44:47.963+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:47.963+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=470
+[2024-07-11T08:44:47.966+0000] {processor.py:161} INFO - Started process (PID=470) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:44:47.966+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2024-07-11T08:44:47.967+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:47.966+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:44:47.967+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:47.967+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:44:47.969+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:47.969+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:44:47.975+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:47.975+0000] {GetText.py:65} DEBUG - /home/airflow/.local/lib/python3.10/site-packages/cron_descriptor/locale/en_US.mo Loaded
+[2024-07-11T08:44:47.977+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:47.976+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_nested_branch_dag>
+[2024-07-11T08:44:47.978+0000] {processor.py:840} INFO - DAG(s) 'example_nested_branch_dag' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2024-07-11T08:44:47.979+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:47.978+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:44:47.979+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:47.979+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:44:47.988+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:47.988+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_nested_branch_dag) changed
+[2024-07-11T08:44:47.997+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:47.996+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_nested_branch_dag) is unchanged. Skipping writing to DB
+[2024-07-11T08:44:47.997+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:47.997+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:44:48.014+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.014+0000] {dag.py:3834} INFO - Setting next_dagrun for example_nested_branch_dag to 2024-07-10 00:00:00+00:00, run_after=2024-07-11 00:00:00+00:00
+[2024-07-11T08:44:48.031+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.070 seconds

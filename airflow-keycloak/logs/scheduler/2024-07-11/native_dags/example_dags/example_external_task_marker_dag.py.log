@@ -1,0 +1,315 @@
+[2024-07-11T08:36:58.945+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.944+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 58)
+[2024-07-11T08:36:58.946+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.945+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=58
+[2024-07-11T08:36:58.948+0000] {processor.py:161} INFO - Started process (PID=58) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:36:58.948+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-07-11T08:36:58.949+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.949+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:36:58.950+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.950+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:36:58.956+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.955+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_parent>
+[2024-07-11T08:36:58.956+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.956+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_child>
+[2024-07-11T08:36:58.956+0000] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:36:58.957+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.957+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:36:58.957+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.957+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:36:58.967+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.967+0000] {dag.py:3047} INFO - Sync 2 DAGs
+[2024-07-11T08:36:58.979+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.979+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-07-11T08:36:58.982+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:58.982+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-07-11T08:36:58.996+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.052 seconds
+[2024-07-11T08:37:29.510+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.510+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 114)
+[2024-07-11T08:37:29.511+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.511+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=114
+[2024-07-11T08:37:29.513+0000] {processor.py:161} INFO - Started process (PID=114) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:37:29.513+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-07-11T08:37:29.513+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.513+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:37:29.514+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.514+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:37:29.519+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.518+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_child>
+[2024-07-11T08:37:29.519+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.519+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_parent>
+[2024-07-11T08:37:29.519+0000] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:37:29.520+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.520+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:37:29.520+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.520+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:37:29.528+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.528+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_child) changed
+[2024-07-11T08:37:29.530+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.530+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:37:29.530+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.530+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:37:29.534+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.534+0000] {serialized_dag.py:179} DEBUG - Writing Serialized DAG: example_external_task_marker_child to the DB
+[2024-07-11T08:37:29.537+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.537+0000] {serialized_dag.py:181} DEBUG - DAG: example_external_task_marker_child written to the DB
+[2024-07-11T08:37:29.537+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.537+0000] {dagbag.py:696} DEBUG - Syncing DAG permissions: example_external_task_marker_child to the DB
+[2024-07-11T08:37:29.596+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.595+0000] {override.py:1034} DEBUG - Not syncing DAG-level permissions for DAG 'DAG:example_external_task_marker_child' as access control is unset.
+[2024-07-11T08:37:29.596+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.596+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_parent) changed
+[2024-07-11T08:37:29.599+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.598+0000] {serialized_dag.py:179} DEBUG - Writing Serialized DAG: example_external_task_marker_parent to the DB
+[2024-07-11T08:37:29.600+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.599+0000] {serialized_dag.py:181} DEBUG - DAG: example_external_task_marker_parent written to the DB
+[2024-07-11T08:37:29.600+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.600+0000] {dagbag.py:696} DEBUG - Syncing DAG permissions: example_external_task_marker_parent to the DB
+[2024-07-11T08:37:29.605+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.605+0000] {override.py:1034} DEBUG - Not syncing DAG-level permissions for DAG 'DAG:example_external_task_marker_parent' as access control is unset.
+[2024-07-11T08:37:29.606+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.606+0000] {dag.py:3047} INFO - Sync 2 DAGs
+[2024-07-11T08:37:29.615+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.615+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-07-11T08:37:29.617+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:29.617+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-07-11T08:37:29.640+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.131 seconds
+[2024-07-11T08:38:00.062+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.061+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 170)
+[2024-07-11T08:38:00.063+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.062+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=170
+[2024-07-11T08:38:00.064+0000] {processor.py:161} INFO - Started process (PID=170) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:38:00.065+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-07-11T08:38:00.065+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.065+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:38:00.066+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.066+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:38:00.071+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.070+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_parent>
+[2024-07-11T08:38:00.071+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.071+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_child>
+[2024-07-11T08:38:00.071+0000] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:38:00.072+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.072+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:38:00.072+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.072+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:38:00.080+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.080+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_parent) changed
+[2024-07-11T08:38:00.086+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.086+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_external_task_marker_parent) is unchanged. Skipping writing to DB
+[2024-07-11T08:38:00.087+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.086+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_child) changed
+[2024-07-11T08:38:00.087+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.087+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:38:00.088+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.087+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:38:00.090+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.090+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_external_task_marker_child) is unchanged. Skipping writing to DB
+[2024-07-11T08:38:00.090+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.090+0000] {dag.py:3047} INFO - Sync 2 DAGs
+[2024-07-11T08:38:00.099+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.099+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-07-11T08:38:00.102+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.102+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-07-11T08:38:00.115+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.054 seconds
+[2024-07-11T08:38:30.286+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.285+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 226)
+[2024-07-11T08:38:30.286+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.286+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=226
+[2024-07-11T08:38:30.289+0000] {processor.py:161} INFO - Started process (PID=226) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:38:30.289+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-07-11T08:38:30.290+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.289+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:38:30.290+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.290+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:38:30.295+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.294+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_parent>
+[2024-07-11T08:38:30.295+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.295+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_child>
+[2024-07-11T08:38:30.295+0000] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:38:30.297+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.296+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:38:30.297+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.297+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:38:30.306+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.306+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_parent) changed
+[2024-07-11T08:38:30.311+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.311+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_external_task_marker_parent) is unchanged. Skipping writing to DB
+[2024-07-11T08:38:30.312+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.312+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_child) changed
+[2024-07-11T08:38:30.313+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.313+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:38:30.313+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.313+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:38:30.316+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.316+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_external_task_marker_child) is unchanged. Skipping writing to DB
+[2024-07-11T08:38:30.317+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.317+0000] {dag.py:3047} INFO - Sync 2 DAGs
+[2024-07-11T08:38:30.328+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.328+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-07-11T08:38:30.331+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.331+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-07-11T08:38:30.344+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.059 seconds
+[2024-07-11T08:39:00.548+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.548+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 282)
+[2024-07-11T08:39:00.549+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.549+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=282
+[2024-07-11T08:39:00.552+0000] {processor.py:161} INFO - Started process (PID=282) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:39:00.552+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-07-11T08:39:00.552+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.552+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:39:00.553+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.553+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:39:00.558+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.557+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_child>
+[2024-07-11T08:39:00.558+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.558+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_parent>
+[2024-07-11T08:39:00.558+0000] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:39:00.559+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.559+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:39:00.559+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.559+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:39:00.567+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.567+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_child) changed
+[2024-07-11T08:39:00.570+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.570+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:39:00.570+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.570+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:39:00.575+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.575+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_external_task_marker_child) is unchanged. Skipping writing to DB
+[2024-07-11T08:39:00.576+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.576+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_parent) changed
+[2024-07-11T08:39:00.578+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.578+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_external_task_marker_parent) is unchanged. Skipping writing to DB
+[2024-07-11T08:39:00.579+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.579+0000] {dag.py:3047} INFO - Sync 2 DAGs
+[2024-07-11T08:39:00.589+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.589+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-07-11T08:39:00.592+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.592+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-07-11T08:39:00.607+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.059 seconds
+[2024-07-11T08:39:30.850+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.850+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 338)
+[2024-07-11T08:39:30.851+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.851+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=338
+[2024-07-11T08:39:30.853+0000] {processor.py:161} INFO - Started process (PID=338) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:39:30.853+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-07-11T08:39:30.853+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.853+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:39:30.854+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.854+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:39:30.858+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.857+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_child>
+[2024-07-11T08:39:30.858+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.858+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_parent>
+[2024-07-11T08:39:30.858+0000] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:39:30.859+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.859+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:39:30.859+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.859+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:39:30.866+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.866+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_child) changed
+[2024-07-11T08:39:30.868+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.868+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:39:30.868+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.868+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:39:30.872+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.872+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_external_task_marker_child) is unchanged. Skipping writing to DB
+[2024-07-11T08:39:30.873+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.873+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_parent) changed
+[2024-07-11T08:39:30.874+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.874+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_external_task_marker_parent) is unchanged. Skipping writing to DB
+[2024-07-11T08:39:30.875+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.875+0000] {dag.py:3047} INFO - Sync 2 DAGs
+[2024-07-11T08:39:30.883+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.883+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-07-11T08:39:30.886+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:30.886+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-07-11T08:39:30.896+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.046 seconds
+[2024-07-11T08:40:01.048+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.048+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 394)
+[2024-07-11T08:40:01.049+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.048+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=394
+[2024-07-11T08:40:01.050+0000] {processor.py:161} INFO - Started process (PID=394) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:40:01.051+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-07-11T08:40:01.051+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.051+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:40:01.052+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.052+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:40:01.056+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.055+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_child>
+[2024-07-11T08:40:01.056+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.056+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_parent>
+[2024-07-11T08:40:01.056+0000] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:40:01.057+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.057+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:40:01.057+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.057+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:40:01.064+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.064+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_child) changed
+[2024-07-11T08:40:01.066+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.066+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:40:01.066+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.066+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:40:01.070+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.070+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_external_task_marker_child) is unchanged. Skipping writing to DB
+[2024-07-11T08:40:01.071+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.071+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_parent) changed
+[2024-07-11T08:40:01.073+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.073+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_external_task_marker_parent) is unchanged. Skipping writing to DB
+[2024-07-11T08:40:01.073+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.073+0000] {dag.py:3047} INFO - Sync 2 DAGs
+[2024-07-11T08:40:01.082+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.082+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-07-11T08:40:01.085+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.085+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-07-11T08:40:01.096+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.049 seconds
+[2024-07-11T08:41:12.967+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.966+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 58)
+[2024-07-11T08:41:12.967+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.967+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=58
+[2024-07-11T08:41:12.969+0000] {processor.py:161} INFO - Started process (PID=58) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:41:12.970+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-07-11T08:41:12.970+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.970+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:41:12.971+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.971+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:41:12.976+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.975+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_parent>
+[2024-07-11T08:41:12.976+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.976+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_child>
+[2024-07-11T08:41:12.977+0000] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:41:12.977+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.977+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:41:12.978+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.977+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:41:12.989+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:12.989+0000] {dag.py:3047} INFO - Sync 2 DAGs
+[2024-07-11T08:41:13.002+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.002+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-07-11T08:41:13.007+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.006+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-07-11T08:41:13.024+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.058 seconds
+[2024-07-11T08:41:44.170+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.170+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 114)
+[2024-07-11T08:41:44.171+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.171+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=114
+[2024-07-11T08:41:44.173+0000] {processor.py:161} INFO - Started process (PID=114) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:41:44.173+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-07-11T08:41:44.174+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.174+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:41:44.175+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.175+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:41:44.180+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.179+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_child>
+[2024-07-11T08:41:44.180+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.180+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_parent>
+[2024-07-11T08:41:44.180+0000] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:41:44.181+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.181+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:41:44.181+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.181+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:41:44.191+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.190+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_child) changed
+[2024-07-11T08:41:44.193+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.193+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:41:44.194+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.194+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:41:44.200+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.199+0000] {serialized_dag.py:179} DEBUG - Writing Serialized DAG: example_external_task_marker_child to the DB
+[2024-07-11T08:41:44.204+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.204+0000] {serialized_dag.py:181} DEBUG - DAG: example_external_task_marker_child written to the DB
+[2024-07-11T08:41:44.204+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.204+0000] {dagbag.py:696} DEBUG - Syncing DAG permissions: example_external_task_marker_child to the DB
+[2024-07-11T08:41:44.276+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.276+0000] {override.py:1034} DEBUG - Not syncing DAG-level permissions for DAG 'DAG:example_external_task_marker_child' as access control is unset.
+[2024-07-11T08:41:44.277+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.277+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_parent) changed
+[2024-07-11T08:41:44.280+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.280+0000] {serialized_dag.py:179} DEBUG - Writing Serialized DAG: example_external_task_marker_parent to the DB
+[2024-07-11T08:41:44.281+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.281+0000] {serialized_dag.py:181} DEBUG - DAG: example_external_task_marker_parent written to the DB
+[2024-07-11T08:41:44.281+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.281+0000] {dagbag.py:696} DEBUG - Syncing DAG permissions: example_external_task_marker_parent to the DB
+[2024-07-11T08:41:44.289+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.289+0000] {override.py:1034} DEBUG - Not syncing DAG-level permissions for DAG 'DAG:example_external_task_marker_parent' as access control is unset.
+[2024-07-11T08:41:44.289+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.289+0000] {dag.py:3047} INFO - Sync 2 DAGs
+[2024-07-11T08:41:44.301+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.301+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-07-11T08:41:44.304+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.303+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-07-11T08:41:44.320+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.150 seconds
+[2024-07-11T08:42:14.899+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.899+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 170)
+[2024-07-11T08:42:14.900+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.900+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=170
+[2024-07-11T08:42:14.902+0000] {processor.py:161} INFO - Started process (PID=170) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:42:14.902+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-07-11T08:42:14.902+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.902+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:42:14.903+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.903+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:42:14.907+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.906+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_parent>
+[2024-07-11T08:42:14.907+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.907+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_child>
+[2024-07-11T08:42:14.908+0000] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:42:14.908+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.908+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:42:14.908+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.908+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:42:14.915+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.915+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_parent) changed
+[2024-07-11T08:42:14.920+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.920+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_external_task_marker_parent) is unchanged. Skipping writing to DB
+[2024-07-11T08:42:14.921+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.921+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_child) changed
+[2024-07-11T08:42:14.922+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.921+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:42:14.922+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.922+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:42:14.924+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.924+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_external_task_marker_child) is unchanged. Skipping writing to DB
+[2024-07-11T08:42:14.924+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.924+0000] {dag.py:3047} INFO - Sync 2 DAGs
+[2024-07-11T08:42:14.932+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.932+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-07-11T08:42:14.935+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:14.935+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-07-11T08:42:14.949+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.050 seconds
+[2024-07-11T08:42:45.064+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.064+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 226)
+[2024-07-11T08:42:45.065+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.065+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=226
+[2024-07-11T08:42:45.066+0000] {processor.py:161} INFO - Started process (PID=226) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:42:45.067+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-07-11T08:42:45.067+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.067+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:42:45.068+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.068+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:42:45.072+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.071+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_child>
+[2024-07-11T08:42:45.072+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.072+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_parent>
+[2024-07-11T08:42:45.072+0000] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:42:45.073+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.073+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:42:45.073+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.073+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:42:45.080+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.080+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_child) changed
+[2024-07-11T08:42:45.082+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.082+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:42:45.082+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.082+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:42:45.086+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.086+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_external_task_marker_child) is unchanged. Skipping writing to DB
+[2024-07-11T08:42:45.087+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.087+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_parent) changed
+[2024-07-11T08:42:45.089+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.088+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_external_task_marker_parent) is unchanged. Skipping writing to DB
+[2024-07-11T08:42:45.089+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.089+0000] {dag.py:3047} INFO - Sync 2 DAGs
+[2024-07-11T08:42:45.097+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.097+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-07-11T08:42:45.100+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.100+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-07-11T08:42:45.118+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.055 seconds
+[2024-07-11T08:43:15.359+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.359+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 282)
+[2024-07-11T08:43:15.360+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.360+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=282
+[2024-07-11T08:43:15.363+0000] {processor.py:161} INFO - Started process (PID=282) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:43:15.363+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-07-11T08:43:15.364+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.364+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:43:15.365+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.365+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:43:15.370+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.369+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_parent>
+[2024-07-11T08:43:15.370+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.370+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_child>
+[2024-07-11T08:43:15.370+0000] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:43:15.371+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.371+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:43:15.371+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.371+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:43:15.379+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.379+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_parent) changed
+[2024-07-11T08:43:15.386+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.386+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_external_task_marker_parent) is unchanged. Skipping writing to DB
+[2024-07-11T08:43:15.387+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.387+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_child) changed
+[2024-07-11T08:43:15.388+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.388+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:43:15.388+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.388+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:43:15.391+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.390+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_external_task_marker_child) is unchanged. Skipping writing to DB
+[2024-07-11T08:43:15.391+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.391+0000] {dag.py:3047} INFO - Sync 2 DAGs
+[2024-07-11T08:43:15.400+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.400+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-07-11T08:43:15.403+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.403+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-07-11T08:43:15.414+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.056 seconds
+[2024-07-11T08:43:45.540+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.540+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 338)
+[2024-07-11T08:43:45.541+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.541+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=338
+[2024-07-11T08:43:45.542+0000] {processor.py:161} INFO - Started process (PID=338) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:43:45.543+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-07-11T08:43:45.543+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.543+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:43:45.544+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.544+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:43:45.547+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.547+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_parent>
+[2024-07-11T08:43:45.547+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.547+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_child>
+[2024-07-11T08:43:45.548+0000] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:43:45.548+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.548+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:43:45.548+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.548+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:43:45.556+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.555+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_parent) changed
+[2024-07-11T08:43:45.560+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.560+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_external_task_marker_parent) is unchanged. Skipping writing to DB
+[2024-07-11T08:43:45.560+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.560+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_child) changed
+[2024-07-11T08:43:45.561+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.561+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:43:45.561+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.561+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:43:45.563+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.563+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_external_task_marker_child) is unchanged. Skipping writing to DB
+[2024-07-11T08:43:45.563+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.563+0000] {dag.py:3047} INFO - Sync 2 DAGs
+[2024-07-11T08:43:45.571+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.571+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-07-11T08:43:45.573+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.573+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-07-11T08:43:45.584+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.044 seconds
+[2024-07-11T08:44:15.946+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.946+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 394)
+[2024-07-11T08:44:15.947+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.947+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=394
+[2024-07-11T08:44:15.949+0000] {processor.py:161} INFO - Started process (PID=394) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:44:15.949+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-07-11T08:44:15.949+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.949+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:44:15.950+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.950+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:44:15.954+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.953+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_parent>
+[2024-07-11T08:44:15.954+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.954+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_child>
+[2024-07-11T08:44:15.954+0000] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_parent', 'example_external_task_marker_child' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:44:15.955+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.955+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:44:15.955+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.955+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:44:15.962+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.962+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_parent) changed
+[2024-07-11T08:44:15.967+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.967+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_external_task_marker_parent) is unchanged. Skipping writing to DB
+[2024-07-11T08:44:15.968+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.968+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_child) changed
+[2024-07-11T08:44:15.969+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.969+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:44:15.969+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.969+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:44:15.971+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.971+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_external_task_marker_child) is unchanged. Skipping writing to DB
+[2024-07-11T08:44:15.971+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.971+0000] {dag.py:3047} INFO - Sync 2 DAGs
+[2024-07-11T08:44:15.981+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.981+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-07-11T08:44:15.984+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:15.984+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-07-11T08:44:15.995+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.049 seconds
+[2024-07-11T08:44:46.340+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.340+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 450)
+[2024-07-11T08:44:46.341+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.341+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=450
+[2024-07-11T08:44:46.343+0000] {processor.py:161} INFO - Started process (PID=450) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:44:46.343+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-07-11T08:44:46.343+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.343+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:44:46.344+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.344+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:44:46.348+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.348+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_child>
+[2024-07-11T08:44:46.349+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.349+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_external_task_marker_parent>
+[2024-07-11T08:44:46.349+0000] {processor.py:840} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-07-11T08:44:46.349+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.349+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:44:46.350+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.350+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:44:46.358+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.358+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_child) changed
+[2024-07-11T08:44:46.360+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.360+0000] {plugins_manager.py:322} DEBUG - Plugins are already loaded. Skipping.
+[2024-07-11T08:44:46.360+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.360+0000] {plugins_manager.py:400} DEBUG - Initialize custom taskinstance deps plugins
+[2024-07-11T08:44:46.365+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.365+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_external_task_marker_child) is unchanged. Skipping writing to DB
+[2024-07-11T08:44:46.366+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.366+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_external_task_marker_parent) changed
+[2024-07-11T08:44:46.368+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.368+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_external_task_marker_parent) is unchanged. Skipping writing to DB
+[2024-07-11T08:44:46.368+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.368+0000] {dag.py:3047} INFO - Sync 2 DAGs
+[2024-07-11T08:44:46.378+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.378+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-07-11T08:44:46.381+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.381+0000] {dag.py:3834} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-07-11T08:44:46.394+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.055 seconds

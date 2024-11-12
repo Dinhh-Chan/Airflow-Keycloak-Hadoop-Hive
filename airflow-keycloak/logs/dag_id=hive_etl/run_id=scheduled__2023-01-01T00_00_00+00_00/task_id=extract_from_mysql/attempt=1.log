@@ -1,0 +1,10 @@
+[2024-07-17T08:50:46.773+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-17T08:50:46.829+0000] {__init__.py:54} DEBUG - Loading core task runner: StandardTaskRunner
+[2024-07-17T08:50:46.892+0000] {taskinstance.py:991} DEBUG - previous_execution_date was called
+[2024-07-17T08:50:46.896+0000] {base_task_runner.py:72} DEBUG - Planning to run as the  user
+[2024-07-17T08:50:46.956+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.extract_from_mysql scheduled__2023-01-01T00:00:00+00:00 [failed]> dependency 'Not In Retry Period' PASSED: True, The task instance was not marked for retrying.
+[2024-07-17T08:50:46.956+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.extract_from_mysql scheduled__2023-01-01T00:00:00+00:00 [failed]> dependency 'Previous Dagrun State' PASSED: True, The task did not have depends_on_past set.
+[2024-07-17T08:50:46.956+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.extract_from_mysql scheduled__2023-01-01T00:00:00+00:00 [failed]> dependency 'Task Instance Not Running' PASSED: True, Task is not in running state.
+[2024-07-17T08:50:46.957+0000] {taskinstance.py:1988} DEBUG - <TaskInstance: hive_etl.extract_from_mysql scheduled__2023-01-01T00:00:00+00:00 [failed]> dependency 'Task Instance State' PASSED: False, Task is in the 'failed' state.
+[2024-07-17T08:50:46.957+0000] {taskinstance.py:1969} INFO - Dependencies not met for <TaskInstance: hive_etl.extract_from_mysql scheduled__2023-01-01T00:00:00+00:00 [failed]>, dependency 'Task Instance State' FAILED: Task is in the 'failed' state.
+[2024-07-17T08:50:46.962+0000] {local_task_job_runner.py:160} INFO - Task is not able to be run

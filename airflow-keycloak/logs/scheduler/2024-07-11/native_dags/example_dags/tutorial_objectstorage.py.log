@@ -1,0 +1,227 @@
+[2024-07-11T08:37:00.184+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.183+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 76)
+[2024-07-11T08:37:00.185+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.184+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=76
+[2024-07-11T08:37:00.188+0000] {processor.py:161} INFO - Started process (PID=76) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:37:00.188+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-07-11T08:37:00.189+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.189+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:37:00.191+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.191+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:37:00.200+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.200+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_objectstorage>
+[2024-07-11T08:37:00.200+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:37:00.202+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.202+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:37:00.202+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.202+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:37:00.216+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.215+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:37:00.235+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:00.234+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-07-11T08:37:00.263+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.080 seconds
+[2024-07-11T08:37:31.059+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.059+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 132)
+[2024-07-11T08:37:31.060+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.060+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=132
+[2024-07-11T08:37:31.061+0000] {processor.py:161} INFO - Started process (PID=132) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:37:31.062+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-07-11T08:37:31.062+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.062+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:37:31.063+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.063+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:37:31.067+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.067+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_objectstorage>
+[2024-07-11T08:37:31.068+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:37:31.068+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.068+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:37:31.068+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.068+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:37:31.076+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.076+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_objectstorage) changed
+[2024-07-11T08:37:31.081+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.081+0000] {serialized_dag.py:179} DEBUG - Writing Serialized DAG: tutorial_objectstorage to the DB
+[2024-07-11T08:37:31.084+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.083+0000] {serialized_dag.py:181} DEBUG - DAG: tutorial_objectstorage written to the DB
+[2024-07-11T08:37:31.084+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.084+0000] {dagbag.py:696} DEBUG - Syncing DAG permissions: tutorial_objectstorage to the DB
+[2024-07-11T08:37:31.160+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.159+0000] {override.py:1034} DEBUG - Not syncing DAG-level permissions for DAG 'DAG:tutorial_objectstorage' as access control is unset.
+[2024-07-11T08:37:31.160+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.160+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:37:31.169+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:31.169+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-07-11T08:37:31.183+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.124 seconds
+[2024-07-11T08:38:01.863+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.863+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 194)
+[2024-07-11T08:38:01.864+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.864+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=194
+[2024-07-11T08:38:01.865+0000] {processor.py:161} INFO - Started process (PID=194) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:38:01.866+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-07-11T08:38:01.866+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.866+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:38:01.867+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.867+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:38:01.871+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.871+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_objectstorage>
+[2024-07-11T08:38:01.871+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:38:01.872+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.872+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:38:01.872+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.872+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:38:01.880+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.880+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_objectstorage) changed
+[2024-07-11T08:38:01.885+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.885+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (tutorial_objectstorage) is unchanged. Skipping writing to DB
+[2024-07-11T08:38:01.886+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.885+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:38:01.894+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:01.894+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-07-11T08:38:01.906+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.044 seconds
+[2024-07-11T08:38:32.072+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.071+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 250)
+[2024-07-11T08:38:32.072+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.072+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=250
+[2024-07-11T08:38:32.074+0000] {processor.py:161} INFO - Started process (PID=250) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:38:32.074+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-07-11T08:38:32.075+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.075+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:38:32.075+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.075+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:38:32.080+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.080+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_objectstorage>
+[2024-07-11T08:38:32.080+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:38:32.081+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.081+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:38:32.081+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.081+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:38:32.088+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.088+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_objectstorage) changed
+[2024-07-11T08:38:32.094+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.093+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (tutorial_objectstorage) is unchanged. Skipping writing to DB
+[2024-07-11T08:38:32.094+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.094+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:38:32.103+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:32.102+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-07-11T08:38:32.117+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.046 seconds
+[2024-07-11T08:39:02.414+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.413+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 306)
+[2024-07-11T08:39:02.414+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.414+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=306
+[2024-07-11T08:39:02.416+0000] {processor.py:161} INFO - Started process (PID=306) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:39:02.416+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-07-11T08:39:02.417+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.417+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:39:02.418+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.418+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:39:02.422+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.422+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_objectstorage>
+[2024-07-11T08:39:02.423+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:39:02.423+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.423+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:39:02.423+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.423+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:39:02.431+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.431+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_objectstorage) changed
+[2024-07-11T08:39:02.437+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.437+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (tutorial_objectstorage) is unchanged. Skipping writing to DB
+[2024-07-11T08:39:02.437+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.437+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:39:02.446+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:02.446+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-07-11T08:39:02.459+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.046 seconds
+[2024-07-11T08:39:32.682+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.682+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 362)
+[2024-07-11T08:39:32.683+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.683+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=362
+[2024-07-11T08:39:32.685+0000] {processor.py:161} INFO - Started process (PID=362) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:39:32.685+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-07-11T08:39:32.686+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.685+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:39:32.686+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.686+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:39:32.691+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.691+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_objectstorage>
+[2024-07-11T08:39:32.691+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:39:32.692+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.692+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:39:32.692+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.692+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:39:32.700+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.700+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_objectstorage) changed
+[2024-07-11T08:39:32.705+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.705+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (tutorial_objectstorage) is unchanged. Skipping writing to DB
+[2024-07-11T08:39:32.706+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.705+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:39:32.714+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:32.713+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-07-11T08:39:32.727+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.045 seconds
+[2024-07-11T08:40:02.932+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.931+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 418)
+[2024-07-11T08:40:02.932+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.932+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=418
+[2024-07-11T08:40:02.934+0000] {processor.py:161} INFO - Started process (PID=418) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:40:02.934+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-07-11T08:40:02.935+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.935+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:40:02.936+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.936+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:40:02.940+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.940+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_objectstorage>
+[2024-07-11T08:40:02.941+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:40:02.941+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.941+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:40:02.941+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.941+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:40:02.950+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.949+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_objectstorage) changed
+[2024-07-11T08:40:02.955+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.955+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (tutorial_objectstorage) is unchanged. Skipping writing to DB
+[2024-07-11T08:40:02.955+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.955+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:40:02.964+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:02.964+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-07-11T08:40:02.976+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.045 seconds
+[2024-07-11T08:41:14.097+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.096+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 76)
+[2024-07-11T08:41:14.098+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.097+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=76
+[2024-07-11T08:41:14.100+0000] {processor.py:161} INFO - Started process (PID=76) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:41:14.100+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-07-11T08:41:14.100+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.100+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:41:14.101+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.101+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:41:14.107+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.107+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_objectstorage>
+[2024-07-11T08:41:14.107+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:41:14.108+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.108+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:41:14.108+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.108+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:41:14.116+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.116+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:41:14.126+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:14.126+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-07-11T08:41:14.140+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.044 seconds
+[2024-07-11T08:41:45.760+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.760+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 132)
+[2024-07-11T08:41:45.761+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.761+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=132
+[2024-07-11T08:41:45.763+0000] {processor.py:161} INFO - Started process (PID=132) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:41:45.763+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-07-11T08:41:45.763+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.763+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:41:45.764+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.764+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:41:45.769+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.768+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_objectstorage>
+[2024-07-11T08:41:45.769+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:41:45.769+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.769+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:41:45.770+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.770+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:41:45.777+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.777+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_objectstorage) changed
+[2024-07-11T08:41:45.783+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.782+0000] {serialized_dag.py:179} DEBUG - Writing Serialized DAG: tutorial_objectstorage to the DB
+[2024-07-11T08:41:45.785+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.785+0000] {serialized_dag.py:181} DEBUG - DAG: tutorial_objectstorage written to the DB
+[2024-07-11T08:41:45.786+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.786+0000] {dagbag.py:696} DEBUG - Syncing DAG permissions: tutorial_objectstorage to the DB
+[2024-07-11T08:41:45.842+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.842+0000] {override.py:1034} DEBUG - Not syncing DAG-level permissions for DAG 'DAG:tutorial_objectstorage' as access control is unset.
+[2024-07-11T08:41:45.843+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.842+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:41:45.850+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:45.850+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-07-11T08:41:45.864+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.104 seconds
+[2024-07-11T08:42:16.598+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.597+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 188)
+[2024-07-11T08:42:16.599+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.598+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=188
+[2024-07-11T08:42:16.600+0000] {processor.py:161} INFO - Started process (PID=188) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:42:16.601+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-07-11T08:42:16.601+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.601+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:42:16.602+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.602+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:42:16.606+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.606+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_objectstorage>
+[2024-07-11T08:42:16.606+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:42:16.607+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.607+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:42:16.607+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.607+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:42:16.615+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.615+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_objectstorage) changed
+[2024-07-11T08:42:16.620+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.620+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (tutorial_objectstorage) is unchanged. Skipping writing to DB
+[2024-07-11T08:42:16.620+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.620+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:42:16.629+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:16.629+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-07-11T08:42:16.642+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.045 seconds
+[2024-07-11T08:42:46.902+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.901+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 250)
+[2024-07-11T08:42:46.903+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.902+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=250
+[2024-07-11T08:42:46.904+0000] {processor.py:161} INFO - Started process (PID=250) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:42:46.905+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-07-11T08:42:46.905+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.905+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:42:46.906+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.906+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:42:46.911+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.911+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_objectstorage>
+[2024-07-11T08:42:46.911+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:42:46.912+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.912+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:42:46.912+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.912+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:42:46.920+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.920+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_objectstorage) changed
+[2024-07-11T08:42:46.926+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.926+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (tutorial_objectstorage) is unchanged. Skipping writing to DB
+[2024-07-11T08:42:46.926+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.926+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:42:46.936+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:46.936+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-07-11T08:42:46.948+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.046 seconds
+[2024-07-11T08:43:17.120+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.120+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 306)
+[2024-07-11T08:43:17.121+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.121+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=306
+[2024-07-11T08:43:17.123+0000] {processor.py:161} INFO - Started process (PID=306) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:43:17.123+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-07-11T08:43:17.123+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.123+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:43:17.124+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.124+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:43:17.128+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.128+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_objectstorage>
+[2024-07-11T08:43:17.129+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:43:17.129+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.129+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:43:17.129+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.129+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:43:17.137+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.137+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_objectstorage) changed
+[2024-07-11T08:43:17.142+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.142+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (tutorial_objectstorage) is unchanged. Skipping writing to DB
+[2024-07-11T08:43:17.142+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.142+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:43:17.151+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:17.150+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-07-11T08:43:17.163+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.044 seconds
+[2024-07-11T08:43:47.339+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.339+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 362)
+[2024-07-11T08:43:47.340+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.340+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=362
+[2024-07-11T08:43:47.342+0000] {processor.py:161} INFO - Started process (PID=362) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:43:47.342+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-07-11T08:43:47.343+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.343+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:43:47.344+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.344+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:43:47.349+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.349+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_objectstorage>
+[2024-07-11T08:43:47.349+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:43:47.350+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.350+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:43:47.350+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.350+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:43:47.360+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.359+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_objectstorage) changed
+[2024-07-11T08:43:47.366+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.366+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (tutorial_objectstorage) is unchanged. Skipping writing to DB
+[2024-07-11T08:43:47.366+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.366+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:43:47.377+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:47.376+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-07-11T08:43:47.392+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.053 seconds
+[2024-07-11T08:44:17.818+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.817+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 418)
+[2024-07-11T08:44:17.818+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.818+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=418
+[2024-07-11T08:44:17.820+0000] {processor.py:161} INFO - Started process (PID=418) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:44:17.820+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-07-11T08:44:17.821+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.820+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:44:17.821+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.821+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:44:17.826+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.825+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_objectstorage>
+[2024-07-11T08:44:17.826+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:44:17.827+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.826+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:44:17.827+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.827+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:44:17.835+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.834+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_objectstorage) changed
+[2024-07-11T08:44:17.840+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.840+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (tutorial_objectstorage) is unchanged. Skipping writing to DB
+[2024-07-11T08:44:17.840+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.840+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:44:17.849+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:17.849+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-07-11T08:44:17.863+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.045 seconds
+[2024-07-11T08:44:48.123+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.122+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 474)
+[2024-07-11T08:44:48.123+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.123+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=474
+[2024-07-11T08:44:48.127+0000] {processor.py:161} INFO - Started process (PID=474) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:44:48.127+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-07-11T08:44:48.127+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.127+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:44:48.128+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.128+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:44:48.135+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.134+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: tutorial_objectstorage>
+[2024-07-11T08:44:48.135+0000] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-07-11T08:44:48.136+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.136+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:44:48.136+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.136+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:44:48.146+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.145+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (tutorial_objectstorage) changed
+[2024-07-11T08:44:48.152+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.152+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (tutorial_objectstorage) is unchanged. Skipping writing to DB
+[2024-07-11T08:44:48.153+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.152+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:44:48.163+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:48.163+0000] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-07-11T08:44:48.178+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.056 seconds

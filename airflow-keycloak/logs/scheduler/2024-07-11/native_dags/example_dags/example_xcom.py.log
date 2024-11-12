@@ -1,0 +1,227 @@
+[2024-07-11T08:36:59.371+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.371+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 65)
+[2024-07-11T08:36:59.372+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.372+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=65
+[2024-07-11T08:36:59.374+0000] {processor.py:161} INFO - Started process (PID=65) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:36:59.374+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-07-11T08:36:59.375+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.375+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:36:59.376+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.376+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:36:59.383+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.382+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_xcom>
+[2024-07-11T08:36:59.383+0000] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:36:59.384+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.384+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:36:59.384+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.384+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:36:59.394+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.394+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:36:59.419+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:36:59.419+0000] {dag.py:3834} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2024-07-11T08:36:59.435+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.064 seconds
+[2024-07-11T08:37:30.115+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.115+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 121)
+[2024-07-11T08:37:30.116+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.116+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=121
+[2024-07-11T08:37:30.118+0000] {processor.py:161} INFO - Started process (PID=121) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:37:30.118+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-07-11T08:37:30.118+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.118+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:37:30.119+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.119+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:37:30.124+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.124+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_xcom>
+[2024-07-11T08:37:30.124+0000] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:37:30.125+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.125+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:37:30.125+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.125+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:37:30.133+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.133+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_xcom) changed
+[2024-07-11T08:37:30.140+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.140+0000] {serialized_dag.py:179} DEBUG - Writing Serialized DAG: example_xcom to the DB
+[2024-07-11T08:37:30.143+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.143+0000] {serialized_dag.py:181} DEBUG - DAG: example_xcom written to the DB
+[2024-07-11T08:37:30.143+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.143+0000] {dagbag.py:696} DEBUG - Syncing DAG permissions: example_xcom to the DB
+[2024-07-11T08:37:30.201+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.200+0000] {override.py:1034} DEBUG - Not syncing DAG-level permissions for DAG 'DAG:example_xcom' as access control is unset.
+[2024-07-11T08:37:30.201+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.201+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:37:30.214+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:37:30.214+0000] {dag.py:3834} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2024-07-11T08:37:30.227+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.112 seconds
+[2024-07-11T08:38:00.349+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.349+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 177)
+[2024-07-11T08:38:00.350+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.350+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=177
+[2024-07-11T08:38:00.353+0000] {processor.py:161} INFO - Started process (PID=177) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:38:00.354+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-07-11T08:38:00.354+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.354+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:38:00.355+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.355+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:38:00.361+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.360+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_xcom>
+[2024-07-11T08:38:00.361+0000] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:38:00.362+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.362+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:38:00.362+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.362+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:38:00.372+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.372+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_xcom) changed
+[2024-07-11T08:38:00.379+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.379+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_xcom) is unchanged. Skipping writing to DB
+[2024-07-11T08:38:00.380+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.380+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:38:00.401+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:00.401+0000] {dag.py:3834} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2024-07-11T08:38:00.419+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.070 seconds
+[2024-07-11T08:38:30.567+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.566+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 233)
+[2024-07-11T08:38:30.568+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.568+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=233
+[2024-07-11T08:38:30.570+0000] {processor.py:161} INFO - Started process (PID=233) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:38:30.570+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-07-11T08:38:30.571+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.571+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:38:30.572+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.571+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:38:30.577+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.577+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_xcom>
+[2024-07-11T08:38:30.578+0000] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:38:30.578+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.578+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:38:30.579+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.579+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:38:30.586+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.586+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_xcom) changed
+[2024-07-11T08:38:30.592+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.592+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_xcom) is unchanged. Skipping writing to DB
+[2024-07-11T08:38:30.593+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.592+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:38:30.610+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:38:30.610+0000] {dag.py:3834} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2024-07-11T08:38:30.624+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.057 seconds
+[2024-07-11T08:39:00.888+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.887+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 289)
+[2024-07-11T08:39:00.888+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.888+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=289
+[2024-07-11T08:39:00.891+0000] {processor.py:161} INFO - Started process (PID=289) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:39:00.892+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-07-11T08:39:00.893+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.893+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:39:00.894+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.894+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:39:00.900+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.899+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_xcom>
+[2024-07-11T08:39:00.900+0000] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:39:00.901+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.901+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:39:00.901+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.901+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:39:00.910+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.910+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_xcom) changed
+[2024-07-11T08:39:00.916+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.916+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_xcom) is unchanged. Skipping writing to DB
+[2024-07-11T08:39:00.917+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.917+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:39:00.937+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:00.937+0000] {dag.py:3834} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2024-07-11T08:39:00.955+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.068 seconds
+[2024-07-11T08:39:31.122+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:31.122+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 344)
+[2024-07-11T08:39:31.123+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:31.123+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=344
+[2024-07-11T08:39:31.124+0000] {processor.py:161} INFO - Started process (PID=344) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:39:31.125+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-07-11T08:39:31.125+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:31.125+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:39:31.126+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:31.126+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:39:31.131+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:31.130+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_xcom>
+[2024-07-11T08:39:31.131+0000] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:39:31.132+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:31.132+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:39:31.132+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:31.132+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:39:31.140+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:31.139+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_xcom) changed
+[2024-07-11T08:39:31.146+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:31.146+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_xcom) is unchanged. Skipping writing to DB
+[2024-07-11T08:39:31.146+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:31.146+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:39:31.161+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:39:31.161+0000] {dag.py:3834} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2024-07-11T08:39:31.174+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.052 seconds
+[2024-07-11T08:40:01.332+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.331+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 400)
+[2024-07-11T08:40:01.333+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.333+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=400
+[2024-07-11T08:40:01.335+0000] {processor.py:161} INFO - Started process (PID=400) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:40:01.335+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-07-11T08:40:01.335+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.335+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:40:01.336+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.336+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:40:01.342+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.341+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_xcom>
+[2024-07-11T08:40:01.342+0000] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:40:01.343+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.343+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:40:01.343+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.343+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:40:01.352+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.351+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_xcom) changed
+[2024-07-11T08:40:01.359+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.359+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_xcom) is unchanged. Skipping writing to DB
+[2024-07-11T08:40:01.360+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.360+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:40:01.378+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:40:01.377+0000] {dag.py:3834} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2024-07-11T08:40:01.391+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.060 seconds
+[2024-07-11T08:41:13.277+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.277+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 65)
+[2024-07-11T08:41:13.278+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.278+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=65
+[2024-07-11T08:41:13.280+0000] {processor.py:161} INFO - Started process (PID=65) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:41:13.281+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-07-11T08:41:13.281+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.281+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:41:13.282+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.282+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:41:13.288+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.288+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_xcom>
+[2024-07-11T08:41:13.289+0000] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:41:13.289+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.289+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:41:13.290+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.289+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:41:13.297+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.297+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:41:13.316+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:13.316+0000] {dag.py:3834} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2024-07-11T08:41:13.334+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.057 seconds
+[2024-07-11T08:41:44.823+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.823+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 121)
+[2024-07-11T08:41:44.824+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.824+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=121
+[2024-07-11T08:41:44.826+0000] {processor.py:161} INFO - Started process (PID=121) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:41:44.827+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-07-11T08:41:44.827+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.827+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:41:44.828+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.828+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:41:44.834+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.833+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_xcom>
+[2024-07-11T08:41:44.834+0000] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:41:44.835+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.835+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:41:44.835+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.835+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:41:44.843+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.843+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_xcom) changed
+[2024-07-11T08:41:44.851+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.851+0000] {serialized_dag.py:179} DEBUG - Writing Serialized DAG: example_xcom to the DB
+[2024-07-11T08:41:44.854+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.854+0000] {serialized_dag.py:181} DEBUG - DAG: example_xcom written to the DB
+[2024-07-11T08:41:44.855+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.855+0000] {dagbag.py:696} DEBUG - Syncing DAG permissions: example_xcom to the DB
+[2024-07-11T08:41:44.919+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.919+0000] {override.py:1034} DEBUG - Not syncing DAG-level permissions for DAG 'DAG:example_xcom' as access control is unset.
+[2024-07-11T08:41:44.919+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.919+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:41:44.935+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:41:44.934+0000] {dag.py:3834} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2024-07-11T08:41:44.960+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.137 seconds
+[2024-07-11T08:42:15.153+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:15.153+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 177)
+[2024-07-11T08:42:15.154+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:15.154+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=177
+[2024-07-11T08:42:15.156+0000] {processor.py:161} INFO - Started process (PID=177) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:42:15.156+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-07-11T08:42:15.156+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:15.156+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:42:15.157+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:15.157+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:42:15.162+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:15.162+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_xcom>
+[2024-07-11T08:42:15.162+0000] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:42:15.163+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:15.163+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:42:15.163+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:15.163+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:42:15.171+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:15.170+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_xcom) changed
+[2024-07-11T08:42:15.177+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:15.177+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_xcom) is unchanged. Skipping writing to DB
+[2024-07-11T08:42:15.177+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:15.177+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:42:15.193+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:15.193+0000] {dag.py:3834} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2024-07-11T08:42:15.206+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.053 seconds
+[2024-07-11T08:42:45.359+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.359+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 233)
+[2024-07-11T08:42:45.360+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.360+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=233
+[2024-07-11T08:42:45.361+0000] {processor.py:161} INFO - Started process (PID=233) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:42:45.362+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-07-11T08:42:45.362+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.362+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:42:45.363+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.363+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:42:45.368+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.367+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_xcom>
+[2024-07-11T08:42:45.368+0000] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:42:45.369+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.369+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:42:45.369+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.369+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:42:45.377+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.376+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_xcom) changed
+[2024-07-11T08:42:45.383+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.383+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_xcom) is unchanged. Skipping writing to DB
+[2024-07-11T08:42:45.383+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.383+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:42:45.399+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:42:45.399+0000] {dag.py:3834} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2024-07-11T08:42:45.413+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.055 seconds
+[2024-07-11T08:43:15.651+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.650+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 289)
+[2024-07-11T08:43:15.651+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.651+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=289
+[2024-07-11T08:43:15.653+0000] {processor.py:161} INFO - Started process (PID=289) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:43:15.654+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-07-11T08:43:15.654+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.654+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:43:15.655+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.655+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:43:15.661+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.660+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_xcom>
+[2024-07-11T08:43:15.661+0000] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:43:15.661+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.661+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:43:15.662+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.662+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:43:15.670+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.670+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_xcom) changed
+[2024-07-11T08:43:15.677+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.677+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_xcom) is unchanged. Skipping writing to DB
+[2024-07-11T08:43:15.677+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.677+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:43:15.696+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:15.696+0000] {dag.py:3834} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2024-07-11T08:43:15.711+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.061 seconds
+[2024-07-11T08:43:45.814+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.814+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 345)
+[2024-07-11T08:43:45.815+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.815+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=345
+[2024-07-11T08:43:45.816+0000] {processor.py:161} INFO - Started process (PID=345) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:43:45.817+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-07-11T08:43:45.817+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.817+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:43:45.818+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.818+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:43:45.823+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.822+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_xcom>
+[2024-07-11T08:43:45.823+0000] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:43:45.824+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.824+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:43:45.824+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.824+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:43:45.831+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.831+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_xcom) changed
+[2024-07-11T08:43:45.838+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.838+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_xcom) is unchanged. Skipping writing to DB
+[2024-07-11T08:43:45.838+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.838+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:43:45.854+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:43:45.853+0000] {dag.py:3834} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2024-07-11T08:43:45.867+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.053 seconds
+[2024-07-11T08:44:16.274+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:16.273+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 401)
+[2024-07-11T08:44:16.274+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:16.274+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=401
+[2024-07-11T08:44:16.276+0000] {processor.py:161} INFO - Started process (PID=401) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:44:16.276+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-07-11T08:44:16.277+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:16.277+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:44:16.278+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:16.277+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:44:16.285+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:16.284+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_xcom>
+[2024-07-11T08:44:16.285+0000] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:44:16.286+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:16.286+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:44:16.286+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:16.286+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:44:16.296+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:16.295+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_xcom) changed
+[2024-07-11T08:44:16.303+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:16.302+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_xcom) is unchanged. Skipping writing to DB
+[2024-07-11T08:44:16.303+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:16.303+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:44:16.320+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:16.319+0000] {dag.py:3834} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2024-07-11T08:44:16.336+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.063 seconds
+[2024-07-11T08:44:46.627+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.626+0000] {settings.py:249} DEBUG - Setting up DB connection pool (PID 457)
+[2024-07-11T08:44:46.627+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.627+0000] {settings.py:350} DEBUG - settings.prepare_engine_args(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=457
+[2024-07-11T08:44:46.629+0000] {processor.py:161} INFO - Started process (PID=457) to work on /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:44:46.629+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2024-07-11T08:44:46.630+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.630+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:44:46.631+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.630+0000] {dagbag.py:332} DEBUG - Importing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:44:46.636+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.635+0000] {dagbag.py:506} DEBUG - Loaded DAG <DAG: example_xcom>
+[2024-07-11T08:44:46.636+0000] {processor.py:840} INFO - DAG(s) 'example_xcom' retrieved from /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2024-07-11T08:44:46.637+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.637+0000] {dagbag.py:662} DEBUG - Running dagbag.sync_to_db with retries. Try 1 of 3
+[2024-07-11T08:44:46.637+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.637+0000] {dagbag.py:667} DEBUG - Calling the DAG.bulk_sync_to_db method
+[2024-07-11T08:44:46.645+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.645+0000] {serialized_dag.py:165} DEBUG - Checking if DAG (example_xcom) changed
+[2024-07-11T08:44:46.653+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.652+0000] {serialized_dag.py:176} DEBUG - Serialized DAG (example_xcom) is unchanged. Skipping writing to DB
+[2024-07-11T08:44:46.653+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.653+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-11T08:44:46.669+0000] {logging_mixin.py:188} INFO - [2024-07-11T08:44:46.669+0000] {dag.py:3834} INFO - Setting next_dagrun for example_xcom to 2021-01-01 00:00:00+00:00, run_after=2021-01-01 00:00:00+00:00
+[2024-07-11T08:44:46.682+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.056 seconds
