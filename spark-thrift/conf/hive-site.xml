@@ -1,0 +1,10 @@
+<configuration>
+    <property>
+        <name>javax.jdo.option.ConnectionURL</name>
+        <value>jdbc:derby:;databaseName=/warehouse/new_metastore_db;create=true</value>
+    </property>
+    <property>
+        <name>hive.metastore.warehouse.dir</name>
+        <value>/warehouse</value>
+    </property>
+</configuration>
