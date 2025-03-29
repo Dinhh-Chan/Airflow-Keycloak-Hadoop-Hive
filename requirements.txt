@@ -1,0 +1,36 @@
+# Xử lý dữ liệu
+pandas>=2.0.0,<2.2.0
+numpy>=1.24.0,<1.27.0
+
+# Arrow và định dạng Parquet
+pyarrow>=14.0.0,<16.0.0
+fastparquet>=2023.0.0
+
+# Kết nối MinIO
+minio>=7.1.0,<8.0.0
+
+# PySpark và các phụ thuộc
+pyspark>=3.4.0,<3.6.0
+findspark>=2.0.0
+
+# Xử lý Excel
+openpyxl>=3.1.0
+xlrd>=2.0.0
+
+# Kết nối SQL (cho Superset)
+sqlalchemy>=2.0.0,<2.1.0
+pymysql>=1.0.0
+psycopg2-binary>=2.9.0,<2.10.0
+
+
+# S3 handler
+s3fs>=2023.0.0
+
+# Giao diện dòng lệnh
+click>=8.0.0
+
+# Xử lý môi trường
+python-dotenv>=1.0.0
+
+# Tiện ích
+tqdm>=4.65.0
